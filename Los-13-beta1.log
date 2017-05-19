@@ -1,0 +1,687 @@
+01-17 23:26:31.983 29931 29931 E AndroidRuntime: *** FATAL EXCEPTION IN SYSTEM PROCESS: main
+01-17 23:26:31.983 29931 29931 E AndroidRuntime: java.lang.NullPointerException: Attempt to invoke virtual method 'void com.android.server.wm.WindowManagerService.updateBootProgress(int, android.content.pm.ApplicationInfo, int, int, boolean)' on a null object reference
+01-17 23:26:31.983 29931 29931 E AndroidRuntime: 	at com.android.server.am.ActivityManagerService.updateBootProgress(ActivityManagerService.java:6589)
+01-17 23:26:31.983 29931 29931 E AndroidRuntime: 	at com.android.server.SystemServer.startOtherServices(SystemServer.java:624)
+01-17 23:26:31.983 29931 29931 E AndroidRuntime: 	at com.android.server.SystemServer.run(SystemServer.java:291)
+01-17 23:26:31.983 29931 29931 E AndroidRuntime: 	at com.android.server.SystemServer.main(SystemServer.java:176)
+01-17 23:26:31.983 29931 29931 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+01-17 23:26:31.983 29931 29931 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:726)
+01-17 23:26:31.983 29931 29931 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:616)
+01-17 23:26:36.450 30390 30390 F libc    : Fatal signal 11 (SIGSEGV), code 1, fault addr 0x4 in tid 30390 (mediaserver)
+01-17 23:26:36.501  1966  1966 F DEBUG   : *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+01-17 23:26:36.501  1966  1966 F DEBUG   : LineageOS Version: '13.0-20170519-UNOFFICIAL-land'
+01-17 23:26:36.501  1966  1966 F DEBUG   : Build fingerprint: 'Xiaomi/land/land:6.0.1/MMB29M/7.3.16:user/release-keys'
+01-17 23:26:36.501  1966  1966 F DEBUG   : Revision: '0'
+01-17 23:26:36.501  1966  1966 F DEBUG   : ABI: 'arm'
+01-17 23:26:36.501  1966  1966 F DEBUG   : pid: 30390, tid: 30390, name: mediaserver  >>> /system/bin/mediaserver <<<
+01-17 23:26:36.501  1966  1966 F DEBUG   : signal 11 (SIGSEGV), code 1 (SEGV_MAPERR), fault addr 0x4
+01-17 23:26:36.512  1966  1966 F DEBUG   :     r0 00000000  r1 00000004  r2 00000000  r3 b6ea9c30
+01-17 23:26:36.512  1966  1966 F DEBUG   :     r4 00000000  r5 7fcd0be0  r6 b6b47e49  r7 beb85854
+01-17 23:26:36.512  1966  1966 F DEBUG   :     r8 beb85858  r9 00000000  sl 00000000  fp beb85a5c
+01-17 23:26:36.512  1966  1966 F DEBUG   :     ip 7f619f98  sp beb85850  lr 7f61617b  pc b6b7531c  cpsr 000f0030
+01-17 23:26:36.515  1966  1966 F DEBUG   : 
+01-17 23:26:36.515  1966  1966 F DEBUG   : backtrace:
+01-17 23:26:36.515  1966  1966 F DEBUG   :     #00 pc 0000e31c  /system/lib/libutils.so (_ZNK7android7RefBase9incStrongEPKv+7)
+01-17 23:26:36.515  1966  1966 F DEBUG   :     #01 pc 00002177  /system/bin/mediaserver
+01-17 23:26:36.515  1966  1966 F DEBUG   :     #02 pc 000019f7  /system/bin/mediaserver
+01-17 23:26:36.515  1966  1966 F DEBUG   :     #03 pc 000157d5  /system/lib/libc.so (__libc_init+52)
+01-17 23:26:36.515  1966  1966 F DEBUG   :     #04 pc 00001840  /system/bin/mediaserver
+01-17 23:26:36.618  1966  1966 F DEBUG   : 
+01-17 23:26:36.618  1966  1966 F DEBUG   : Tombstone written to: /data/tombstones/tombstone_03
+01-17 23:26:42.000 30476 30476 F libc    : Fatal signal 11 (SIGSEGV), code 1, fault addr 0x4 in tid 30476 (mediaserver)
+01-17 23:26:42.053  1966  1966 F DEBUG   : *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+01-17 23:26:42.054  1966  1966 F DEBUG   : LineageOS Version: '13.0-20170519-UNOFFICIAL-land'
+01-17 23:26:42.054  1966  1966 F DEBUG   : Build fingerprint: 'Xiaomi/land/land:6.0.1/MMB29M/7.3.16:user/release-keys'
+01-17 23:26:42.054  1966  1966 F DEBUG   : Revision: '0'
+01-17 23:26:42.054  1966  1966 F DEBUG   : ABI: 'arm'
+01-17 23:26:42.054  1966  1966 F DEBUG   : pid: 30476, tid: 30476, name: mediaserver  >>> /system/bin/mediaserver <<<
+01-17 23:26:42.054  1966  1966 F DEBUG   : signal 11 (SIGSEGV), code 1 (SEGV_MAPERR), fault addr 0x4
+01-17 23:26:42.061  1966  1966 F DEBUG   :     r0 00000000  r1 00000004  r2 00000000  r3 b6e87c30
+01-17 23:26:42.061  1966  1966 F DEBUG   :     r4 00000000  r5 7f71cbe0  r6 b6b25e49  r7 bec71854
+01-17 23:26:42.061  1966  1966 F DEBUG   :     r8 bec71858  r9 00000000  sl 00000000  fp bec71a5c
+01-17 23:26:42.061  1966  1966 F DEBUG   :     ip 7f55cf98  sp bec71850  lr 7f55917b  pc b6b5331c  cpsr 000f0030
+01-17 23:26:42.070  1966  1966 F DEBUG   : 
+01-17 23:26:42.070  1966  1966 F DEBUG   : backtrace:
+01-17 23:26:42.070  1966  1966 F DEBUG   :     #00 pc 0000e31c  /system/lib/libutils.so (_ZNK7android7RefBase9incStrongEPKv+7)
+01-17 23:26:42.070  1966  1966 F DEBUG   :     #01 pc 00002177  /system/bin/mediaserver
+01-17 23:26:42.070  1966  1966 F DEBUG   :     #02 pc 000019f7  /system/bin/mediaserver
+01-17 23:26:42.070  1966  1966 F DEBUG   :     #03 pc 000157d5  /system/lib/libc.so (__libc_init+52)
+01-17 23:26:42.070  1966  1966 F DEBUG   :     #04 pc 00001840  /system/bin/mediaserver
+01-17 23:26:42.188  1966  1966 F DEBUG   : 
+01-17 23:26:42.188  1966  1966 F DEBUG   : Tombstone written to: /data/tombstones/tombstone_04
+01-17 23:26:46.484 30575 30575 F libc    : Fatal signal 11 (SIGSEGV), code 1, fault addr 0x4 in tid 30575 (mediaserver)
+01-17 23:26:46.536  1966  1966 F DEBUG   : *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+01-17 23:26:46.536  1966  1966 F DEBUG   : LineageOS Version: '13.0-20170519-UNOFFICIAL-land'
+01-17 23:26:46.536  1966  1966 F DEBUG   : Build fingerprint: 'Xiaomi/land/land:6.0.1/MMB29M/7.3.16:user/release-keys'
+01-17 23:26:46.536  1966  1966 F DEBUG   : Revision: '0'
+01-17 23:26:46.536  1966  1966 F DEBUG   : ABI: 'arm'
+01-17 23:26:46.536  1966  1966 F DEBUG   : pid: 30575, tid: 30575, name: mediaserver  >>> /system/bin/mediaserver <<<
+01-17 23:26:46.536  1966  1966 F DEBUG   : signal 11 (SIGSEGV), code 1 (SEGV_MAPERR), fault addr 0x4
+01-17 23:26:46.541  1966  1966 F DEBUG   :     r0 00000000  r1 00000004  r2 00000000  r3 b6e90c30
+01-17 23:26:46.542  1966  1966 F DEBUG   :     r4 00000000  r5 7fe11be0  r6 b6b2ee49  r7 befca854
+01-17 23:26:46.542  1966  1966 F DEBUG   :     r8 befca858  r9 00000000  sl 00000000  fp befcaa5c
+01-17 23:26:46.542  1966  1966 F DEBUG   :     ip 7f5f9f98  sp befca850  lr 7f5f617b  pc b6b5c31c  cpsr 000f0030
+01-17 23:26:46.548  1966  1966 F DEBUG   : 
+01-17 23:26:46.548  1966  1966 F DEBUG   : backtrace:
+01-17 23:26:46.548  1966  1966 F DEBUG   :     #00 pc 0000e31c  /system/lib/libutils.so (_ZNK7android7RefBase9incStrongEPKv+7)
+01-17 23:26:46.548  1966  1966 F DEBUG   :     #01 pc 00002177  /system/bin/mediaserver
+01-17 23:26:46.548  1966  1966 F DEBUG   :     #02 pc 000019f7  /system/bin/mediaserver
+01-17 23:26:46.548  1966  1966 F DEBUG   :     #03 pc 000157d5  /system/lib/libc.so (__libc_init+52)
+01-17 23:26:46.549  1966  1966 F DEBUG   :     #04 pc 00001840  /system/bin/mediaserver
+01-17 23:26:46.653  1966  1966 F DEBUG   : 
+01-17 23:26:46.653  1966  1966 F DEBUG   : Tombstone written to: /data/tombstones/tombstone_05
+01-17 23:26:51.998 30718 30718 F libc    : Fatal signal 11 (SIGSEGV), code 1, fault addr 0x4 in tid 30718 (mediaserver)
+01-17 23:26:52.049  1966  1966 F DEBUG   : *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+01-17 23:26:52.049  1966  1966 F DEBUG   : LineageOS Version: '13.0-20170519-UNOFFICIAL-land'
+01-17 23:26:52.049  1966  1966 F DEBUG   : Build fingerprint: 'Xiaomi/land/land:6.0.1/MMB29M/7.3.16:user/release-keys'
+01-17 23:26:52.049  1966  1966 F DEBUG   : Revision: '0'
+01-17 23:26:52.049  1966  1966 F DEBUG   : ABI: 'arm'
+01-17 23:26:52.050  1966  1966 F DEBUG   : pid: 30718, tid: 30718, name: mediaserver  >>> /system/bin/mediaserver <<<
+01-17 23:26:52.050  1966  1966 F DEBUG   : signal 11 (SIGSEGV), code 1 (SEGV_MAPERR), fault addr 0x4
+01-17 23:26:52.055  1966  1966 F DEBUG   :     r0 00000000  r1 00000004  r2 00000000  r3 b6e36c30
+01-17 23:26:52.055  1966  1966 F DEBUG   :     r4 00000000  r5 7f79dbe0  r6 b6ad4e49  r7 be978854
+01-17 23:26:52.055  1966  1966 F DEBUG   :     r8 be978858  r9 00000000  sl 00000000  fp be978a5c
+01-17 23:26:52.056  1966  1966 F DEBUG   :     ip 7f613f98  sp be978850  lr 7f61017b  pc b6b0231c  cpsr 000f0030
+01-17 23:26:52.058  1966  1966 F DEBUG   : 
+01-17 23:26:52.058  1966  1966 F DEBUG   : backtrace:
+01-17 23:26:52.058  1966  1966 F DEBUG   :     #00 pc 0000e31c  /system/lib/libutils.so (_ZNK7android7RefBase9incStrongEPKv+7)
+01-17 23:26:52.058  1966  1966 F DEBUG   :     #01 pc 00002177  /system/bin/mediaserver
+01-17 23:26:52.058  1966  1966 F DEBUG   :     #02 pc 000019f7  /system/bin/mediaserver
+01-17 23:26:52.058  1966  1966 F DEBUG   :     #03 pc 000157d5  /system/lib/libc.so (__libc_init+52)
+01-17 23:26:52.058  1966  1966 F DEBUG   :     #04 pc 00001840  /system/bin/mediaserver
+01-17 23:26:52.207  1966  1966 F DEBUG   : 
+01-17 23:26:52.207  1966  1966 F DEBUG   : Tombstone written to: /data/tombstones/tombstone_06
+01-17 23:26:56.608 30788 30788 F libc    : Fatal signal 11 (SIGSEGV), code 1, fault addr 0x4 in tid 30788 (mediaserver)
+01-17 23:26:56.709  1966  1966 F DEBUG   : *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+01-17 23:26:56.710  1966  1966 F DEBUG   : LineageOS Version: '13.0-20170519-UNOFFICIAL-land'
+01-17 23:26:56.710  1966  1966 F DEBUG   : Build fingerprint: 'Xiaomi/land/land:6.0.1/MMB29M/7.3.16:user/release-keys'
+01-17 23:26:56.710  1966  1966 F DEBUG   : Revision: '0'
+01-17 23:26:56.710  1966  1966 F DEBUG   : ABI: 'arm'
+01-17 23:26:56.710  1966  1966 F DEBUG   : pid: 30788, tid: 30788, name: mediaserver  >>> /system/bin/mediaserver <<<
+01-17 23:26:56.710  1966  1966 F DEBUG   : signal 11 (SIGSEGV), code 1 (SEGV_MAPERR), fault addr 0x4
+01-17 23:26:56.718  1966  1966 F DEBUG   :     r0 00000000  r1 00000004  r2 00000000  r3 b6f02c30
+01-17 23:26:56.718  1966  1966 F DEBUG   :     r4 00000000  r5 80645be0  r6 b6ba0e49  r7 befae854
+01-17 23:26:56.718  1966  1966 F DEBUG   :     r8 befae858  r9 00000000  sl 00000000  fp befaea5c
+01-17 23:26:56.718  1966  1966 F DEBUG   :     ip 7f5f9f98  sp befae850  lr 7f5f617b  pc b6bce31c  cpsr 000f0030
+01-17 23:26:56.721  1966  1966 F DEBUG   : 
+01-17 23:26:56.721  1966  1966 F DEBUG   : backtrace:
+01-17 23:26:56.722  1966  1966 F DEBUG   :     #00 pc 0000e31c  /system/lib/libutils.so (_ZNK7android7RefBase9incStrongEPKv+7)
+01-17 23:26:56.722  1966  1966 F DEBUG   :     #01 pc 00002177  /system/bin/mediaserver
+01-17 23:26:56.722  1966  1966 F DEBUG   :     #02 pc 000019f7  /system/bin/mediaserver
+01-17 23:26:56.722  1966  1966 F DEBUG   :     #03 pc 000157d5  /system/lib/libc.so (__libc_init+52)
+01-17 23:26:56.722  1966  1966 F DEBUG   :     #04 pc 00001840  /system/bin/mediaserver
+01-17 23:26:56.845  1966  1966 F DEBUG   : 
+01-17 23:26:56.845  1966  1966 F DEBUG   : Tombstone written to: /data/tombstones/tombstone_07
+01-17 23:26:58.942 30339 30339 E AndroidRuntime: *** FATAL EXCEPTION IN SYSTEM PROCESS: main
+01-17 23:26:58.942 30339 30339 E AndroidRuntime: java.lang.NullPointerException: Attempt to invoke virtual method 'void com.android.server.wm.WindowManagerService.updateBootProgress(int, android.content.pm.ApplicationInfo, int, int, boolean)' on a null object reference
+01-17 23:26:58.942 30339 30339 E AndroidRuntime: 	at com.android.server.am.ActivityManagerService.updateBootProgress(ActivityManagerService.java:6589)
+01-17 23:26:58.942 30339 30339 E AndroidRuntime: 	at com.android.server.SystemServer.startOtherServices(SystemServer.java:624)
+01-17 23:26:58.942 30339 30339 E AndroidRuntime: 	at com.android.server.SystemServer.run(SystemServer.java:291)
+01-17 23:26:58.942 30339 30339 E AndroidRuntime: 	at com.android.server.SystemServer.main(SystemServer.java:176)
+01-17 23:26:58.942 30339 30339 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+01-17 23:26:58.942 30339 30339 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:726)
+01-17 23:26:58.942 30339 30339 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:616)
+01-17 23:27:01.204 30931 30931 F libc    : Fatal signal 11 (SIGSEGV), code 1, fault addr 0x4 in tid 30931 (mediaserver)
+01-17 23:27:01.256  1966  1966 F DEBUG   : *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+01-17 23:27:01.256  1966  1966 F DEBUG   : LineageOS Version: '13.0-20170519-UNOFFICIAL-land'
+01-17 23:27:01.256  1966  1966 F DEBUG   : Build fingerprint: 'Xiaomi/land/land:6.0.1/MMB29M/7.3.16:user/release-keys'
+01-17 23:27:01.256  1966  1966 F DEBUG   : Revision: '0'
+01-17 23:27:01.256  1966  1966 F DEBUG   : ABI: 'arm'
+01-17 23:27:01.257  1966  1966 F DEBUG   : pid: 30931, tid: 30931, name: mediaserver  >>> /system/bin/mediaserver <<<
+01-17 23:27:01.257  1966  1966 F DEBUG   : signal 11 (SIGSEGV), code 1 (SEGV_MAPERR), fault addr 0x4
+01-17 23:27:01.262  1966  1966 F DEBUG   :     r0 00000000  r1 00000004  r2 00000000  r3 b6f20c30
+01-17 23:27:01.262  1966  1966 F DEBUG   :     r4 00000000  r5 80898be0  r6 b6bbee49  r7 bed68854
+01-17 23:27:01.262  1966  1966 F DEBUG   :     r8 bed68858  r9 00000000  sl 00000000  fp bed68a5c
+01-17 23:27:01.262  1966  1966 F DEBUG   :     ip 7f56cf98  sp bed68850  lr 7f56917b  pc b6bec31c  cpsr 000f0030
+01-17 23:27:01.265  1966  1966 F DEBUG   : 
+01-17 23:27:01.265  1966  1966 F DEBUG   : backtrace:
+01-17 23:27:01.265  1966  1966 F DEBUG   :     #00 pc 0000e31c  /system/lib/libutils.so (_ZNK7android7RefBase9incStrongEPKv+7)
+01-17 23:27:01.265  1966  1966 F DEBUG   :     #01 pc 00002177  /system/bin/mediaserver
+01-17 23:27:01.265  1966  1966 F DEBUG   :     #02 pc 000019f7  /system/bin/mediaserver
+01-17 23:27:01.265  1966  1966 F DEBUG   :     #03 pc 000157d5  /system/lib/libc.so (__libc_init+52)
+01-17 23:27:01.265  1966  1966 F DEBUG   :     #04 pc 00001840  /system/bin/mediaserver
+01-17 23:27:01.382  1966  1966 F DEBUG   : 
+01-17 23:27:01.382  1966  1966 F DEBUG   : Tombstone written to: /data/tombstones/tombstone_08
+01-17 23:27:03.940 30914 30914 E AndroidRuntime: *** FATAL EXCEPTION IN SYSTEM PROCESS: main
+01-17 23:27:03.940 30914 30914 E AndroidRuntime: java.lang.NullPointerException: Attempt to invoke virtual method 'void com.android.server.wm.WindowManagerService.updateBootProgress(int, android.content.pm.ApplicationInfo, int, int, boolean)' on a null object reference
+01-17 23:27:03.940 30914 30914 E AndroidRuntime: 	at com.android.server.am.ActivityManagerService.updateBootProgress(ActivityManagerService.java:6589)
+01-17 23:27:03.940 30914 30914 E AndroidRuntime: 	at com.android.server.SystemServer.startOtherServices(SystemServer.java:624)
+01-17 23:27:03.940 30914 30914 E AndroidRuntime: 	at com.android.server.SystemServer.run(SystemServer.java:291)
+01-17 23:27:03.940 30914 30914 E AndroidRuntime: 	at com.android.server.SystemServer.main(SystemServer.java:176)
+01-17 23:27:03.940 30914 30914 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+01-17 23:27:03.940 30914 30914 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:726)
+01-17 23:27:03.940 30914 30914 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:616)
+01-17 23:27:06.153 31232 31232 F libc    : Fatal signal 11 (SIGSEGV), code 1, fault addr 0x4 in tid 31232 (mediaserver)
+01-17 23:27:06.204  1966  1966 F DEBUG   : *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+01-17 23:27:06.205  1966  1966 F DEBUG   : LineageOS Version: '13.0-20170519-UNOFFICIAL-land'
+01-17 23:27:06.205  1966  1966 F DEBUG   : Build fingerprint: 'Xiaomi/land/land:6.0.1/MMB29M/7.3.16:user/release-keys'
+01-17 23:27:06.205  1966  1966 F DEBUG   : Revision: '0'
+01-17 23:27:06.205  1966  1966 F DEBUG   : ABI: 'arm'
+01-17 23:27:06.205  1966  1966 F DEBUG   : pid: 31232, tid: 31232, name: mediaserver  >>> /system/bin/mediaserver <<<
+01-17 23:27:06.205  1966  1966 F DEBUG   : signal 11 (SIGSEGV), code 1 (SEGV_MAPERR), fault addr 0x4
+01-17 23:27:06.211  1966  1966 F DEBUG   :     r0 00000000  r1 00000004  r2 00000000  r3 b6edac30
+01-17 23:27:06.211  1966  1966 F DEBUG   :     r4 00000000  r5 7fa14be0  r6 b6b78e49  r7 bea84854
+01-17 23:27:06.211  1966  1966 F DEBUG   :     r8 bea84858  r9 00000000  sl 00000000  fp bea84a5c
+01-17 23:27:06.211  1966  1966 F DEBUG   :     ip 7f5f8f98  sp bea84850  lr 7f5f517b  pc b6ba631c  cpsr 000f0030
+01-17 23:27:06.213  1966  1966 F DEBUG   : 
+01-17 23:27:06.213  1966  1966 F DEBUG   : backtrace:
+01-17 23:27:06.214  1966  1966 F DEBUG   :     #00 pc 0000e31c  /system/lib/libutils.so (_ZNK7android7RefBase9incStrongEPKv+7)
+01-17 23:27:06.214  1966  1966 F DEBUG   :     #01 pc 00002177  /system/bin/mediaserver
+01-17 23:27:06.214  1966  1966 F DEBUG   :     #02 pc 000019f7  /system/bin/mediaserver
+01-17 23:27:06.214  1966  1966 F DEBUG   :     #03 pc 000157d5  /system/lib/libc.so (__libc_init+52)
+01-17 23:27:06.214  1966  1966 F DEBUG   :     #04 pc 00001840  /system/bin/mediaserver
+01-17 23:27:06.336  1966  1966 F DEBUG   : 
+01-17 23:27:06.336  1966  1966 F DEBUG   : Tombstone written to: /data/tombstones/tombstone_09
+01-17 23:27:08.849 31215 31215 E AndroidRuntime: *** FATAL EXCEPTION IN SYSTEM PROCESS: main
+01-17 23:27:08.849 31215 31215 E AndroidRuntime: java.lang.NullPointerException: Attempt to invoke virtual method 'void com.android.server.wm.WindowManagerService.updateBootProgress(int, android.content.pm.ApplicationInfo, int, int, boolean)' on a null object reference
+01-17 23:27:08.849 31215 31215 E AndroidRuntime: 	at com.android.server.am.ActivityManagerService.updateBootProgress(ActivityManagerService.java:6589)
+01-17 23:27:08.849 31215 31215 E AndroidRuntime: 	at com.android.server.SystemServer.startOtherServices(SystemServer.java:624)
+01-17 23:27:08.849 31215 31215 E AndroidRuntime: 	at com.android.server.SystemServer.run(SystemServer.java:291)
+01-17 23:27:08.849 31215 31215 E AndroidRuntime: 	at com.android.server.SystemServer.main(SystemServer.java:176)
+01-17 23:27:08.849 31215 31215 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+01-17 23:27:08.849 31215 31215 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:726)
+01-17 23:27:08.849 31215 31215 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:616)
+01-17 23:27:12.090 31597 31597 F libc    : Fatal signal 11 (SIGSEGV), code 1, fault addr 0x4 in tid 31597 (mediaserver)
+01-17 23:27:12.141  1966  1966 F DEBUG   : *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+01-17 23:27:12.141  1966  1966 F DEBUG   : LineageOS Version: '13.0-20170519-UNOFFICIAL-land'
+01-17 23:27:12.141  1966  1966 F DEBUG   : Build fingerprint: 'Xiaomi/land/land:6.0.1/MMB29M/7.3.16:user/release-keys'
+01-17 23:27:12.141  1966  1966 F DEBUG   : Revision: '0'
+01-17 23:27:12.141  1966  1966 F DEBUG   : ABI: 'arm'
+01-17 23:27:12.141  1966  1966 F DEBUG   : pid: 31597, tid: 31597, name: mediaserver  >>> /system/bin/mediaserver <<<
+01-17 23:27:12.141  1966  1966 F DEBUG   : signal 11 (SIGSEGV), code 1 (SEGV_MAPERR), fault addr 0x4
+01-17 23:27:12.147  1966  1966 F DEBUG   :     r0 00000000  r1 00000004  r2 00000000  r3 b6f19c30
+01-17 23:27:12.147  1966  1966 F DEBUG   :     r4 00000000  r5 81194be0  r6 b6bb7e49  r7 beb66854
+01-17 23:27:12.147  1966  1966 F DEBUG   :     r8 beb66858  r9 00000000  sl 00000000  fp beb66a5c
+01-17 23:27:12.147  1966  1966 F DEBUG   :     ip 7f5f8f98  sp beb66850  lr 7f5f517b  pc b6be531c  cpsr 000f0030
+01-17 23:27:12.153  1966  1966 F DEBUG   : 
+01-17 23:27:12.153  1966  1966 F DEBUG   : backtrace:
+01-17 23:27:12.153  1966  1966 F DEBUG   :     #00 pc 0000e31c  /system/lib/libutils.so (_ZNK7android7RefBase9incStrongEPKv+7)
+01-17 23:27:12.153  1966  1966 F DEBUG   :     #01 pc 00002177  /system/bin/mediaserver
+01-17 23:27:12.153  1966  1966 F DEBUG   :     #02 pc 000019f7  /system/bin/mediaserver
+01-17 23:27:12.153  1966  1966 F DEBUG   :     #03 pc 000157d5  /system/lib/libc.so (__libc_init+52)
+01-17 23:27:12.153  1966  1966 F DEBUG   :     #04 pc 00001840  /system/bin/mediaserver
+01-17 23:27:12.293  1966  1966 F DEBUG   : 
+01-17 23:27:12.293  1966  1966 F DEBUG   : Tombstone written to: /data/tombstones/tombstone_00
+01-17 23:27:14.680 31510 31510 E AndroidRuntime: *** FATAL EXCEPTION IN SYSTEM PROCESS: main
+01-17 23:27:14.680 31510 31510 E AndroidRuntime: java.lang.NullPointerException: Attempt to invoke virtual method 'void com.android.server.wm.WindowManagerService.updateBootProgress(int, android.content.pm.ApplicationInfo, int, int, boolean)' on a null object reference
+01-17 23:27:14.680 31510 31510 E AndroidRuntime: 	at com.android.server.am.ActivityManagerService.updateBootProgress(ActivityManagerService.java:6589)
+01-17 23:27:14.680 31510 31510 E AndroidRuntime: 	at com.android.server.SystemServer.startOtherServices(SystemServer.java:624)
+01-17 23:27:14.680 31510 31510 E AndroidRuntime: 	at com.android.server.SystemServer.run(SystemServer.java:291)
+01-17 23:27:14.680 31510 31510 E AndroidRuntime: 	at com.android.server.SystemServer.main(SystemServer.java:176)
+01-17 23:27:14.680 31510 31510 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+01-17 23:27:14.680 31510 31510 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:726)
+01-17 23:27:14.680 31510 31510 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:616)
+01-17 23:27:16.100 31795 31795 F libc    : Fatal signal 11 (SIGSEGV), code 1, fault addr 0x4 in tid 31795 (mediaserver)
+01-17 23:27:16.154  1966  1966 F DEBUG   : *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+01-17 23:27:16.154  1966  1966 F DEBUG   : LineageOS Version: '13.0-20170519-UNOFFICIAL-land'
+01-17 23:27:16.154  1966  1966 F DEBUG   : Build fingerprint: 'Xiaomi/land/land:6.0.1/MMB29M/7.3.16:user/release-keys'
+01-17 23:27:16.154  1966  1966 F DEBUG   : Revision: '0'
+01-17 23:27:16.154  1966  1966 F DEBUG   : ABI: 'arm'
+01-17 23:27:16.154  1966  1966 F DEBUG   : pid: 31795, tid: 31795, name: mediaserver  >>> /system/bin/mediaserver <<<
+01-17 23:27:16.154  1966  1966 F DEBUG   : signal 11 (SIGSEGV), code 1 (SEGV_MAPERR), fault addr 0x4
+01-17 23:27:16.160  1966  1966 F DEBUG   :     r0 00000000  r1 00000004  r2 00000000  r3 b6eddc30
+01-17 23:27:16.160  1966  1966 F DEBUG   :     r4 00000000  r5 7f8a4be0  r6 b6b7be49  r7 bebdd854
+01-17 23:27:16.160  1966  1966 F DEBUG   :     r8 bebdd858  r9 00000000  sl 00000000  fp bebdda5c
+01-17 23:27:16.160  1966  1966 F DEBUG   :     ip 7f599f98  sp bebdd850  lr 7f59617b  pc b6ba931c  cpsr 000f0030
+01-17 23:27:16.162  1966  1966 F DEBUG   : 
+01-17 23:27:16.162  1966  1966 F DEBUG   : backtrace:
+01-17 23:27:16.162  1966  1966 F DEBUG   :     #00 pc 0000e31c  /system/lib/libutils.so (_ZNK7android7RefBase9incStrongEPKv+7)
+01-17 23:27:16.162  1966  1966 F DEBUG   :     #01 pc 00002177  /system/bin/mediaserver
+01-17 23:27:16.162  1966  1966 F DEBUG   :     #02 pc 000019f7  /system/bin/mediaserver
+01-17 23:27:16.162  1966  1966 F DEBUG   :     #03 pc 000157d5  /system/lib/libc.so (__libc_init+52)
+01-17 23:27:16.162  1966  1966 F DEBUG   :     #04 pc 00001840  /system/bin/mediaserver
+01-17 23:27:16.271  1966  1966 F DEBUG   : 
+01-17 23:27:16.271  1966  1966 F DEBUG   : Tombstone written to: /data/tombstones/tombstone_01
+01-17 23:27:20.690 31840 31840 E AndroidRuntime: *** FATAL EXCEPTION IN SYSTEM PROCESS: main
+01-17 23:27:20.690 31840 31840 E AndroidRuntime: java.lang.NullPointerException: Attempt to invoke virtual method 'void com.android.server.wm.WindowManagerService.updateBootProgress(int, android.content.pm.ApplicationInfo, int, int, boolean)' on a null object reference
+01-17 23:27:20.690 31840 31840 E AndroidRuntime: 	at com.android.server.am.ActivityManagerService.updateBootProgress(ActivityManagerService.java:6589)
+01-17 23:27:20.690 31840 31840 E AndroidRuntime: 	at com.android.server.SystemServer.startOtherServices(SystemServer.java:624)
+01-17 23:27:20.690 31840 31840 E AndroidRuntime: 	at com.android.server.SystemServer.run(SystemServer.java:291)
+01-17 23:27:20.690 31840 31840 E AndroidRuntime: 	at com.android.server.SystemServer.main(SystemServer.java:176)
+01-17 23:27:20.690 31840 31840 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+01-17 23:27:20.690 31840 31840 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:726)
+01-17 23:27:20.690 31840 31840 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:616)
+01-17 23:27:21.095 32066 32066 F libc    : Fatal signal 11 (SIGSEGV), code 1, fault addr 0x4 in tid 32066 (mediaserver)
+01-17 23:27:21.147  1966  1966 F DEBUG   : *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+01-17 23:27:21.147  1966  1966 F DEBUG   : LineageOS Version: '13.0-20170519-UNOFFICIAL-land'
+01-17 23:27:21.147  1966  1966 F DEBUG   : Build fingerprint: 'Xiaomi/land/land:6.0.1/MMB29M/7.3.16:user/release-keys'
+01-17 23:27:21.147  1966  1966 F DEBUG   : Revision: '0'
+01-17 23:27:21.147  1966  1966 F DEBUG   : ABI: 'arm'
+01-17 23:27:21.147  1966  1966 F DEBUG   : pid: 32066, tid: 32066, name: mediaserver  >>> /system/bin/mediaserver <<<
+01-17 23:27:21.147  1966  1966 F DEBUG   : signal 11 (SIGSEGV), code 1 (SEGV_MAPERR), fault addr 0x4
+01-17 23:27:21.153  1966  1966 F DEBUG   :     r0 00000000  r1 00000004  r2 00000000  r3 b6e72c30
+01-17 23:27:21.153  1966  1966 F DEBUG   :     r4 00000000  r5 80482be0  r6 b6b10e49  r7 bef00854
+01-17 23:27:21.153  1966  1966 F DEBUG   :     r8 bef00858  r9 00000000  sl 00000000  fp bef00a5c
+01-17 23:27:21.153  1966  1966 F DEBUG   :     ip 7f63ef98  sp bef00850  lr 7f63b17b  pc b6b3e31c  cpsr 000f0030
+01-17 23:27:21.155  1966  1966 F DEBUG   : 
+01-17 23:27:21.155  1966  1966 F DEBUG   : backtrace:
+01-17 23:27:21.155  1966  1966 F DEBUG   :     #00 pc 0000e31c  /system/lib/libutils.so (_ZNK7android7RefBase9incStrongEPKv+7)
+01-17 23:27:21.155  1966  1966 F DEBUG   :     #01 pc 00002177  /system/bin/mediaserver
+01-17 23:27:21.155  1966  1966 F DEBUG   :     #02 pc 000019f7  /system/bin/mediaserver
+01-17 23:27:21.155  1966  1966 F DEBUG   :     #03 pc 000157d5  /system/lib/libc.so (__libc_init+52)
+01-17 23:27:21.156  1966  1966 F DEBUG   :     #04 pc 00001840  /system/bin/mediaserver
+01-17 23:27:21.267  1966  1966 F DEBUG   : 
+01-17 23:27:21.267  1966  1966 F DEBUG   : Tombstone written to: /data/tombstones/tombstone_02
+01-17 23:27:26.727 32377 32377 F libc    : Fatal signal 11 (SIGSEGV), code 1, fault addr 0x4 in tid 32377 (mediaserver)
+01-17 23:27:26.779  1966  1966 F DEBUG   : *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+01-17 23:27:26.779  1966  1966 F DEBUG   : LineageOS Version: '13.0-20170519-UNOFFICIAL-land'
+01-17 23:27:26.779  1966  1966 F DEBUG   : Build fingerprint: 'Xiaomi/land/land:6.0.1/MMB29M/7.3.16:user/release-keys'
+01-17 23:27:26.779  1966  1966 F DEBUG   : Revision: '0'
+01-17 23:27:26.779  1966  1966 F DEBUG   : ABI: 'arm'
+01-17 23:27:26.780  1966  1966 F DEBUG   : pid: 32377, tid: 32377, name: mediaserver  >>> /system/bin/mediaserver <<<
+01-17 23:27:26.780  1966  1966 F DEBUG   : signal 11 (SIGSEGV), code 1 (SEGV_MAPERR), fault addr 0x4
+01-17 23:27:26.786  1966  1966 F DEBUG   :     r0 00000000  r1 00000004  r2 00000000  r3 b6e89c30
+01-17 23:27:26.786  1966  1966 F DEBUG   :     r4 00000000  r5 812a2be0  r6 b6b27e49  r7 befd0854
+01-17 23:27:26.786  1966  1966 F DEBUG   :     r8 befd0858  r9 00000000  sl 00000000  fp befd0a5c
+01-17 23:27:26.786  1966  1966 F DEBUG   :     ip 7f5cef98  sp befd0850  lr 7f5cb17b  pc b6b5531c  cpsr 000f0030
+01-17 23:27:26.789  1966  1966 F DEBUG   : 
+01-17 23:27:26.789  1966  1966 F DEBUG   : backtrace:
+01-17 23:27:26.789  1966  1966 F DEBUG   :     #00 pc 0000e31c  /system/lib/libutils.so (_ZNK7android7RefBase9incStrongEPKv+7)
+01-17 23:27:26.790  1966  1966 F DEBUG   :     #01 pc 00002177  /system/bin/mediaserver
+01-17 23:27:26.790  1966  1966 F DEBUG   :     #02 pc 000019f7  /system/bin/mediaserver
+01-17 23:27:26.790  1966  1966 F DEBUG   :     #03 pc 000157d5  /system/lib/libc.so (__libc_init+52)
+01-17 23:27:26.790  1966  1966 F DEBUG   :     #04 pc 00001840  /system/bin/mediaserver
+01-17 23:27:26.945  1966  1966 F DEBUG   : 
+01-17 23:27:26.945  1966  1966 F DEBUG   : Tombstone written to: /data/tombstones/tombstone_03
+01-17 23:27:27.789 32169 32169 E AndroidRuntime: *** FATAL EXCEPTION IN SYSTEM PROCESS: main
+01-17 23:27:27.789 32169 32169 E AndroidRuntime: java.lang.NullPointerException: Attempt to invoke virtual method 'void com.android.server.wm.WindowManagerService.updateBootProgress(int, android.content.pm.ApplicationInfo, int, int, boolean)' on a null object reference
+01-17 23:27:27.789 32169 32169 E AndroidRuntime: 	at com.android.server.am.ActivityManagerService.updateBootProgress(ActivityManagerService.java:6589)
+01-17 23:27:27.789 32169 32169 E AndroidRuntime: 	at com.android.server.SystemServer.startOtherServices(SystemServer.java:624)
+01-17 23:27:27.789 32169 32169 E AndroidRuntime: 	at com.android.server.SystemServer.run(SystemServer.java:291)
+01-17 23:27:27.789 32169 32169 E AndroidRuntime: 	at com.android.server.SystemServer.main(SystemServer.java:176)
+01-17 23:27:27.789 32169 32169 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+01-17 23:27:27.789 32169 32169 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:726)
+01-17 23:27:27.789 32169 32169 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:616)
+01-17 23:27:32.067 32631 32631 F libc    : Fatal signal 11 (SIGSEGV), code 1, fault addr 0x4 in tid 32631 (mediaserver)
+01-17 23:27:32.119  1966  1966 F DEBUG   : *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+01-17 23:27:32.119  1966  1966 F DEBUG   : LineageOS Version: '13.0-20170519-UNOFFICIAL-land'
+01-17 23:27:32.119  1966  1966 F DEBUG   : Build fingerprint: 'Xiaomi/land/land:6.0.1/MMB29M/7.3.16:user/release-keys'
+01-17 23:27:32.119  1966  1966 F DEBUG   : Revision: '0'
+01-17 23:27:32.119  1966  1966 F DEBUG   : ABI: 'arm'
+01-17 23:27:32.119  1966  1966 F DEBUG   : pid: 32631, tid: 32631, name: mediaserver  >>> /system/bin/mediaserver <<<
+01-17 23:27:32.119  1966  1966 F DEBUG   : signal 11 (SIGSEGV), code 1 (SEGV_MAPERR), fault addr 0x4
+01-17 23:27:32.130  1966  1966 F DEBUG   :     r0 00000000  r1 00000004  r2 00000000  r3 b6ecfc30
+01-17 23:27:32.130  1966  1966 F DEBUG   :     r4 00000000  r5 80d95be0  r6 b6b6de49  r7 be858854
+01-17 23:27:32.130  1966  1966 F DEBUG   :     r8 be858858  r9 00000000  sl 00000000  fp be858a5c
+01-17 23:27:32.130  1966  1966 F DEBUG   :     ip 7f5daf98  sp be858850  lr 7f5d717b  pc b6b9b31c  cpsr 000f0030
+01-17 23:27:32.132  1966  1966 F DEBUG   : 
+01-17 23:27:32.132  1966  1966 F DEBUG   : backtrace:
+01-17 23:27:32.132  1966  1966 F DEBUG   :     #00 pc 0000e31c  /system/lib/libutils.so (_ZNK7android7RefBase9incStrongEPKv+7)
+01-17 23:27:32.132  1966  1966 F DEBUG   :     #01 pc 00002177  /system/bin/mediaserver
+01-17 23:27:32.132  1966  1966 F DEBUG   :     #02 pc 000019f7  /system/bin/mediaserver
+01-17 23:27:32.133  1966  1966 F DEBUG   :     #03 pc 000157d5  /system/lib/libc.so (__libc_init+52)
+01-17 23:27:32.133  1966  1966 F DEBUG   :     #04 pc 00001840  /system/bin/mediaserver
+01-17 23:27:32.281  1966  1966 F DEBUG   : 
+01-17 23:27:32.281  1966  1966 F DEBUG   : Tombstone written to: /data/tombstones/tombstone_04
+01-17 23:27:34.530 32498 32498 E AndroidRuntime: *** FATAL EXCEPTION IN SYSTEM PROCESS: main
+01-17 23:27:34.530 32498 32498 E AndroidRuntime: java.lang.NullPointerException: Attempt to invoke virtual method 'void com.android.server.wm.WindowManagerService.updateBootProgress(int, android.content.pm.ApplicationInfo, int, int, boolean)' on a null object reference
+01-17 23:27:34.530 32498 32498 E AndroidRuntime: 	at com.android.server.am.ActivityManagerService.updateBootProgress(ActivityManagerService.java:6589)
+01-17 23:27:34.530 32498 32498 E AndroidRuntime: 	at com.android.server.SystemServer.startOtherServices(SystemServer.java:624)
+01-17 23:27:34.530 32498 32498 E AndroidRuntime: 	at com.android.server.SystemServer.run(SystemServer.java:291)
+01-17 23:27:34.530 32498 32498 E AndroidRuntime: 	at com.android.server.SystemServer.main(SystemServer.java:176)
+01-17 23:27:34.530 32498 32498 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+01-17 23:27:34.530 32498 32498 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:726)
+01-17 23:27:34.530 32498 32498 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:616)
+01-17 23:27:36.919   475   475 F libc    : Fatal signal 11 (SIGSEGV), code 1, fault addr 0x4 in tid 475 (mediaserver)
+01-17 23:27:36.971  1966  1966 F DEBUG   : *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+01-17 23:27:36.971  1966  1966 F DEBUG   : LineageOS Version: '13.0-20170519-UNOFFICIAL-land'
+01-17 23:27:36.971  1966  1966 F DEBUG   : Build fingerprint: 'Xiaomi/land/land:6.0.1/MMB29M/7.3.16:user/release-keys'
+01-17 23:27:36.971  1966  1966 F DEBUG   : Revision: '0'
+01-17 23:27:36.971  1966  1966 F DEBUG   : ABI: 'arm'
+01-17 23:27:36.971  1966  1966 F DEBUG   : pid: 475, tid: 475, name: mediaserver  >>> /system/bin/mediaserver <<<
+01-17 23:27:36.971  1966  1966 F DEBUG   : signal 11 (SIGSEGV), code 1 (SEGV_MAPERR), fault addr 0x4
+01-17 23:27:36.977  1966  1966 F DEBUG   :     r0 00000000  r1 00000004  r2 00000000  r3 b6ee9c30
+01-17 23:27:36.977  1966  1966 F DEBUG   :     r4 00000000  r5 7fe0ebe0  r6 b6b87e49  r7 beaa6854
+01-17 23:27:36.977  1966  1966 F DEBUG   :     r8 beaa6858  r9 00000000  sl 00000000  fp beaa6a5c
+01-17 23:27:36.977  1966  1966 F DEBUG   :     ip 7f5c8f98  sp beaa6850  lr 7f5c517b  pc b6bb531c  cpsr 000f0030
+01-17 23:27:36.980  1966  1966 F DEBUG   : 
+01-17 23:27:36.980  1966  1966 F DEBUG   : backtrace:
+01-17 23:27:36.980  1966  1966 F DEBUG   :     #00 pc 0000e31c  /system/lib/libutils.so (_ZNK7android7RefBase9incStrongEPKv+7)
+01-17 23:27:36.980  1966  1966 F DEBUG   :     #01 pc 00002177  /system/bin/mediaserver
+01-17 23:27:36.980  1966  1966 F DEBUG   :     #02 pc 000019f7  /system/bin/mediaserver
+01-17 23:27:36.980  1966  1966 F DEBUG   :     #03 pc 000157d5  /system/lib/libc.so (__libc_init+52)
+01-17 23:27:36.980  1966  1966 F DEBUG   :     #04 pc 00001840  /system/bin/mediaserver
+01-17 23:27:37.120  1966  1966 F DEBUG   : 
+01-17 23:27:37.120  1966  1966 F DEBUG   : Tombstone written to: /data/tombstones/tombstone_05
+01-17 23:27:41.303   422   422 E AndroidRuntime: *** FATAL EXCEPTION IN SYSTEM PROCESS: main
+01-17 23:27:41.303   422   422 E AndroidRuntime: java.lang.NullPointerException: Attempt to invoke virtual method 'void com.android.server.wm.WindowManagerService.updateBootProgress(int, android.content.pm.ApplicationInfo, int, int, boolean)' on a null object reference
+01-17 23:27:41.303   422   422 E AndroidRuntime: 	at com.android.server.am.ActivityManagerService.updateBootProgress(ActivityManagerService.java:6589)
+01-17 23:27:41.303   422   422 E AndroidRuntime: 	at com.android.server.SystemServer.startOtherServices(SystemServer.java:624)
+01-17 23:27:41.303   422   422 E AndroidRuntime: 	at com.android.server.SystemServer.run(SystemServer.java:291)
+01-17 23:27:41.303   422   422 E AndroidRuntime: 	at com.android.server.SystemServer.main(SystemServer.java:176)
+01-17 23:27:41.303   422   422 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+01-17 23:27:41.303   422   422 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:726)
+01-17 23:27:41.303   422   422 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:616)
+01-17 23:27:46.646  1151  1151 F libc    : Fatal signal 11 (SIGSEGV), code 1, fault addr 0x4 in tid 1151 (mediaserver)
+01-17 23:27:46.698  1966  1966 F DEBUG   : *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+01-17 23:27:46.698  1966  1966 F DEBUG   : LineageOS Version: '13.0-20170519-UNOFFICIAL-land'
+01-17 23:27:46.698  1966  1966 F DEBUG   : Build fingerprint: 'Xiaomi/land/land:6.0.1/MMB29M/7.3.16:user/release-keys'
+01-17 23:27:46.698  1966  1966 F DEBUG   : Revision: '0'
+01-17 23:27:46.698  1966  1966 F DEBUG   : ABI: 'arm'
+01-17 23:27:46.698  1966  1966 F DEBUG   : pid: 1151, tid: 1151, name: mediaserver  >>> /system/bin/mediaserver <<<
+01-17 23:27:46.698  1966  1966 F DEBUG   : signal 11 (SIGSEGV), code 1 (SEGV_MAPERR), fault addr 0x4
+01-17 23:27:46.704  1966  1966 F DEBUG   :     r0 00000000  r1 00000004  r2 00000000  r3 b6e75c30
+01-17 23:27:46.704  1966  1966 F DEBUG   :     r4 00000000  r5 8069dbe0  r6 b6b13e49  r7 be8be854
+01-17 23:27:46.705  1966  1966 F DEBUG   :     r8 be8be858  r9 00000000  sl 00000000  fp be8bea5c
+01-17 23:27:46.705  1966  1966 F DEBUG   :     ip 7f5aaf98  sp be8be850  lr 7f5a717b  pc b6b4131c  cpsr 000f0030
+01-17 23:27:46.707  1966  1966 F DEBUG   : 
+01-17 23:27:46.707  1966  1966 F DEBUG   : backtrace:
+01-17 23:27:46.708  1966  1966 F DEBUG   :     #00 pc 0000e31c  /system/lib/libutils.so (_ZNK7android7RefBase9incStrongEPKv+7)
+01-17 23:27:46.708  1966  1966 F DEBUG   :     #01 pc 00002177  /system/bin/mediaserver
+01-17 23:27:46.708  1966  1966 F DEBUG   :     #02 pc 000019f7  /system/bin/mediaserver
+01-17 23:27:46.708  1966  1966 F DEBUG   :     #03 pc 000157d5  /system/lib/libc.so (__libc_init+52)
+01-17 23:27:46.708  1966  1966 F DEBUG   :     #04 pc 00001840  /system/bin/mediaserver
+01-17 23:27:46.842  1966  1966 F DEBUG   : 
+01-17 23:27:46.842  1966  1966 F DEBUG   : Tombstone written to: /data/tombstones/tombstone_06
+01-17 23:27:48.118   976   976 E AndroidRuntime: *** FATAL EXCEPTION IN SYSTEM PROCESS: main
+01-17 23:27:48.118   976   976 E AndroidRuntime: java.lang.NullPointerException: Attempt to invoke virtual method 'void com.android.server.wm.WindowManagerService.updateBootProgress(int, android.content.pm.ApplicationInfo, int, int, boolean)' on a null object reference
+01-17 23:27:48.118   976   976 E AndroidRuntime: 	at com.android.server.am.ActivityManagerService.updateBootProgress(ActivityManagerService.java:6589)
+01-17 23:27:48.118   976   976 E AndroidRuntime: 	at com.android.server.SystemServer.startOtherServices(SystemServer.java:624)
+01-17 23:27:48.118   976   976 E AndroidRuntime: 	at com.android.server.SystemServer.run(SystemServer.java:291)
+01-17 23:27:48.118   976   976 E AndroidRuntime: 	at com.android.server.SystemServer.main(SystemServer.java:176)
+01-17 23:27:48.118   976   976 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+01-17 23:27:48.118   976   976 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:726)
+01-17 23:27:48.118   976   976 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:616)
+01-17 23:27:51.458  1382  1382 F libc    : Fatal signal 11 (SIGSEGV), code 1, fault addr 0x4 in tid 1382 (mediaserver)
+01-17 23:27:51.561  1966  1966 F DEBUG   : *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+01-17 23:27:51.561  1966  1966 F DEBUG   : LineageOS Version: '13.0-20170519-UNOFFICIAL-land'
+01-17 23:27:51.561  1966  1966 F DEBUG   : Build fingerprint: 'Xiaomi/land/land:6.0.1/MMB29M/7.3.16:user/release-keys'
+01-17 23:27:51.561  1966  1966 F DEBUG   : Revision: '0'
+01-17 23:27:51.561  1966  1966 F DEBUG   : ABI: 'arm'
+01-17 23:27:51.561  1966  1966 F DEBUG   : pid: 1382, tid: 1382, name: mediaserver  >>> /system/bin/mediaserver <<<
+01-17 23:27:51.561  1966  1966 F DEBUG   : signal 11 (SIGSEGV), code 1 (SEGV_MAPERR), fault addr 0x4
+01-17 23:27:51.567  1966  1966 F DEBUG   :     r0 00000000  r1 00000004  r2 00000000  r3 b6eb6c30
+01-17 23:27:51.568  1966  1966 F DEBUG   :     r4 00000000  r5 80c53be0  r6 b6b54e49  r7 beb54854
+01-17 23:27:51.568  1966  1966 F DEBUG   :     r8 beb54858  r9 00000000  sl 00000000  fp beb54a5c
+01-17 23:27:51.568  1966  1966 F DEBUG   :     ip 7f580f98  sp beb54850  lr 7f57d17b  pc b6b8231c  cpsr 000f0030
+01-17 23:27:51.570  1966  1966 F DEBUG   : 
+01-17 23:27:51.570  1966  1966 F DEBUG   : backtrace:
+01-17 23:27:51.570  1966  1966 F DEBUG   :     #00 pc 0000e31c  /system/lib/libutils.so (_ZNK7android7RefBase9incStrongEPKv+7)
+01-17 23:27:51.570  1966  1966 F DEBUG   :     #01 pc 00002177  /system/bin/mediaserver
+01-17 23:27:51.570  1966  1966 F DEBUG   :     #02 pc 000019f7  /system/bin/mediaserver
+01-17 23:27:51.571  1966  1966 F DEBUG   :     #03 pc 000157d5  /system/lib/libc.so (__libc_init+52)
+01-17 23:27:51.571  1966  1966 F DEBUG   :     #04 pc 00001840  /system/bin/mediaserver
+01-17 23:27:51.766  1966  1966 F DEBUG   : 
+01-17 23:27:51.766  1966  1966 F DEBUG   : Tombstone written to: /data/tombstones/tombstone_07
+
+
+01-17 23:30:46.946  9200  9200 E System  : ******************************************
+01-17 23:30:46.946  9200  9200 E System  : ************ Failure starting core service
+01-17 23:30:46.946  9200  9200 E System  : java.lang.RuntimeException: FEATURE_CONSUMER_IR present, but no IR HAL loaded!
+01-17 23:30:46.946  9200  9200 E System  : 	at com.android.server.ConsumerIrService.<init>(ConsumerIrService.java:51)
+01-17 23:30:46.946  9200  9200 E System  : 	at com.android.server.SystemServer.startOtherServices(SystemServer.java:509)
+01-17 23:30:46.946  9200  9200 E System  : 	at com.android.server.SystemServer.run(SystemServer.java:291)
+01-17 23:30:46.946  9200  9200 E System  : 	at com.android.server.SystemServer.main(SystemServer.java:176)
+01-17 23:30:46.946  9200  9200 E System  : 	at java.lang.reflect.Method.invoke(Native Method)
+01-17 23:30:46.946  9200  9200 E System  : 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:726)
+01-17 23:30:46.946  9200  9200 E System  : 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:616)
+01-17 23:30:46.946  9200  9200 I SystemServer: Input Method Service
+01-17 23:30:46.995  1966  1966 F DEBUG   : 
+01-17 23:30:46.995  1966  1966 F DEBUG   : Tombstone written to: /data/tombstones/tombstone_08
+01-17 23:30:47.003  9200  9200 W InputMethodManagerService: No IME selected. Choose the most applicable IME.
+01-17 23:30:47.003  9200  9200 I InputMethodManagerService: Default found, using com.android.inputmethod.latin/.LatinIME
+01-17 23:30:47.008  9200  9200 I SystemServer: Accessibility Manager
+01-17 23:30:47.012  9200  9200 W SystemServer: ***********************************************
+01-17 23:30:47.012  9200  9200 E SystemServer: BOOT FAILURE making display ready
+01-17 23:30:47.012  9200  9200 E SystemServer: java.lang.NullPointerException: Attempt to invoke virtual method 'void com.android.server.wm.WindowManagerService.displayReady()' on a null object reference
+01-17 23:30:47.012  9200  9200 E SystemServer: 	at com.android.server.SystemServer.startOtherServices(SystemServer.java:591)
+01-17 23:30:47.012  9200  9200 E SystemServer: 	at com.android.server.SystemServer.run(SystemServer.java:291)
+01-17 23:30:47.012  9200  9200 E SystemServer: 	at com.android.server.SystemServer.main(SystemServer.java:176)
+01-17 23:30:47.012  9200  9200 E SystemServer: 	at java.lang.reflect.Method.invoke(Native Method)
+01-17 23:30:47.012  9200  9200 E SystemServer: 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:726)
+01-17 23:30:47.012  9200  9200 E SystemServer: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:616)
+01-17 23:30:47.013  9200  9200 I SystemServiceManager: Starting com.android.server.MountService$Lifecycle
+01-17 23:30:47.023  9200  9429 D MountService: Thinking about reset, mSystemReady=false, mDaemonConnected=true
+01-17 23:30:47.023  9200  9200 I SystemServiceManager: Starting com.android.server.UiModeManagerService
+01-17 23:30:47.023  9200  9429 D MountService: Thinking about reset, mSystemReady=false, mDaemonConnected=true
+01-17 23:30:47.023  9200  9429 D CryptdConnector: SND -> {1 cryptfs getfield SystemLocale}
+01-17 23:30:47.024   364   414 I Ext4Crypt: ext4 crypto complete called on /data
+01-17 23:30:47.024   364   414 I Ext4Crypt: No master key, so not ext4enc
+01-17 23:30:47.024  9200  9431 D CryptdConnector: RCV <- {200 1 -1}
+01-17 23:30:47.025  9200  9200 I ActivityManager: Config changes=200 {1.0 ?mcc?mnc en_US ldltr ?swdp ?wdp ?hdp ?density ?lsize ?long ?orien ?touch ?keyb/?/? ?nav/? s.2 themeResource=null}
+01-17 23:30:47.027  9200  9429 W MountService: No primary storage mounted!
+01-17 23:30:47.027  9200  9429 D VoldConnector: SND -> {1 asec list}
+01-17 23:30:47.027  9200  9430 D VoldConnector: RCV <- {200 1 asec operation succeeded}
+01-17 23:30:47.028  9200  9429 W PackageManager: Not granting permission android.permission.INTERACT_ACROSS_USERS_FULL to package org.cyanogenmod.snap (protectionLevel=258 flags=0x3858bc45)
+01-17 23:30:47.028  9200  9429 W PackageManager: Not granting permission android.permission.SET_ORIENTATION to package org.cyanogenmod.snap (protectionLevel=2 flags=0x3858bc45)
+01-17 23:30:47.028  9200  9429 W PackageManager: Unknown permission com.google.android.googleapps.permission.GOOGLE_AUTH in package com.android.providers.calendar
+01-17 23:30:47.028  9200  9429 W PackageManager: Unknown permission com.google.android.googleapps.permission.GOOGLE_AUTH.cl in package com.android.providers.calendar
+01-17 23:30:47.028  9200  9200 W SystemServer: ***********************************************
+01-17 23:30:47.029  9200  9200 E SystemServer: BOOT FAILURE performing boot dexopt
+01-17 23:30:47.029  9200  9200 E SystemServer: java.lang.NullPointerException: Attempt to invoke virtual method 'void com.android.server.wm.WindowManagerService.updateBootProgress(int, android.content.pm.ApplicationInfo, int, int, boolean)' on a null object reference
+01-17 23:30:47.029  9200  9200 E SystemServer: 	at com.android.server.am.ActivityManagerService.updateBootProgress(ActivityManagerService.java:6589)
+01-17 23:30:47.029  9200  9200 E SystemServer: 	at com.android.server.pm.PackageManagerService.performBootDexOpt(PackageManagerService.java:6495)
+01-17 23:30:47.029  9200  9200 E SystemServer: 	at com.android.server.pm.PackageManagerService.performBootDexOpt(PackageManagerService.java:6442)
+01-17 23:30:47.029  9200  9200 E SystemServer: 	at com.android.server.SystemServer.startOtherServices(SystemServer.java:618)
+01-17 23:30:47.029  9200  9200 E SystemServer: 	at com.android.server.SystemServer.run(SystemServer.java:291)
+01-17 23:30:47.029  9200  9200 E SystemServer: 	at com.android.server.SystemServer.main(SystemServer.java:176)
+01-17 23:30:47.029  9200  9200 E SystemServer: 	at java.lang.reflect.Method.invoke(Native Method)
+01-17 23:30:47.029  9200  9200 E SystemServer: 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:726)
+01-17 23:30:47.029  9200  9200 E SystemServer: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:616)
+01-17 23:30:47.029  9200  9429 W PackageManager: Unknown permission com.qualcomm.permission.USE_QCRIL_MSG_TUNNEL in package com.qualcomm.shutdownlistner
+01-17 23:30:47.029  9200  9429 W PackageManager: Not granting permission android.permission.REAL_GET_TASKS to package org.cyanogenmod.wallpapers.photophase (protectionLevel=18 flags=0x3818be45)
+01-17 23:30:47.029  9200  9429 W PackageManager: Unknown permission android.permission.CANCEL_NOTIFICATIONS in package org.cyanogenmod.theme.chooser2
+01-17 23:30:47.029  9200  9200 E System  : ******************************************
+01-17 23:30:47.029  9200  9429 W PackageManager: Not granting permission android.permission.ACCESS_DOWNLOAD_MANAGER to package org.cyanogenmod.gello.browser (protectionLevel=18 flags=0x3809be45)
+01-17 23:30:47.029  9200  9429 W PackageManager: Not granting permission android.permission.SEND_DOWNLOAD_COMPLETED_INTENTS to package org.cyanogenmod.gello.browser (protectionLevel=2 flags=0x3809be45)
+01-17 23:30:47.029  9200  9429 W PackageManager: Not granting permission android.permission.WRITE_MEDIA_STORAGE to package org.cyanogenmod.gello.browser (protectionLevel=18 flags=0x3809be45)
+01-17 23:30:47.029  9200  9200 E System  : ************ Failure starting system services
+01-17 23:30:47.029  9200  9200 E System  : java.lang.NullPointerException: Attempt to invoke virtual method 'void com.android.server.wm.WindowManagerService.updateBootProgress(int, android.content.pm.ApplicationInfo, int, int, boolean)' on a null object reference
+01-17 23:30:47.029  9200  9200 E System  : 	at com.android.server.am.ActivityManagerService.updateBootProgress(ActivityManagerService.java:6589)
+01-17 23:30:47.029  9200  9200 E System  : 	at com.android.server.SystemServer.startOtherServices(SystemServer.java:624)
+01-17 23:30:47.029  9200  9200 E System  : 	at com.android.server.SystemServer.run(SystemServer.java:291)
+01-17 23:30:47.029  9200  9200 E System  : 	at com.android.server.SystemServer.main(SystemServer.java:176)
+01-17 23:30:47.029  9200  9200 E System  : 	at java.lang.reflect.Method.invoke(Native Method)
+01-17 23:30:47.029  9200  9200 E System  : 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:726)
+01-17 23:30:47.029  9200  9200 E System  : 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:616)
+01-17 23:30:47.029  9200  9429 W PackageManager: Unknown permission org.cyanogenmod.gello.browser.permission.READ_HOMEPAGE in package org.cyanogenmod.gello.browser
+01-17 23:30:47.029  9200  9429 W PackageManager: Unknown permission org.cyanogenmod.gello.browser.permission.WRITE_HOMEPAGE in package org.cyanogenmod.gello.browser
+01-17 23:30:47.030  9200  9200 E AndroidRuntime: *** FATAL EXCEPTION IN SYSTEM PROCESS: main
+01-17 23:30:47.030  9200  9200 E AndroidRuntime: java.lang.NullPointerException: Attempt to invoke virtual method 'void com.android.server.wm.WindowManagerService.updateBootProgress(int, android.content.pm.ApplicationInfo, int, int, boolean)' on a null object reference
+01-17 23:30:47.030  9200  9200 E AndroidRuntime: 	at com.android.server.am.ActivityManagerService.updateBootProgress(ActivityManagerService.java:6589)
+01-17 23:30:47.030  9200  9200 E AndroidRuntime: 	at com.android.server.SystemServer.startOtherServices(SystemServer.java:624)
+01-17 23:30:47.030  9200  9200 E AndroidRuntime: 	at com.android.server.SystemServer.run(SystemServer.java:291)
+01-17 23:30:47.030  9200  9200 E AndroidRuntime: 	at com.android.server.SystemServer.main(SystemServer.java:176)
+01-17 23:30:47.030  9200  9200 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+01-17 23:30:47.030  9200  9200 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:726)
+01-17 23:30:47.030  9200  9200 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:616)
+01-17 23:30:47.030  9200  9429 W PackageManager: Unknown permission com.cyanogen.ambient.permission.BIND_CALLER_INFO in package com.android.messaging
+01-17 23:30:47.030  9200  9429 W PackageManager: Unknown permission com.qualcomm.permission.USE_QCRIL_MSG_TUNNEL in package com.qualcomm.qti.telephonyservice
+01-17 23:30:47.030  9200  9429 W PackageManager: Unknown permission com.cyngn.stats.SEND_ANALYTICS in package com.cyanogenmod.setupwizard
+01-17 23:30:47.030  9200  9429 W PackageManager: Unknown permission com.cyanogen.permission.REQUEST_KILL_SWITCH_OP in package com.cyanogenmod.setupwizard
+01-17 23:30:47.030  9200  9429 W PackageManager: Unknown permission android.permission.MMS_PUSH in package org.codeaurora.bluetooth
+01-17 23:30:47.031  9200  9429 W PackageManager: Unknown permission com.cyanogen.ambient.permission.BIND_INCALL_SERVICE in package com.android.contacts
+01-17 23:30:47.031  9200  9429 W PackageManager: Unknown permission com.cyanogen.ambient.permission.PLUGIN_STATUS_CHANGED in package com.android.contacts
+01-17 23:30:47.031  9200  9429 W PackageManager: Unknown permission com.cyanogen.ambient.permission.BIND_CALLER_INFO in package com.android.contacts
+01-17 23:30:47.031  9200  9429 W PackageManager: Unknown permission com.google.android.googleapps.permission.GOOGLE_AUTH.mail in package com.android.calendar
+01-17 23:30:48.899  9526  9526 I InstallerConnection: connecting...
+01-17 23:30:48.904  9526  9526 I InstallerConnection: disconnecting...
+01-17 23:30:48.918  9526  9526 I SystemServer: Entered the Android system server!
+01-17 23:30:48.980  9526  9526 I SystemServiceManager: Starting com.android.server.pm.Installer
+01-17 23:30:48.981  9526  9526 I Installer: Waiting for installd to be ready.
+01-17 23:30:48.981  9526  9526 I InstallerConnection: connecting...
+01-17 23:30:48.981  9526  9526 I SystemServiceManager: Starting com.android.server.am.ActivityManagerService$Lifecycle
+01-17 23:30:48.993  9526  9526 I ActivityManager: choosing minFree values for 32 Bit
+01-17 23:30:48.993  9526  9526 I ActivityManager: choosing minFree values for 32 Bit
+01-17 23:30:48.993  9526  9526 I ActivityManager: choosing minFree values for 32 Bit
+01-17 23:30:48.993  9526  9526 I ActivityManager: choosing minFree values for 32 Bit
+01-17 23:30:48.993  9526  9526 I ActivityManager: choosing minFree values for 32 Bit
+01-17 23:30:48.993  9526  9526 I ActivityManager: choosing minFree values for 32 Bit
+01-17 23:30:48.996  9526  9526 I ActivityManager: Memory class: 192
+01-17 23:30:48.997  9526  9546 I ServiceThread: Enabled StrictMode logging for ActivityManager looper.
+01-17 23:30:48.998  9526  9547 I ServiceThread: Enabled StrictMode logging for android.ui looper.
+01-17 23:30:49.017  9526  9526 D BatteryStatsImpl: Reading daily items from /data/system/batterystats-daily.xml
+01-17 23:30:49.024  9526  9526 I AppOps  : No existing app ops /data/system/appops.xml; starting empty
+01-17 23:30:49.094  9526  9526 W ProcessCpuTracker: Skipping unknown process pid 9549
+01-17 23:30:49.099  9526  9526 I IntentFirewall: Read new rules (A:0 B:0 S:0)
+01-17 23:30:49.104  9526  9556 I ServiceThread: Enabled StrictMode logging for android.display looper.
+01-17 23:30:49.106  9526  9526 D AppOps  : AppOpsService published
+01-17 23:30:49.106  9526  9526 I SystemServiceManager: Starting com.android.server.power.PowerManagerService
+01-17 23:30:49.109  9526  9559 I ServiceThread: Enabled StrictMode logging for PowerManagerService looper.
+01-17 23:30:49.113  9526  9526 I SystemServiceManager: Starting com.android.server.lights.LightsService
+01-17 23:30:49.114  9526  9526 I SystemServiceManager: Starting com.android.server.display.DisplayManagerService
+01-17 23:30:49.116  9526  9526 I SystemServiceManager: Starting phase 100
+01-17 23:30:49.123  9526  9556 I DisplayManagerService: Display device added: DisplayDeviceInfo{"Built-in Screen": uniqueId="local:0", 720 x 1280, modeId 1, defaultModeId 1, supportedModes [{id=1, width=720, height=1280, fps=60.000004}], colorTransformId 1, defaultColorTransformId 1, supportedColorTransforms [{id=1, colorTransform=0}], density 320, 281.353 x 282.713 dpi, appVsyncOff 0, presDeadline 17666666, touch INTERNAL, rotation 0, type BUILT_IN, state UNKNOWN, FLAG_DEFAULT_DISPLAY, FLAG_ROTATES_WITH_CONTENT, FLAG_SECURE, FLAG_SUPPORTS_PROTECTED_BUFFERS}
+01-17 23:30:49.128  9526  9526 I SystemServer: Package Manager
+01-17 23:30:49.129  9526  9556 I DisplayManagerService: Display device changed state: "Built-in Screen", ON
+01-17 23:30:49.133  9526  9526 W SELinuxMMAC: Error opening /data/system/seapp_hash. Assuming first boot.
+01-17 23:30:49.181  9526  9526 D SELinuxMMAC: Using policy file /system/etc/security/mac_permissions.xml
+01-17 23:30:49.300  9526  9526 W PackageManager: Library not found: /system/framework/org.apache.http.legacy.jar
+01-17 23:30:49.323  9526  9573 W PackageManager: Failed to parse /system/framework/arm: Missing base APK in /system/framework/arm
+01-17 23:30:49.329  9526  9575 W PackageManager: Failed to parse /system/framework/oat: Missing base APK in /system/framework/oat
+01-17 23:30:49.362  9526  9576 I PackageManager: SELinux relabeling of cyanogenmod.platform issued.
+01-17 23:30:49.369  9526  9576 W PackageManager: Permission cyanogenmod.permission.WRITE_ALARMS from package cyanogenmod.platform in an unknown group android.permission-group.SYSTEM_CLOCK
+01-17 23:30:49.370  9526  9576 W PackageManager: Permission cyanogenmod.permission.MANAGE_ALARMS from package cyanogenmod.platform in an unknown group android.permission-group.SYSTEM_CLOCK
+01-17 23:30:49.370  9526  9576 W PackageManager: Permission cyanogenmod.permission.READ_ALARMS from package cyanogenmod.platform in an unknown group android.permission-group.SYSTEM_CLOCK
+01-17 23:30:49.598  9526  9574 W PackageManager: Permission android.permission.SET_KEYGUARD_WALLPAPER from package android in an unknown group android.permission-group.WALLPAPER
+01-17 23:30:49.598  9526  9574 W PackageManager: Permission android.permission.MODIFY_PROTECTED_SMS_LIST from package android in an unknown group android.permission-group.MESSAGES
+01-17 23:30:49.598  9526  9574 W PackageManager: Permission android.permission.RECEIVE_PROTECTED_SMS from package android in an unknown group android.permission-group.MESSAGES
+01-17 23:30:49.598  9526  9574 W PackageManager: Permission android.permission.RESET_BATTERY_STATS from package android in an unknown group android.permission-group.SYSTEM_TOOLS
+01-17 23:30:49.641  9526  9575 I PackageManager: SELinux relabeling of org.cyanogenmod.doze issued.
+01-17 23:30:49.644  9526  9576 I PackageManager: SELinux relabeling of org.cyanogenmod.cmsettings issued.
+01-17 23:30:49.647  9526  9573 I PackageManager: SELinux relabeling of org.cyanogenmod.cmaudio.service issued.
+01-17 23:30:49.702  9526  9593 I PackageManager: SELinux relabeling of com.android.backupconfirm issued.
+01-17 23:30:49.721  9526  9592 I PackageManager: SELinux relabeling of org.cyanogenmod.audiofx issued.
+01-17 23:30:49.777  9526  9574 I PackageManager: SELinux relabeling of org.lineageos.updater issued.
+01-17 23:30:49.784  9526  9573 I PackageManager: SELinux relabeling of com.android.calllogbackup issued.
+01-17 23:30:49.792  9526  9576 I PackageManager: SELinux relabeling of com.android.providers.calendar issued.
+01-17 23:30:49.796  9526  9575 W PackageManager: Failed to parse /system/priv-app/CNEService: Signature mismatch for shared user : SharedUserSetting{e979e5d android.uid.system/1000}
+01-17 23:30:49.829  9526  9592 I PackageManager: SELinux relabeling of com.android.cellbroadcastreceiver issued.
+01-17 23:30:49.852  9526  9573 I PackageManager: SELinux relabeling of com.android.providers.contacts issued.
+01-17 23:30:49.879  9526  9575 W PackageParser: No actions in intent filter at /system/priv-app/Contacts/Contacts.apk Binary XML file line #301
+01-17 23:30:49.880  9526  9592 I PackageManager: SELinux relabeling of org.cyanogenmod.providers.datausage issued.
+01-17 23:30:49.882  9526  9576 I PackageManager: SELinux relabeling of com.android.defcontainer issued.
+01-17 23:30:49.898  9526  9593 I PackageManager: SELinux relabeling of com.android.carrierconfig issued.
+01-17 23:30:49.908  9526  9573 W PackageParser: No actions in intent filter at /system/priv-app/Dialer/Dialer.apk Binary XML file line #152
+01-17 23:30:49.948  9526  9592 I PackageManager: SELinux relabeling of com.android.providers.downloads issued.
+01-17 23:30:49.957  9526  9576 I PackageManager: SELinux relabeling of com.android.externalstorage issued.
+01-17 23:30:49.960  9526  9592 W PackageManager: Permission android.permission.DOWNLOAD_WITHOUT_NOTIFICATION from package com.android.providers.downloads in an unknown group android.permission-group.NETWORK
+01-17 23:30:49.970  9526  9593 I PackageManager: SELinux relabeling of com.android.location.fused issued.
+01-17 23:30:50.011  9526  9576 I PackageManager: SELinux relabeling of org.cyanogenmod.livelockscreen.service issued.
+01-17 23:30:50.036  9526  9592 I PackageManager: SELinux relabeling of com.android.inputdevices issued.
+01-17 23:30:50.041  9526  9593 I PackageManager: SELinux relabeling of com.android.managedprovisioning issued.
+01-17 23:30:50.043  9526  9576 I PackageManager: SELinux relabeling of com.android.providers.media issued.
+01-17 23:30:50.081  9526  9592 I PackageManager: SELinux relabeling of com.android.mms.service issued.
+01-17 23:30:50.085  9526  9593 I PackageManager: SELinux relabeling of com.android.onetimeinitializer issued.
+01-17 23:30:50.124  9526  9592 I PackageManager: SELinux relabeling of com.android.proxyhandler issued.
+01-17 23:30:50.139  9526  9593 W PackageManager: Failed to parse /system/priv-app/QtiTetherService: Signature mismatch for shared user : SharedUserSetting{e979e5d android.uid.system/1000}
+01-17 23:30:50.156  9526  9592 I PackageManager: SELinux relabeling of org.cyanogenmod.screencast issued.
+01-17 23:30:50.185  9526  9592 I PackageManager: SELinux relabeling of com.android.providers.settings issued.
+01-17 23:30:50.201  9526  9576 I PackageManager: SELinux relabeling of com.android.packageinstaller issued.
+01-17 23:30:50.213  9526  9574 I PackageManager: SELinux relabeling of com.cyanogenmod.setupwizard issued.
+01-17 23:30:50.220  9526  9592 I PackageManager: SELinux relabeling of com.android.sharedstoragebackup issued.
+01-17 23:30:50.250  9526  9576 I PackageManager: SELinux relabeling of com.android.shell issued.
+01-17 23:30:50.287  9526  9575 I PackageManager: SELinux relabeling of com.android.contacts issued.
+01-17 23:30:50.317  9526  9574 I PackageManager: SELinux relabeling of com.android.statementservice issued.
+01-17 23:30:50.370  9526  9574 W PackageParser: Ignoring duplicate uses-permissions/uses-permissions-sdk-m: android.permission.ACCESS_WIFI_STATE in package: com.android.phone at: Binary XML file line #134
+01-17 23:30:50.382  9526  9573 I PackageManager: SELinux relabeling of com.android.dialer issued.
+01-17 23:30:50.397  9526  9575 I PackageManager: SELinux relabeling of com.android.server.telecom issued.
+01-17 23:30:50.419  9526  9592 I PackageManager: SELinux relabeling of org.cyanogenmod.snap issued.
+01-17 23:30:50.425  9526  9574 I PackageManager: SELinux relabeling of com.android.phone issued.
+01-17 23:30:50.444  9526  9573 I PackageManager: SELinux relabeling of com.android.providers.telephony issued.
+01-17 23:30:50.483  9526  9592 I PackageManager: SELinux relabeling of org.cyanogenmod.themeservice issued.
+01-17 23:30:50.493  9526  9575 I PackageManager: SELinux relabeling of org.cyanogenmod.theme.chooser2 issued.
+01-17 23:30:50.499  9526  9574 I PackageManager: SELinux relabeling of org.cyanogenmod.themes.provider issued.
+01-17 23:30:50.530  9526  9592 I PackageManager: SELinux relabeling of com.android.vpndialogs issued.
+01-17 23:30:50.530  9526  9575 I PackageManager: SELinux relabeling of com.android.wallpapercropper issued.
+01-17 23:30:50.535  9526  9573 I PackageManager: SELinux relabeling of com.cyanogenmod.trebuchet issued.
+01-17 23:30:50.544  9526  9574 I PackageManager: SELinux relabeling of org.cyanogenmod.weatherservice issued.
+01-17 23:30:50.552  9526  9576 I PackageManager: SELinux relabeling of com.android.systemui issued.
+01-17 23:30:50.553  9526  9573 W PackageManager: Permission com.android.launcher.permission.INSTALL_SHORTCUT from package com.cyanogenmod.trebuchet in an unknown group android.permission-group.SYSTEM_TOOLS
+01-17 23:30:50.553  9526  9573 W PackageManager: Permission com.android.launcher3.permission.READ_SETTINGS from package com.cyanogenmod.trebuchet in an unknown group android.permission-group.SYSTEM_TOOLS
+01-17 23:30:50.553  9526  9573 W PackageManager: Permission com.android.launcher3.permission.WRITE_SETTINGS from package com.cyanogenmod.trebuchet in an unknown group android.permission-group.SYSTEM_TOOLS
+01-17 23:30:50.566  9526  9592 I PackageManager: SELinux relabeling of org.cyanogenmod.weather.provider issued.
+01-17 23:30:50.579  9526  9574 W PackageManager: Failed to parse /system/priv-app/qcrilmsgtunnel: Signature mismatch for shared user : SharedUserSetting{e45039 android.uid.phone/1001}
+01-17 23:30:50.584  9526  9573 W PackageManager: Failed to parse /system/priv-app/dpmserviceapp: Signature mismatch for shared user : SharedUserSetting{e979e5d android.uid.system/1000}
+01-17 23:30:50.587  9526  9575 W PackageManager: Failed to parse /system/priv-app/com.qualcomm.location: Signature mismatch for shared user : SharedUserSetting{e979e5d android.uid.system/1000}
+01-17 23:30:50.647  9526  9593 I PackageManager: SELinux relabeling of com.android.settings issued.
+01-17 23:30:50.674  9526  9573 W PackageParser: No actions in intent filter at /system/app/BluetoothExt/BluetoothExt.apk Binary XML file line #139
+01-17 23:30:50.675  9526  9573 W PackageParser: No actions in intent filter at /system/app/BluetoothExt/BluetoothExt.apk Binary XML file line #163
+01-17 23:30:50.678  9526  9593 W PackageParser: No actions in intent filter at /system/app/CMFileManager/CMFileManager.apk Binary XML file line #164
+01-17 23:30:50.683  9526  9592 I PackageManager: SELinux relabeling of com.android.dreams.basic issued.
+01-17 23:30:50.684  9526  9576 I PackageManager: SELinux relabeling of com.dsi.ant.server issued.
+01-17 23:30:50.690  9526  9575 I PackageManager: SELinux relabeling of com.android.bluetoothmidiservice issued.
+01-17 23:30:50.700  9526  9574 W PackageParser: No actions in intent filter at /system/app/Bluetooth/Bluetooth.apk Binary XML file line #234
+01-17 23:30:50.709  9526  9573 I PackageManager: SELinux relabeling of org.codeaurora.bluetooth issued.
+01-17 23:30:50.733  9526  9593 I PackageManager: SELinux relabeling of com.cyanogenmod.filemanager issued.
+01-17 23:30:50.735  9526  9575 I PackageManager: SELinux relabeling of com.android.captiveportallogin issued.
+01-17 23:30:50.738  9526  9574 I PackageManager: SELinux relabeling of com.android.bluetooth issued.
+01-17 23:30:50.759  9526  9592 I PackageManager: SELinux relabeling of com.cyanogenmod.wallpapers issued.
+01-17 23:30:50.759  9526  9573 I PackageManager: SELinux relabeling of com.android.certinstaller issued.
+01-17 23:30:50.778  9526  9575 I PackageManager: SELinux relabeling of com.android.development issued.
+01-17 23:30:50.810  9526  9573 I PackageManager: SELinux relabeling of com.android.providers.downloads.ui issued.
+01-17 23:30:50.816  9526  9576 I PackageManager: SELinux relabeling of com.android.calendar issued.
+01-17 23:30:50.850  9526  9574 I PackageManager: SELinux relabeling of com.android.documentsui issued.
+01-17 23:30:50.859  9526  9592 I PackageManager: SELinux relabeling of com.cyanogenmod.eleven issued.
+01-17 23:30:50.860  9526  9573 I PackageManager: SELinux relabeling of com.android.calculator2 issued.
+01-17 23:30:50.872  9526  9576 I PackageManager: SELinux relabeling of com.android.exchange issued.
+01-17 23:30:50.910  9526  9593 I PackageManager: SELinux relabeling of com.android.deskclock issued.
+01-17 23:30:50.911  9526  9576 W PackageParser: No actions in intent filter at /system/app/Gello/Gello.apk Binary XML file line #284
+01-17 23:30:50.915  9526  9592 I PackageManager: SELinux relabeling of com.android.galaxy4 issued.
+01-17 23:30:50.938  9526  9574 W PackageParser: Unknown element under <application>: permission at /system/app/Gallery2/Gallery2.apk Binary XML file line #279
+01-17 23:30:50.939  9526  9574 W PackageParser: Unknown element under <application>: permission at /system/app/Gallery2/Gallery2.apk Binary XML file line #282
+01-17 23:30:50.956  9526  9593 I PackageManager: SELinux relabeling of com.android.htmlviewer issued.
+01-17 23:30:50.969  9526  9573 I PackageManager: SELinux relabeling of com.caf.fmradio issued.
+01-17 23:30:50.998  9526  9593 I PackageManager: SELinux relabeling of com.android.wallpaper.holospiral issued.
+01-17 23:30:51.013  9526  9573 I PackageManager: SELinux relabeling of com.android.keychain issued.
+01-17 23:30:51.030  9526  9575 I PackageManager: SELinux relabeling of com.android.email issued.
+01-17 23:30:51.067  9526  9573 I PackageManager: SELinux relabeling of com.android.wallpaper issued.
+01-17 23:30:51.076  9526  9575 I PackageManager: SELinux relabeling of com.android.wallpaper.livepicker issued.
+01-17 23:30:51.082  9526  9574 I PackageManager: SELinux relabeling of com.android.gallery3d issued.
+01-17 23:30:51.126  9526  9573 I PackageManager: SELinux relabeling of com.cyanogenmod.lockclock issued.
+01-17 23:30:51.155  9526  9573 I PackageManager: SELinux relabeling of com.android.phasebeam issued.
+01-17 23:30:51.157  9526  9574 I PackageManager: SELinux relabeling of com.android.pacprocessor issued.
+01-17 23:30:51.159  9526  9575 I PackageManager: SELinux relabeling of com.android.noisefield issued.
+01-17 23:30:51.176  9526  9592 I PackageManager: SELinux relabeling of org.cyanogenmod.hexolibre issued.
+01-17 23:30:51.190  9526  9575 I PackageManager: SELinux relabeling of com.svox.pico issued.
+01-17 23:30:51.190  9526  9574 I PackageManager: SELinux relabeling of com.android.dreams.phototable issued.
+01-17 23:30:51.207  9526  9573 I PackageManager: SELinux relabeling of org.cyanogenmod.wallpapers.photophase issued.
+01-17 23:30:51.212  9526  9592 I PackageManager: SELinux relabeling of com.android.printspooler issued.
+01-17 23:30:51.220  9526  9575 I PackageManager: SELinux relabeling of org.cyanogenmod.profiles issued.
+01-17 23:30:51.226  9526  9574 I PackageManager: SELinux relabeling of com.android.provision issued.
+01-17 23:30:51.237  9526  9573 I PackageManager: SELinux relabeling of com.qualcomm.qti.telephonyservice issued.
+01-17 23:30:51.245  9526  9576 I PackageManager: SELinux relabeling of org.cyanogenmod.gello.browser issued.
+01-17 23:30:51.249  9526  9592 I PackageManager: SELinux relabeling of com.android.soundrecorder issued.
+01-17 23:30:51.254  9526  9575 I PackageManager: SELinux relabeling of com.android.stk issued.
+01-17 23:30:51.258  9526  9574 I PackageManager: SELinux relabeling of com.android.terminal issued.
+01-17 23:30:51.271  9526  9574 W PackageManager: Failed to parse /system/app/ims: Missing base APK in /system/app/ims
+01-17 23:30:51.277  9526  9573 W PackageManager: Failed to parse /system/app/TimeService: Signature mismatch for shared user : SharedUserSetting{e979e5d android.uid.system/1000}
+01-17 23:30:51.277  9526  9576 I PackageManager: SELinux relabeling of com.android.providers.userdictionary issued.
+01-17 23:30:51.283  9526  9592 I PackageManager: SELinux relabeling of com.android.smspush issued.
+01-17 23:30:51.290  9526  9575 I PackageManager: SELinux relabeling of org.cyanogenmod.wallpaperpicker issued.
+01-17 23:30:51.291  9526  9573 I PackageManager: SELinux relabeling of com.qualcomm.shutdownlistner issued.
+01-17 23:30:51.298  9526  9576 I PackageManager: SELinux relabeling of com.android.frameworks.telresources issued.
+01-17 23:30:51.312  9662  9662 F libc    : Fatal signal 11 (SIGSEGV), code 1, fault addr 0x4 in tid 9662 (mediaserver)
+01-17 23:30:51.317  9526  9592 I PackageManager: SELinux relabeling of com.android.webview issued.
+01-17 23:30:51.329  9526  9593 I PackageManager: SELinux relabeling of com.android.inputmethod.latin issued.
+01-17 23:30:51.364  1966  1966 F DEBUG   : *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+01-17 23:30:51.364  1966  1966 F DEBUG   : LineageOS Version: '13.0-20170519-UNOFFICIAL-land'
+01-17 23:30:51.364  1966  1966 F DEBUG   : Build fingerprint: 'Xiaomi/land/land:6.0.1/MMB29M/7.3.16:user/release-keys'
+01-17 23:30:51.364  1966  1966 F DEBUG   : Revision: '0'
+01-17 23:30:51.364  1966  1966 F DEBUG   : ABI: 'arm'
+01-17 23:30:51.364  1966  1966 F DEBUG   : pid: 9662, tid: 9662, name: mediaserver  >>> /system/bin/mediaserver <<<
+01-17 23:30:51.364  1966  1966 F DEBUG   : signal 11 (SIGSEGV), code 1 (SEGV_MAPERR), fault addr 0x4
+01-17 23:30:51.373  1966  1966 F DEBUG   :     r0 00000000  r1 00000004  r2 00000000  r3 b6f21c30
+01-17 23:30:51.373  1966  1966 F DEBUG   :     r4 00000000  r5 80ebebe0  r6 b6bbfe49  r7 bea57854
+01-17 23:30:51.374  1966  1966 F DEBUG   :     r8 bea57858  r9 00000000  sl 00000000  fp bea57a5c
+01-17 23:30:51.374  1966  1966 F DEBUG   :     ip 7f63ff98  sp bea57850  lr 7f63c17b  pc b6bed31c  cpsr 000f0030
+01-17 23:30:51.376  1966  1966 F DEBUG   : 
+01-17 23:30:51.376  1966  1966 F DEBUG   : backtrace:
+01-17 23:30:51.376  1966  1966 F DEBUG   :     #00 pc 0000e31c  /system/lib/libutils.so (_ZNK7android7RefBase9incStrongEPKv+7)
+01-17 23:30:51.376  1966  1966 F DEBUG   :     #01 pc 00002177  /system/bin/mediaserver
+01-17 23:30:51.376  1966  1966 F DEBUG   :     #02 pc 000019f7  /system/bin/mediaserver
+01-17 23:30:51.376  1966  1966 F DEBUG   :     #03 pc 000157d5  /system/lib/libc.so (__libc_init+52)
+01-17 23:30:51.376  1966  1966 F DEBUG   :     #04 pc 00001840  /system/bin/mediaserver
+
+
+01-17 23:31:50.414   462   588 E AudioDaemon: Sleeping for 100 ms
+01-17 23:31:50.430   403   403 I SDM     : HWCDisplayPrimary::ProcessBootAnimCompleted: ProcessBootAnimCompleted: cryptostate= unencrypted
+01-17 23:31:50.447   403   403 I SDM     : HWCDisplayPrimary::ProcessBootAnimCompleted: ProcessBootAnimCompleted: cryptostate= unencrypted
+01-17 23:31:50.464   403   403 I SDM     : HWCDisplayPrimary::ProcessBootAnimCompleted: ProcessBootAnimCompleted: cryptostate= unencrypted
+01-17 23:31:50.480   403   403 I SDM     : HWCDisplayPrimary::ProcessBootAnimCompleted: ProcessBootAnimCompleted: cryptostate= unencrypted
+01-17 23:31:50.497   403   403 I SDM     : HWCDisplayPrimary::ProcessBootAnimCompleted: ProcessBootAnimCompleted: cryptostate= unencrypted
+01-17 23:31:50.514   403   403 I SDM     : HWCDisplayPrimary::ProcessBootAnimCompleted: ProcessBootAnimCompleted: cryptostate= unencrypted
+01-17 23:31:50.515   462   588 D AudioDaemon: Opening sound card state : /proc/asound/card---/state
+01-17 23:31:50.515   462   588 E AudioDaemon: Open /proc/asound/card---/state failed : No such file or directory
+01-17 23:31:50.515   462   588 V AudioDaemon: bool android::AudioDaemon::getStateFDs(std::vector<std::pair<int, int> > &): 0 sound cards detected
+01-17 23:31:50.515   462   588 E AudioDaemon: Sleeping for 100 ms
