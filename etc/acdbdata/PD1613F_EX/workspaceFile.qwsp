@@ -1,0 +1,150 @@
+﻿<WorkSpace_Data WSVersID="Badger_3">
+  <ACDBFile_Paths>
+    <ACDBFile_Paths path="Bluetooth_cal.acdb" />
+    <ACDBFile_Paths path="General_cal.acdb" />
+    <ACDBFile_Paths path="Global_cal.acdb" />
+    <ACDBFile_Paths path="Handset_cal.acdb" />
+    <ACDBFile_Paths path="Hdmi_cal.acdb" />
+    <ACDBFile_Paths path="Headset_cal.acdb" />
+    <ACDBFile_Paths path="Speaker_cal.acdb" />
+  </ACDBFile_Paths>
+  <OpenDSP MajorMinor="1_0">
+    <AREA_LIST>
+      <AREA type="TX" name="AUDIO_COPP_TX">
+        <TOPOLOGY name="AUDIO_TX_KTV_TOPOLOGY" ID="0x10013001" type="TX" NewAdded="true">
+          <Block name="AUDIO_TX_KTV_MODULE" ID="0x10011001" type="TX" NewAdded="true" dataView_ID="0xFFFF0001" />
+        </TOPOLOGY>
+      </AREA>
+      <AREA type="RX" name="AUDIO_COPP_RX">
+        <TOPOLOGY name="AUDIO_DS2_CUSTOM_TOPOLOGY" ID="0x1301033B" type="RX" NewAdded="true">
+          <Block name="AUDIO_DS1AP" ID="0x00010775" />
+          <Block name="AUDIO_CHMIXER" ID="0x00010341" />
+          <Block name="AUDIO_HIGH_THD_RESAMPLER" ID="0x00010719" />
+          <Block name="AUDIO_PBE" ID="0x00010C2A" />
+          <Block name="AUDIO_IIR" ID="0x00010C02" gain_dependant="Yes" />
+          <Block name="AUDIO_MBDRC" ID="0x00010C06" gain_dependant="Yes" />
+          <Block name="AUDIO_RX_CODEC_GAIN" ID="0x00010C37" />
+          <Block name="AUDIO_SOFT_STEP_VOLUME" ID="0x00010BFE" />
+        </TOPOLOGY>
+        <TOPOLOGY name="AUDIO_RX_STEREO_COPP_MBDRC_V3" ID="0x11000000" type="RX" NewAdded="true">
+          <Block name="AUDIO_IIR" ID="0x00010C02" gain_dependant="Yes" />
+          <Block name="AUDIO_PBE" ID="0x00010C2A" />
+          <Block name="AUDIO_RX_CODEC_GAIN" ID="0x00010C37" />
+          <Block name="AUDIO_HIGH_THD_RESAMPLER" ID="0x00010719" />
+          <Block name="AUDIO_MBDRC_V3" ID="0x0001090B" gain_dependant="Yes" />
+        </TOPOLOGY>
+        <TOPOLOGY name="AUDIO_RX_MONO_COPP_MBDRC_V3" ID="0x11000001" type="RX" NewAdded="true">
+          <Block name="AUDIO_IIR" ID="0x00010C02" gain_dependant="Yes" />
+          <Block name="AUDIO_PBE" ID="0x00010C2A" />
+          <Block name="AUDIO_RX_CODEC_GAIN" ID="0x00010C37" />
+          <Block name="AUDIO_HIGH_THD_RESAMPLER" ID="0x00010719" />
+          <Block name="AUDIO_MBDRC_V3" ID="0x0001090B" gain_dependant="Yes" />
+        </TOPOLOGY>
+      </AREA>
+      <AREA type="RX" name="AUDIO_POPP_RX">
+        <TOPOLOGY name="AUDPROC_OFFLOAD_EFFECTS" ID="0x1000FFFF" type="RX" NewAdded="true">
+          <Block name="AUDIO_HIGH_THD_RESAMPLER" ID="0x00010719" />
+          <Block name="AUDIO_SOFT_STEP_VOLUME" ID="0x00010BFE" />
+          <Block name="AUDIO_POPLESS_EQUALIZER" ID="0x000108BA" />
+          <Block name="AUDIO_VIRTUALIZER" ID="0x000108A5" />
+          <Block name="AUDIO_CHMIXER" ID="0x00010341" />
+          <Block name="AUDIO_REVERB" ID="0x000108AA" />
+          <Block name="AUDIO_BASS_BOOST" ID="0x000108A1" />
+          <Block name="AUDIO_PBE" ID="0x00010C2A" />
+          <Block name="AUDIO_SOFT_STEP_VOLUME_INSTANCE_2" ID="0x00010910" />
+        </TOPOLOGY>
+      </AREA>
+    </AREA_LIST>
+    <TOPOLOGY_LIST>
+      <TOPOLOGY name="AUDIO_DS2_CUSTOM_TOPOLOGY" ID="0x1301033B" type="RX" NewAdded="true">
+        <Block name="AUDIO_IIR" ID="0x00010C02" gain_dependant="Yes" />
+        <Block name="AUDIO_MBDRC" ID="0x00010C06" gain_dependant="Yes" />
+        <Block name="AUDIO_PBE" ID="0x00010C2A" />
+        <Block name="AUDIO_SOFT_STEP_VOLUME" ID="0x00010BFE" />
+        <Block name="AUDIO_RX_CODEC_GAIN" ID="0x00010C37" />
+        <Block name="AUDIO_HIGH_THD_RESAMPLER" ID="0x00010719" />
+        <Block name="AUDIO_CHMIXER" ID="0x00010341" />
+        <Block name="AUDIO_DS1AP" ID="0x00010775" />
+      </TOPOLOGY>
+      <TOPOLOGY name="AUDIO_RX_STEREO_COPP_MBDRC_V3" ID="0x11000000" type="RX" NewAdded="true">
+        <Block name="AUDIO_IIR" ID="0x00010C02" gain_dependant="Yes" />
+        <Block name="AUDIO_PBE" ID="0x00010C2A" />
+        <Block name="AUDIO_RX_CODEC_GAIN" ID="0x00010C37" />
+        <Block name="AUDIO_HIGH_THD_RESAMPLER" ID="0x00010719" />
+        <Block name="AUDIO_MBDRC_V3" ID="0x0001090B" gain_dependant="Yes" />
+      </TOPOLOGY>
+      <TOPOLOGY name="AUDIO_RX_MONO_COPP_MBDRC_V3" ID="0x11000001" type="RX" NewAdded="true">
+        <Block name="AUDIO_IIR" ID="0x00010C02" gain_dependant="Yes" />
+        <Block name="AUDIO_PBE" ID="0x00010C2A" />
+        <Block name="AUDIO_RX_CODEC_GAIN" ID="0x00010C37" />
+        <Block name="AUDIO_HIGH_THD_RESAMPLER" ID="0x00010719" />
+        <Block name="AUDIO_MBDRC_V3" ID="0x0001090B" gain_dependant="Yes" />
+      </TOPOLOGY>
+      <TOPOLOGY name="AUDPROC_OFFLOAD_EFFECTS" ID="0x1000FFFF" type="RX" NewAdded="true">
+        <Block name="AUDIO_PBE" ID="0x00010C2A" />
+        <Block name="AUDIO_SOFT_STEP_VOLUME" ID="0x00010BFE" />
+        <Block name="AUDIO_HIGH_THD_RESAMPLER" ID="0x00010719" />
+        <Block name="AUDIO_VIRTUALIZER" ID="0x000108A5" />
+        <Block name="AUDIO_REVERB" ID="0x000108AA" />
+        <Block name="AUDIO_BASS_BOOST" ID="0x000108A1" />
+        <Block name="AUDIO_POPLESS_EQUALIZER" ID="0x000108BA" />
+        <Block name="AUDIO_CHMIXER" ID="0x00010341" />
+        <Block name="AUDIO_SOFT_STEP_VOLUME_INSTANCE_2" ID="0x00010910" />
+      </TOPOLOGY>
+      <TOPOLOGY name="AUDIO_TX_KTV_TOPOLOGY" ID="0x10013001" type="TX" NewAdded="true">
+        <Block name="AUDIO_TX_KTV_MODULE" ID="0x10011001" type="TX" NewAdded="true" dataView_ID="0xFFFF0001" />
+      </TOPOLOGY>
+    </TOPOLOGY_LIST>
+    <BLOCK_LIST>
+      <Block name="AUDIO_TX_KTV_MODULE" ID="0x10011001" type="TX" NewAdded="true" dataView_ID="0xFFFF0001" />
+    </BLOCK_LIST>
+    <AB_VIEW_LIST>
+      <AB_VIEW dataView_ID="0xFFFF0001" name="AUDIO_TX_KTV_MODULE" NewAdded="true">
+        <DATA_VIEW name="Data" display="true">
+          <INTERFACE I_id="0x10012001" />
+          <INTERFACE I_id="0x10012002" />
+          <INTERFACE I_id="0x10012003" />
+          <INTERFACE I_id="0x10012004" />
+          <INTERFACE I_id="0x10012005" />
+          <INTERFACE I_id="0x10012006" />
+          <INTERFACE I_id="0x10012007" />
+        </DATA_VIEW>
+      </AB_VIEW>
+    </AB_VIEW_LIST>
+    <INTERFACE_LIST>
+      <INTERFACE name="AUDIO_PARAM_ID_KTV_ENABLE" I_id="0x10012001" hexStr="00000000" NewAdded="true" maxSize="4">
+        <CONFIG_ELEMENT name="enable_flag" type="int32" min="0x0" max="0x1" />
+      </INTERFACE>
+      <INTERFACE name="AUDIO_PARAM_ID_KTV_EQ" I_id="0x10012002" hexStr="000000000000000000000000000000000000000000000000" NewAdded="true" maxSize="24">
+        <CONFIG_ELEMENT name="enable_flag" type="int32" min="0x0" max="0x1" />
+        <CONFIG_ELEMENT_ARRAY name="params" length="5" type="int32" min="0xFFFFFFF1" max="0xF" />
+      </INTERFACE>
+      <INTERFACE name="AUDIO_PARAM_ID_KTV_NOISE_CANCEL" I_id="0x10012003" hexStr="00000000" NewAdded="true" maxSize="4">
+        <CONFIG_ELEMENT name="enable_flag" type="int32" min="0x0" max="0x2" />
+      </INTERFACE>
+      <INTERFACE name="AUDIO_PARAM_ID_KTV_COMPRESSOR" I_id="0x10012004" hexStr="00000000" NewAdded="true" maxSize="4">
+        <CONFIG_ELEMENT name="enable_flag" type="int32" min="0x0" max="0x1" />
+      </INTERFACE>
+      <INTERFACE name="AUDIO_PARAM_ID_KTV_REVERB" I_id="0x10012005" hexStr="000000006616000000100000711500008F0A0000661600007B000000" NewAdded="true" maxSize="28">
+        <CONFIG_ELEMENT name="enable_flag" type="int32" min="0x0" max="0x1" />
+        <CONFIG_ELEMENT name="roomsize" type="int32" min="0x1" max="0x2000" />
+        <CONFIG_ELEMENT name="damp" type="int32" min="0x1" max="0x2000" />
+        <CONFIG_ELEMENT name="wet" type="int32" min="0x1" max="0x2000" />
+        <CONFIG_ELEMENT name="dry" type="int32" min="0x0" max="0x2000" />
+        <CONFIG_ELEMENT name="width" type="int32" min="0x1" max="0x2000" />
+        <CONFIG_ELEMENT name="gain" type="int32" min="0x1" max="0x2000" />
+      </INTERFACE>
+      <INTERFACE name="AUDIO_PARAM_ID_KTV_ECHO" I_id="0x10012006" hexStr="000000000010000001000000711500008F0A0000" NewAdded="true" maxSize="20">
+        <CONFIG_ELEMENT name="enable_flag" type="int32" min="0x0" max="0x1" />
+        <CONFIG_ELEMENT name="feedback" type="int32" min="0x0" max="0x2000" />
+        <CONFIG_ELEMENT name="delay" type="int32" min="0x0" max="0x2000" />
+        <CONFIG_ELEMENT name="wet" type="int32" min="0x1" max="0x2000" />
+        <CONFIG_ELEMENT name="dry" type="int32" min="0x0" max="0x2000" />
+      </INTERFACE>
+      <INTERFACE name="AUDIO_PARAM_ID_KTV_HC" I_id="0x10012007" hexStr="00000000" NewAdded="true" maxSize="4">
+        <CONFIG_ELEMENT name="enable_flag" type="int32" min="0x0" max="0x1" />
+      </INTERFACE>
+    </INTERFACE_LIST>
+  </OpenDSP>
+  <GUI_Data />
+</WorkSpace_Data>

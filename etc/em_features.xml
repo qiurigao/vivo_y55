@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<boolean name="hifi_support">false</boolean>
+	<boolean name="fm_support">true</boolean>
+	<boolean name="sub_echo_support">false</boolean>
+	<boolean name="double_hifi_support">false</boolean>
+	<boolean name="right_speaker_support">false</boolean>
+	<boolean name="left_speaker_support">false</boolean>
+	<boolean name="smart_spearker_amplifier_cali_support">true</boolean>
+	<boolean name="speaker_resdetect_support">true</boolean>
+	<boolean name="ktv_sound_support">false</boolean>
+	<boolean name="camera_pdaf">false</boolean>
+	<boolean name="flash_light_cali_support">true</boolean>
+	<boolean name="diag_socket">true</boolean>
+ </resources>

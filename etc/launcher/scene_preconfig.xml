@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<favorites xmlns:android="http://schemas.android.com/apk/res/android" xmlns:launcher="http://schemas.android.com/apk/res/com.bbk.scene.databaseprovider" launcher:shortAxisCells="4" launcher:longAxisCells="6">
+    <favorite launcher:screen="0" launcher:cellx="0" launcher:celly="0" launcher:packageName="com.vivo.email" launcher:className="com.vivo.email.activity.Welcome" launcher:container="-100"/>
+    <favorite launcher:screen="0" launcher:cellx="0" launcher:celly="0" launcher:packageName="com.android.email" launcher:className="com.android.email.activity.Welcome" launcher:container="-100"/>
+    <favorite launcher:screen="0" launcher:cellx="1" launcher:celly="0" launcher:packageName="com.android.VideoPlayer" launcher:className="com.android.VideoPlayer.VideoPlayer" launcher:container="-100"/>
+    <favorite launcher:screen="0" launcher:cellx="2" launcher:celly="0" launcher:packageName="com.vivo.weather" launcher:className="com.vivo.weather.WeatherMain" launcher:container="-100"/>
+    <favorite launcher:screen="0" launcher:cellx="3" launcher:celly="0" launcher:packageName="com.android.filemanager" launcher:className="com.android.filemanager.FileManagerActivity" launcher:container="-100"/>
+    <favorite launcher:screen="0" launcher:cellx="0" launcher:celly="1" launcher:packageName="com.android.contacts" launcher:className="com.android.contacts.DialtactsContactsEntryActivity" launcher:container="-100"/>
+    <favorite launcher:screen="0" launcher:cellx="1" launcher:celly="1" launcher:packageName="com.bbk.cloud" launcher:className="com.bbk.cloud.activities.BBKCloudHomeScreen" launcher:container="-100"/>
+    <favorite launcher:screen="0" launcher:cellx="2" launcher:celly="1" launcher:packageName="com.vivo.easyshare" launcher:className="com.vivo.easyshare.activity.SplashScreenActivity" launcher:container="-100"/>
+    <favorite launcher:screen="0" launcher:cellx="3" launcher:celly="1" launcher:packageName="com.vivo.game" launcher:className="com.vivo.game.ui.LogoActivity" launcher:container="-100"/>
+    <favorite launcher:screen="0" launcher:cellx="0" launcher:celly="2" launcher:packageName="com.bbk.appstore" launcher:className="com.bbk.appstore.ui.AppStore" launcher:container="-100"/>
+    <favorite launcher:screen="0" launcher:cellx="1" launcher:celly="2" launcher:packageName="com.android.bbkmusic" launcher:className="com.android.bbkmusic.WidgetToTrackActivity" launcher:container="-100"/>
+    <favorite launcher:screen="0" launcher:cellx="2" launcher:celly="2" launcher:packageName="com.bbk.calendar" launcher:className="com.bbk.calendar.MainActivity" launcher:container="-100"/>
+    <favorite launcher:screen="0" launcher:cellx="3" launcher:celly="2" launcher:packageName="com.bbk.theme" launcher:className="com.bbk.theme.Theme" launcher:container="-100"/>
+    <favorite launcher:screen="0" launcher:cellx="0" launcher:celly="3" launcher:packageName="com.android.BBKClock" launcher:className="com.android.BBKClock.Timer" launcher:container="-100"/>
+    <favorite launcher:screen="0" launcher:cellx="1" launcher:celly="3" launcher:packageName="com.android.settings" launcher:className="com.android.settings.Settings" launcher:container="-100"/>
+    <favorite launcher:screen="0" launcher:cellx="2" launcher:celly="3" launcher:packageName="com.android.bbk.lockscreen3" launcher:className="com.android.bbk.lockscreen3.LockScreenActivity" launcher:container="-100"/>
+    <favorite launcher:screen="0" launcher:cellx="3" launcher:celly="3" launcher:packageName="com.vivo.space" launcher:className="com.vivo.space.ui.LogoActivity" launcher:container="-100"/>
+    <favorite launcher:screen="0" launcher:cellx="0" launcher:celly="4" launcher:packageName="com.iqoo.secure" launcher:className="com.iqoo.secure.MainGuideActivity" launcher:container="-100"/>
+    <favorite launcher:screen="0" launcher:cellx="1" launcher:celly="4" launcher:packageName="com.tencent.mobileqq" launcher:className="com.tencent.mobileqq.activity.SplashActivity" launcher:container="-100"/>
+    <favorite launcher:screen="0" launcher:cellx="2" launcher:celly="4" launcher:packageName="com.tencent.mm" launcher:className="com.tencent.mm.ui.LauncherUI" launcher:container="-100"/>
+    <favorite launcher:screen="0" launcher:cellx="3" launcher:celly="4" launcher:packageName="com.vivo.gallery" launcher:className="com.android.gallery3d.vivo.GalleryTabActivity" launcher:container="-100"/>
+    <favorite launcher:screen="0" launcher:cellx="0" launcher:celly="5" launcher:packageName="com.android.dialer" launcher:className="com.android.dialer.TwelveKeyDialer" launcher:container="-100"/>
+    <favorite launcher:screen="0" launcher:cellx="1" launcher:celly="5" launcher:packageName="com.android.mms" launcher:className="com.android.mms.ui.ConversationList" launcher:container="-100"/>
+    <favorite launcher:screen="0" launcher:cellx="2" launcher:celly="5" launcher:packageName="com.vivo.browser" launcher:className="com.vivo.browser.BrowserActivity" launcher:container="-100"/>
+    <favorite launcher:screen="0" launcher:cellx="3" launcher:celly="5" launcher:packageName="com.android.camera" launcher:className="com.android.camera.CameraActivity" launcher:container="-100"/>
+    <favorite launcher:screen="1" launcher:cellx="0" launcher:celly="0" launcher:packageName="com.chaozh.iReader" launcher:className="com.chaozh.iReader.ui.activity.WelcomeActivity" launcher:container="-100"/>
+    <favorite launcher:screen="1" launcher:cellx="0" launcher:celly="0" launcher:packageName="com.vivo.qreader" launcher:className="com.qq.reader.activity.SplashActivityOld" launcher:container="-100"/>
+    <favorite launcher:screen="1" launcher:cellx="1" launcher:celly="0" launcher:packageName="com.android.bbksoundrecorder" launcher:className="com.android.bbksoundrecorder.SoundRecorder" launcher:container="-100"/>
+    <favorite launcher:screen="1" launcher:cellx="2" launcher:celly="0" launcher:packageName="com.vivo.Tips" launcher:className="com.vivo.Tips.MainActivity" launcher:container="-100"/>
+    <favorite launcher:screen="1" launcher:cellx="3" launcher:celly="0" launcher:packageName="com.android.bbkcalculator" launcher:className="com.android.bbkcalculator.Calculator" launcher:container="-100"/>
+    <favorite launcher:screen="1" launcher:cellx="0" launcher:celly="1" launcher:packageName="com.android.notes" launcher:className="com.android.notes.Notes" launcher:container="-100"/>
+    <favorite launcher:screen="1" launcher:cellx="1" launcher:celly="1" launcher:packageName="com.bbk.iqoo.feedback" launcher:className="com.bbk.iqoo.feedback.activities.UserFeedBackActivity" launcher:container="-100"/>
+    <favorite launcher:screen="1" launcher:cellx="2" launcher:celly="1" launcher:packageName="com.vivo.compass" launcher:className="com.vivo.compass.CalibrationActivity" launcher:container="-100"/>
+    <favorite launcher:screen="1" launcher:cellx="3" launcher:celly="1" launcher:packageName="com.vivo.FMRadio" launcher:className="com.vivo.FMRadio.FMRadio" launcher:container="-100"/>
+    <favorite launcher:screen="1" launcher:cellx="0" launcher:celly="2" launcher:packageName="com.sina.weibo" launcher:className="com.sina.weibo.SplashActivity" launcher:container="-100"/>
+    <favorite launcher:screen="1" launcher:cellx="1" launcher:celly="2" launcher:packageName="com.baidu.BaiduMap" launcher:className="com.baidu.baidumaps.WelcomeScreen" launcher:container="-100"/>
+    <favorite launcher:screen="1" launcher:cellx="1" launcher:celly="2" launcher:packageName="com.autonavi.minimap" launcher:className="com.autonavi.map.activity.SplashActivity" launcher:container="-100"/>
+    <favorite launcher:screen="1" launcher:cellx="2" launcher:celly="2" launcher:packageName="com.tencent.qqlive" launcher:className="com.tencent.qqlive.ona.activity.WelcomeActivity" launcher:container="-100"/>
+    <favorite launcher:screen="1" launcher:cellx="3" launcher:celly="2" launcher:packageName="com.qiyi.video" launcher:className="com.qiyi.video.WelcomeActivity" launcher:container="-100"/>
+    <favorite launcher:screen="1" launcher:cellx="3" launcher:celly="2" launcher:packageName="com.sohu.sohuvideo" launcher:className="com.sohu.sohuvideo.FirstNavigationActivityGroup" launcher:container="-100"/>
+    <favorite launcher:screen="1" launcher:cellx="0" launcher:celly="3" launcher:packageName="com.tencent.news" launcher:className="com.tencent.news.activity.SplashActivity" launcher:container="-100"/>
+    <favorite launcher:screen="1" launcher:cellx="1" launcher:celly="3" launcher:packageName="com.sankuai.meituan" launcher:className="com.sankuai.meituan.activity.Welcome" launcher:container="-100"/>
+    <favorite launcher:screen="1" launcher:cellx="2" launcher:celly="3" launcher:packageName="com.jingdong.app.mall" launcher:className="com.jingdong.app.mall.main.MainActivity" launcher:container="-100"/>
+    <favorite launcher:screen="1" launcher:cellx="3" launcher:celly="3" launcher:packageName="com.wuba" launcher:className="com.wuba.activity.launch.LaunchActivity" launcher:container="-100"/>
+    <favorite launcher:screen="1" launcher:cellx="0" launcher:celly="4" launcher:packageName="com.taobao.taobao" launcher:className="com.taobao.tao.welcome.Welcome" launcher:container="-100"/>
+    <favorite launcher:screen="1" launcher:cellx="1" launcher:celly="4" launcher:packageName="ctrip.android.view" launcher:className="ctrip.android.view.home.CtripDeclarationActivity" launcher:container="-100"/>
+    <favorite launcher:screen="1" launcher:cellx="1" launcher:celly="4" launcher:packageName="com.Qunar" launcher:className="com.mqunar.splash.SplashActivity" launcher:container="-100"/>
+</favorites>

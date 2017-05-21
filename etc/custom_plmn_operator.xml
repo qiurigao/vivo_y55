@@ -1,0 +1,816 @@
+<?xml version="1.0" encoding="utf-8"?>
+<operators version="1">
+  <operator carrier="Aquafon JSC" mcc="289" mnc="67"/>
+  <operator carrier="A-Mobile LLC " mcc="289" mnc="88"/>
+  <operator carrier="AWCC" mcc="412" mnc="01"/>
+  <operator carrier="Roshan " mcc="412" mnc="20"/>
+  <operator carrier="MTN" mcc="412" mnc="40"/>
+  <operator carrier="Etisalat" mcc="412" mnc="50"/>
+  <operator carrier="WASEL" mcc="412" mnc="55"/>
+  <operator carrier="Afghan Telecom" mcc="412" mnc="80,88"/>
+  <operator carrier="Armen Tel " mcc="283" mnc="01"/>
+  <operator carrier="Karabakh Telecom" mcc="283" mnc="04"/>
+  <operator carrier="K Telecom CJSC" mcc="283" mnc="05"/>
+  <operator carrier="Orange " mcc="283" mnc="10"/>
+  <operator carrier="Azercell" mcc="400" mnc="01"/>
+  <operator carrier="Bakcell" mcc="400" mnc="02"/>
+  <operator carrier="Fonex" mcc="400" mnc="03"/>
+  <operator carrier="Nar Mobile" mcc="400" mnc="04"/>
+  <operator carrier="GrameenPhone" mcc="470" mnc="01"/>
+  <operator carrier="Robi" mcc="470" mnc="02"/>
+  <operator carrier="Banglalink Digital Communications" mcc="470" mnc="03"/>
+  <operator carrier="Teletalk" mcc="470" mnc="04"/>
+  <operator carrier="Citycell" mcc="470" mnc="05"/>
+  <operator carrier="Bharti airtel" mcc="470" mnc="07"/>
+  <operator carrier="Bhutan Telecom" mcc="402" mnc="11"/>
+  <operator carrier="Tashi Cell" mcc="402" mnc="77"/>
+  <operator carrier="B-Mobile" mcc="528" mnc="02"/>
+  <operator carrier="Data Stream Technology" mcc="528" mnc="11"/>
+  <operator carrier="Cellcard/Mobitel" mcc="456" mnc="01,18"/>
+  <operator carrier="Smart Axiata" mcc="456" mnc="02,05,06"/>
+  <operator carrier="qb" mcc="456" mnc="03,04"/>
+  <operator carrier="Metfone" mcc="456" mnc="08"/>
+  <operator carrier="Sotelco/Beeline" mcc="456" mnc="09"/>
+  <operator carrier="Excell" mcc="456" mnc="11"/>
+  <operator carrier="China Mobile" mcc="460" mnc="00,02,07,08"/>
+  <operator carrier="China Unicom" mcc="460" mnc="01,06,09"/>
+  <operator carrier="China Telecom" mcc="460" mnc="03,11"/>
+  <operator carrier="Telin Telkomcel" mcc="514" mnc="01"/>
+  <operator carrier="Timor Telecom" mcc="514" mnc="02"/>
+  <operator carrier="Viettel Timor-Leste" mcc="514" mnc="03"/>
+  <operator carrier="CSL" mcc="454" mnc="00,02,10,18"/>
+  <operator carrier="CITIC" mcc="454" mnc="01"/>
+  <operator carrier="Hutchison 3" mcc="454" mnc="03,04,05,14"/>
+  <operator carrier="SmarTone" mcc="454" mnc="06,15,17"/>
+  <operator carrier="Cmnc HK" mcc="454" mnc="12,13"/>
+  <operator carrier="PCCW" mcc="454" mnc="16"/>
+  <operator carrier="Vodafone IN" mcc="404" mnc="01,05,11,13,15,20,27,30,43,46,49,60,84,86,88"/>
+  <operator carrier="airtel" mcc="404" mnc="02,03,10,16,31,40,45,70,90,92,93,94,95,96,97,98"/>
+  <operator carrier="IDEA" mcc="404" mnc="04,07,12,14,19,22,24,44,56,82,87,89"/>
+  <operator carrier="Reliance" mcc="404" mnc="09,18,36,50,52,67,85"/>
+  <operator carrier="AIRCEL" mcc="404" mnc="17,25,28,29,37,41,42,91"/>
+  <operator carrier="Loop Mobile" mcc="404" mnc="21"/>
+  <operator carrier="IN-DOLPHIN" mcc="404" mnc="68,69"/>
+  <operator carrier="CellOne" mcc="404" mnc="34,38,51,53,54,55,57,58,59,62,64,66,71,72,73,74,75,76,77,79,80,81"/>
+  <operator carrier="Reliance" mcc="404" mnc="83"/>
+  <operator carrier="Reliance" mcc="405" mnc="01,03,04,05,06,07,08,09,10,11,12,13,14,15,17,18,19,20,21,22,23"/>
+  <operator carrier="TATA DOCOMO" mcc="405" mnc="025,036,027,028,029,030,031,032,033,034,035,036,037,038,039,041,042,043,044,045,046,047"/>
+  <operator carrier="AirTel" mcc="405" mnc="51,52,53,54,55,56"/>
+  <operator carrier="Vodafone" mcc="405" mnc="66,67,750,751,752,753,754,755,756"/>
+  <operator carrier="IDEA" mcc="405" mnc="70,799,845,846,847,848,849,850,851,852,853,908,909,910,911"/>
+  <operator carrier="AIRCEL" mcc="405" mnc="800,801,802,803,804,805,806,807,808,809,810,811,812"/>
+  <operator carrier="Uninor" mcc="405" mnc="818,819,820,821,822,844,875,880,927,929"/>
+  <operator carrier="Videocon" mcc="405" mnc="824,827,834"/>
+  <operator carrier="Jio" mcc="405" mnc="840,854,855,856,857,858,859,860,861,862,863,864,865,866,867,868,869,870,871,872,873,874"/>
+  <operator carrier="Etisalat" mcc="405" mnc="912,913,914,917"/>
+  <operator carrier="INDOSAT" mcc="510" mnc="01"/>
+  <operator carrier="INDOSAT" mcc="510" mnc="03"/>
+  <operator carrier="TelkomFlexi" mcc="510" mnc="07"/>
+  <operator carrier="Smartfren" mcc="510" mnc="09"/>
+  <operator carrier="TELKOMSEL" mcc="510" mnc="10,20"/>
+  <operator carrier="XL Axiata " mcc="510" mnc="08,11"/>
+  <operator carrier="Ceria" mcc="510" mnc="27"/>
+  <operator carrier="Fren/Hepi" mcc="510" mnc="28"/>
+  <operator carrier="3" mcc="510" mnc="89"/>
+  <operator carrier="Esia" mcc="510" mnc="99"/>
+  <operator carrier="Hamrahe Avval(MCI)" mcc="432" mnc="11"/>
+  <operator carrier="TKC" mcc="432" mnc="14"/>
+  <operator carrier="MTCE" mcc="432" mnc="19"/>
+  <operator carrier="Rightel " mcc="432" mnc="20"/>
+  <operator carrier="Taliya" mcc="432" mnc="32"/>
+  <operator carrier="MTN Irancell" mcc="432" mnc="35"/>
+  <operator carrier="TCI" mcc="432" mnc="70"/>
+  <operator carrier="Iraphone" mcc="432" mnc="93"/>
+  <operator carrier="Asia Cell " mcc="418" mnc="05"/>
+  <operator carrier="SanaTel " mcc="418" mnc="08"/>
+  <operator carrier="Zain " mcc="418" mnc="20,30"/>
+  <operator carrier="Korek" mcc="418" mnc="40"/>
+  <operator carrier="Itisaluna" mcc="418" mnc="62"/>
+  <operator carrier="Orange " mcc="425" mnc="01"/>
+  <operator carrier="Cellcom" mcc="425" mnc="02"/>
+  <operator carrier="Pelephone" mcc="425" mnc="03"/>
+  <operator carrier="Jawwal" mcc="425" mnc="05"/>
+  <operator carrier="Wataniya" mcc="425" mnc="06"/>
+  <operator carrier="Hot Mobile " mcc="425" mnc="07"/>
+  <operator carrier="Golan Telecom" mcc="425" mnc="08"/>
+  <operator carrier="Y!Mobile" mcc="440" mnc="00"/>
+  <operator carrier="NTT docomo" mcc="440" mnc="01,02,03,09,10,11,12,13,14,15,16,17,18,19,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,49,58,60,61,62,63,64,65,66,67,68,69,87,99"/>
+  <operator carrier="SoftBank" mcc="440" mnc="04,06,20,40,41,42,43,44,45,46,47,48,90,92,93,94,95,96,97,98"/>
+  <operator carrier="au" mcc="440" mnc="07,08,50,51,52,53,54,55,56,70,71,72,73,74,75,76,77,79,88,89"/>
+  <operator carrier="Beeline" mcc="401" mnc="01"/>
+  <operator carrier="Kcell" mcc="401" mnc="02"/>
+  <operator carrier="Altel " mcc="401" mnc="07"/>
+  <operator carrier="kazakhtelecom" mcc="401" mnc="08"/>
+  <operator carrier="Tele2" mcc="401" mnc="77"/>
+  <operator carrier="Beeline" mcc="437" mnc="01"/>
+  <operator carrier="Fonex" mcc="437" mnc="03"/>
+  <operator carrier="MegaCom" mcc="437" mnc="05"/>
+  <operator carrier="O!" mcc="437" mnc="09"/>
+  <operator carrier="Lao Telecommunications" mcc="457" mnc="01"/>
+  <operator carrier="ETL Mobile" mcc="457" mnc="02"/>
+  <operator carrier="Unitel" mcc="457" mnc="03"/>
+  <operator carrier="Beeline" mcc="457" mnc="08"/>
+  <operator carrier="SmarTone" mcc="455" mnc="00,06"/>
+  <operator carrier="CTM" mcc="455" mnc="01,04"/>
+  <operator carrier="China Telecom" mcc="455" mnc="02"/>
+  <operator carrier="Hutchison 3" mcc="455" mnc="03,05"/>
+  <operator carrier="Telekom Malaysia" mcc="502" mnc="01,11,14"/>
+  <operator carrier="Digi" mcc="502" mnc="10,16"/>
+  <operator carrier="MY MAXIS" mcc="502" mnc="12,17"/>
+  <operator carrier="MY CELCOM" mcc="502" mnc="13,19,150"/>
+  <operator carrier="U Mobile" mcc="502" mnc="18"/>
+  <operator carrier="Dhiraagu" mcc="472" mnc="01"/>
+  <operator carrier="Ooredoo" mcc="472" mnc="02"/>
+  <operator carrier="Unitel" mcc="428" mnc="88"/>
+  <operator carrier="Skytel" mcc="428" mnc="91"/>
+  <operator carrier="G-Mobile" mcc="428" mnc="98"/>
+  <operator carrier="Mobicom" mcc="428" mnc="99"/>
+  <operator carrier="MPT" mcc="414" mnc="01"/>
+  <operator carrier="Ooredoo" mcc="414" mnc="05"/>
+  <operator carrier="Telenor" mcc="414" mnc="06"/>
+  <operator carrier="Nepal Telecom" mcc="429" mnc="01,03"/>
+  <operator carrier="Ncell" mcc="429" mnc="02"/>
+  <operator carrier="Smart Telecom" mcc="429" mnc="04"/>
+  <operator carrier="koryolink" mcc="467" mnc="05"/>
+  <operator carrier="SunNet" mcc="467" mnc="193"/>
+  <operator carrier="Oman Mobile" mcc="422" mnc="02"/>
+  <operator carrier="Ooredoo" mcc="422" mnc="03"/>
+  <operator carrier="Mobilink" mcc="410" mnc="01"/>
+  <operator carrier="PTCL" mcc="410" mnc="02"/>
+  <operator carrier="Ufone" mcc="410" mnc="03"/>
+  <operator carrier="Zong(China  Mobile)" mcc="410" mnc="04"/>
+  <operator carrier="Telenor" mcc="410" mnc="06"/>
+  <operator carrier="Warid" mcc="410" mnc="07"/>
+  <operator carrier="Jawwal" mcc="425" mnc="05"/>
+  <operator carrier="Wataniya" mcc="425" mnc="06"/>
+  <operator carrier="Islacom" mcc="515" mnc="01"/>
+  <operator carrier="GLOBE" mcc="515" mnc="02,24"/>
+  <operator carrier="SMART" mcc="515" mnc="03,11"/>
+  <operator carrier="SUN" mcc="515" mnc="05"/>
+  <operator carrier="Cure" mcc="515" mnc="18"/>
+  <operator carrier="ooredoo" mcc="427" mnc="01"/>
+  <operator carrier="Vodafone" mcc="427" mnc="02"/>
+  <operator carrier="STC" mcc="420" mnc="01"/>
+  <operator carrier="Mobily" mcc="420" mnc="03"/>
+  <operator carrier="Zain" mcc="420" mnc="04"/>
+  <operator carrier="SingTel" mcc="525" mnc="01,02,07"/>
+  <operator carrier="M1" mcc="525" mnc="03"/>
+  <operator carrier="StarHub" mcc="525" mnc="05,06"/>
+  <operator carrier="KT" mcc="450" mnc="02,04"/>
+  <operator carrier="Power 017" mcc="450" mnc="03"/>
+  <operator carrier="SK Telecom" mcc="450" mnc="05"/>
+  <operator carrier="LG U+" mcc="450" mnc="06"/>
+  <operator carrier="olleh" mcc="450" mnc="08"/>
+  <operator carrier="Mobitel" mcc="413" mnc="01"/>
+  <operator carrier="Dialog" mcc="413" mnc="02"/>
+  <operator carrier="Etisalat" mcc="413" mnc="03"/>
+  <operator carrier="Airtel" mcc="413" mnc="05"/>
+  <operator carrier="Hutch" mcc="413" mnc="08"/>
+  <operator carrier="FarEasTone" mcc="466" mnc="01,06,88"/>
+  <operator carrier="(APTG)Asia Pacific Telecom" mcc="466" mnc="05"/>
+  <operator carrier="Chunghwa Telecom " mcc="466" mnc="11,92"/>
+  <operator carrier="VIBO" mcc="466" mnc="89"/>
+  <operator carrier="Taiwan Mobile" mcc="466" mnc="97"/>
+  <operator carrier="Tcell" mcc="436" mnc="01,02,12"/>
+  <operator carrier="Megafon" mcc="436" mnc="03"/>
+  <operator carrier="Babilon" mcc="436" mnc="04"/>
+  <operator carrier="Beeline" mcc="436" mnc="05"/>
+  <operator carrier="CAT" mcc="520" mnc="02"/>
+  <operator carrier="AIS" mcc="520" mnc="01,03,23"/>
+  <operator carrier="TRUE-H" mcc="520" mnc="00,04,25,88,99"/>
+  <operator carrier="dtac" mcc="520" mnc="05,18"/>
+  <operator carrier="TOT" mcc="520" mnc="15,47"/>
+  <operator carrier="MTS" mcc="438" mnc="01"/>
+  <operator carrier="TM CELL" mcc="438" mnc="02"/>
+  <operator carrier="Etisalat" mcc="424" mnc="02"/>
+  <operator carrier="du" mcc="424" mnc="03"/>
+  <operator carrier="UzMobile" mcc="434" mnc="03,08"/>
+  <operator carrier="Beeline" mcc="434" mnc="04"/>
+  <operator carrier="Ucell" mcc="434" mnc="05"/>
+  <operator carrier="Perfectum" mcc="434" mnc="06"/>
+  <operator carrier="UMS" mcc="434" mnc="07"/>
+  <operator carrier="VN Mobifone" mcc="452" mnc="01"/>  
+  <operator carrier="VINAPHONE" mcc="452" mnc="02"/>
+  <operator carrier="S-Fone" mcc="452" mnc="03"/>
+  <operator carrier="VIETTEL" mcc="452" mnc="04"/>
+  <operator carrier="Vietnamobile" mcc="452" mnc="05"/>
+  <operator carrier="Gmobile" mcc="452" mnc="07"/>
+  <operator carrier="SabaFon" mcc="421" mnc="01"/>
+  <operator carrier="Spacetel" mcc="421" mnc="02"/>
+  <operator carrier="Yemen Mobile" mcc="421" mnc="03"/>
+  <operator carrier="HiTS-UNITEL" mcc="421" mnc="04"/>
+  <operator carrier="Weblinks " mcc="365" mnc="010"/>
+  <operator carrier="LIME" mcc="365" mnc="840"/>
+  <operator carrier="APUA" mcc="344" mnc="030"/>
+  <operator carrier="Digicel" mcc="344" mnc="050"/>
+  <operator carrier="LIME" mcc="344" mnc="920"/>
+  <operator carrier="Movistar" mcc="722" mnc="010,070"/>
+  <operator carrier="Nextel" mcc="722" mnc="020"/>
+  <operator carrier="Claro" mcc="722" mnc="310,320,330"/>
+  <operator carrier="Personal" mcc="722" mnc="340"/>
+  <operator carrier="SetarNV" mcc="363" mnc="01"/>
+  <operator carrier="Digicel" mcc="363" mnc="02"/>
+  <operator carrier="BTC" mcc="364" mnc="39"/>
+  <operator carrier="LIME " mcc="342" mnc="600"/>
+  <operator carrier="Digicel " mcc="342" mnc="750"/>
+  <operator carrier="Sunbeach" mcc="342" mnc="820"/>
+  <operator carrier="DigiCell" mcc="702" mnc="67"/>
+  <operator carrier="Smart" mcc="702" mnc="99"/>
+  <operator carrier="Cell One " mcc="350" mnc="00"/>
+  <operator carrier="Digicel" mcc="338" mnc="050"/>
+  <operator carrier="Digicel" mcc="350" mnc="01"/>
+  <operator carrier="Mobility" mcc="350" mnc="02"/>
+  <operator carrier="Nuevatel PCS  " mcc="736" mnc="01"/>
+  <operator carrier="ENTEL" mcc="736" mnc="02"/>
+  <operator carrier="Tigo" mcc="736" mnc="03"/>
+  <operator carrier="Nextel" mcc="724" mnc="00,39"/>
+  <operator carrier="TIM" mcc="724" mnc="02,03,04"/>
+  <operator carrier="Claro" mcc="724" mnc="05,38"/>
+  <operator carrier="Vivo" mcc="724" mnc="06,10,11,23"/>
+  <operator carrier="Sercomtel" mcc="724" mnc="15"/>
+  <operator carrier="Oi" mcc="724" mnc="16,30,31"/>
+  <operator carrier="Algar Telecom" mcc="724" mnc="32,33,34"/>
+  <operator carrier="LIME" mcc="348" mnc="170"/>
+  <operator carrier="CCT" mcc="348" mnc="570"/>
+  <operator carrier="Digicel" mcc="348" mnc="770"/>
+  <operator carrier="Telus" mcc="302" mnc="220,221,222,360,361,653,657,860"/>
+  <operator carrier="Wind" mcc="302" mnc="490"/>
+  <operator carrier="Videotron" mcc="302" mnc="500,510,520"/>
+  <operator carrier="Bell" mcc="302" mnc="610,640,690"/>
+  <operator carrier="MTS " mcc="302" mnc="655,660"/>
+  <operator carrier="Tbay" mcc="302" mnc="656"/>
+  <operator carrier="SaskTel" mcc="302" mnc="680,750,780"/>
+  <operator carrier="Rogers" mcc="302" mnc="720,820,920"/>
+  <operator carrier="LIME" mcc="346" mnc="140"/>
+  <operator carrier="Digicel " mcc="346" mnc="050"/>
+  <operator carrier="Entel" mcc="730" mnc="01,10"/>
+  <operator carrier="Movistar" mcc="730" mnc="02"/>
+  <operator carrier="Claro" mcc="730" mnc="03"/>
+  <operator carrier="Nextel" mcc="730" mnc="04,09"/>
+  <operator carrier="movistar" mcc="732" mnc="001,123"/>
+  <operator carrier="Claro" mcc="732" mnc="101"/>
+  <operator carrier="bellsouth" mcc="732" mnc="102"/>
+  <operator carrier="Tigo" mcc="732" mnc="103,111"/>
+  <operator carrier="Avantel" mcc="732" mnc="130"/>
+  <operator carrier="Kolbi" mcc="712" mnc="01,02"/>
+  <operator carrier="Claro" mcc="712" mnc="03"/>
+  <operator carrier="movisatar" mcc="712" mnc="04"/>
+  <operator carrier="fullmovil" mcc="712" mnc="20"/>
+  <operator carrier="Cubacel" mcc="368" mnc="01"/>
+  <operator carrier="Digicel" mcc="366" mnc="020"/>
+  <operator carrier="LIME" mcc="366" mnc="110"/>
+  <operator carrier="Orange" mcc="370" mnc="01"/>
+  <operator carrier="Claro" mcc="370" mnc="02"/>
+  <operator carrier="Tricom" mcc="370" mnc="03"/>
+  <operator carrier="Viva" mcc="370" mnc="04"/>
+  <operator carrier="wind" mcc="370" mnc="05"/>
+  <operator carrier="Movistar" mcc="740" mnc="00"/>
+  <operator carrier="Claro" mcc="740" mnc="01"/>
+  <operator carrier="CNT" mcc="740" mnc="02"/>
+  <operator carrier="Claro" mcc="706" mnc="01"/>
+  <operator carrier="Digicel" mcc="706" mnc="02"/>
+  <operator carrier="Tigo" mcc="706" mnc="03"/>
+  <operator carrier="Movistar" mcc="706" mnc="04"/>
+  <operator carrier="Sure" mcc="750" mnc="001"/>
+  <operator carrier="Geocell" mcc="282" mnc="01"/>
+  <operator carrier="Magticom" mcc="282" mnc="02,03"/>
+  <operator carrier="Beeline" mcc="282" mnc="04"/>
+  <operator carrier="silk" mcc="282" mnc="05,08"/>
+  <operator carrier="Tele Greenland " mcc="290" mnc="01"/>
+  <operator carrier="Digicel" mcc="352" mnc="030"/>
+  <operator carrier="LIME" mcc="352" mnc="110"/>
+  <operator carrier="Orange" mcc="340" mnc="01"/>
+  <operator carrier="Only" mcc="340" mnc="02"/>
+  <operator carrier="Telcell" mcc="340" mnc="03"/>
+  <operator carrier="Dauphin" mcc="340" mnc="08"/>
+  <operator carrier="Digicel" mcc="340" mnc="20"/>
+  <operator carrier="Claro" mcc="704" mnc="01"/>
+  <operator carrier="Tigo" mcc="704" mnc="02"/>
+  <operator carrier="Movistar" mcc="704" mnc="03"/>
+  <operator carrier="IT&amp;E Overseas" mcc="310" mnc="032"/>
+  <operator carrier="GTA Wireless " mcc="310" mnc="140"/>
+  <operator carrier="iConnect" mcc="310" mnc="250"/>
+  <operator carrier="NTT Docomo" mcc="310" mnc="370,470"/>
+  <operator carrier="Digicel" mcc="738" mnc="01"/>
+  <operator carrier="Cellink" mcc="738" mnc="02"/>
+  <operator carrier="Voila" mcc="372" mnc="01"/>
+  <operator carrier="Digicel" mcc="372" mnc="02"/>
+  <operator carrier="Natcom" mcc="372" mnc="03"/>
+  <operator carrier="Claro" mcc="708" mnc="001"/>
+  <operator carrier="Tigo" mcc="708" mnc="002"/>
+  <operator carrier="Hondutel" mcc="708" mnc="030"/>
+  <operator carrier="Digicel" mcc="708" mnc="040"/>
+  <operator carrier="LIME" mcc="338" mnc="020,110,180"/>
+  <operator carrier="Digicel" mcc="338" mnc="050"/>
+  <operator carrier="Nextel" mcc="334" mnc="010,090"/>
+  <operator carrier="Telcel  " mcc="334" mnc="020"/>
+  <operator carrier="Movistar " mcc="334" mnc="030"/>
+  <operator carrier="Iusacell" mcc="334" mnc="040,050"/>
+  <operator carrier="Unefon" mcc="334" mnc="070,080"/>
+  <operator carrier="Orange Caraïbe Mobiles" mcc="340" mnc="01"/>
+  <operator carrier="Outremer Telecom" mcc="340" mnc="02"/>
+  <operator carrier="Martinique Téléphone Mobile" mcc="340" mnc="12"/>
+  <operator carrier="DIGICEL Antilles Française Guyane" mcc="340" mnc="20"/>
+  <operator carrier="LIME" mcc="354" mnc="860"/>
+  <operator carrier="Claro" mcc="710" mnc="21"/>
+  <operator carrier="Movistar" mcc="710" mnc="30"/>
+  <operator carrier="Sercom" mcc="710" mnc="73"/>
+  <operator carrier="TELCELL" mcc="362" mnc="51"/>
+  <operator carrier="Digicel" mcc="362" mnc="69"/>
+  <operator carrier="UTS" mcc="362" mnc="91"/>
+  <operator carrier="Bòbò Frus N.V." mcc="362" mnc="94"/>
+  <operator carrier="MIO " mcc="362" mnc="95"/>
+  <operator carrier="Cable &amp; Wireless" mcc="714" mnc="01"/>
+  <operator carrier="Movistar" mcc="714" mnc="02"/>
+  <operator carrier="Claro" mcc="714" mnc="03"/>
+  <operator carrier="Digicel" mcc="714" mnc="04"/>
+  <operator carrier="VOX" mcc="744" mnc="01"/>
+  <operator carrier="Claro" mcc="744" mnc="02"/>
+  <operator carrier="Tigo" mcc="744" mnc="04"/>
+  <operator carrier="Personal" mcc="744" mnc="05"/>
+  <operator carrier="Copaco" mcc="744" mnc="06"/>
+  <operator carrier="Movistar" mcc="716" mnc="06"/>
+  <operator carrier="Nexttel" mcc="716" mnc="07,17"/>
+  <operator carrier="Claro" mcc="716" mnc="10"/>
+  <operator carrier="Viettel" mcc="716" mnc="15"/>
+  <operator carrier="Puerto Rico" mcc="330" mnc="00"/>
+  <operator carrier="América Móvil " mcc="330" mnc="110"/>
+  <operator carrier="PR Wireless " mcc="330" mnc="120"/>
+  <operator carrier="Digicel" mcc="356" mnc="050"/>
+  <operator carrier="LIME" mcc="356" mnc="110"/>
+  <operator carrier="Miquelon Télécom" mcc="308" mnc="01"/>
+  <operator carrier="GLOBALTEL" mcc="308" mnc="02"/>
+  <operator carrier="Digicel" mcc="360" mnc="070"/>
+  <operator carrier="Cingular wireless" mcc="360" mnc="100"/>
+  <operator carrier="LIME" mcc="360" mnc="110"/>
+  <operator carrier="Telesur" mcc="746" mnc="02,05"/>
+  <operator carrier="Digicel" mcc="746" mnc="03"/>
+  <operator carrier="Uniqa" mcc="746" mnc="04"/>
+  <operator carrier="bMobile" mcc="374" mnc="12"/>
+  <operator carrier="Digicel" mcc="374" mnc="130"/>
+  <operator carrier="Digicel" mcc="338" mnc="050"/>
+  <operator carrier="C&amp;W" mcc="376" mnc="350"/>
+  <operator carrier="Islandcom" mcc="376" mnc="352,360"/>
+  <operator carrier="Verizon Wireless " mcc="310" mnc="004,005,006,012"/>
+  <operator carrier="Cricket" mcc="310" mnc="016,090"/>
+  <operator carrier="T-Mobile US" mcc="310" mnc="026,260,330,490,580,660,800"/>
+  <operator carrier="AT&amp;T Mobility " mcc="310" mnc="030,150,170,410,560,680,980"/>
+  <operator carrier="Virgin" mcc="310" mnc="053"/>
+  <operator carrier="U.S. Cellular " mcc="310" mnc="066"/>
+  <operator carrier="Sprint" mcc="310" mnc="120"/>
+  <operator carrier="Alaska Wireless Network（AWN）" mcc="310" mnc="190,430"/>
+  <operator carrier="nTelos" mcc="310" mnc="470"/>
+  <operator carrier="Appalachian Wireless" mcc="310" mnc="750"/>
+  <operator carrier="Verizon Wireless" mcc="311" mnc="012,480"/>
+  <operator carrier="U.S. Cellular " mcc="311" mnc="220,580"/>
+  <operator carrier="C Spire Wireless " mcc="311" mnc="434"/>
+  <operator carrier="Sprint Corporation" mcc="311" mnc="490,870"/>
+  <operator carrier="Bluegrass Cellular" mcc="311" mnc="810"/>
+  <operator carrier="SouthernLINC" mcc="312" mnc="011"/>
+  <operator carrier="Antel" mcc="748" mnc="00,01,03"/>
+  <operator carrier="Movistar" mcc="748" mnc="07"/>
+  <operator carrier="Claro" mcc="748" mnc="10"/>
+  <operator carrier="Digitel" mcc="734" mnc="01,02,03"/>
+  <operator carrier="Movistar" mcc="734" mnc="04"/>
+  <operator carrier="Movilnet" mcc="734" mnc="06"/>
+  <operator carrier="AMC" mcc="276" mnc="01"/>
+  <operator carrier="Vodafone" mcc="276" mnc="02"/>
+  <operator carrier="Eagle Mobile " mcc="276" mnc="03"/>
+  <operator carrier="Plus communication" mcc="276" mnc="04"/>
+  <operator carrier="Mobiland " mcc="213" mnc="03"/>
+  <operator carrier="A1" mcc="232" mnc="01,02,09,11,12"/>
+  <operator carrier="T-Mobile " mcc="232" mnc="03,04,07"/>
+  <operator carrier="Hutchison 3" mcc="232" mnc="05,06,10,14,16"/>
+  <operator carrier="Velcom " mcc="257" mnc="01"/>
+  <operator carrier="MTS " mcc="257" mnc="02,05"/>
+  <operator carrier="DIALLOG" mcc="257" mnc="03"/>
+  <operator carrier="Life：)" mcc="257" mnc="04"/>
+  <operator carrier="Proximus " mcc="206" mnc="01"/>
+  <operator carrier="Mobistar " mcc="206" mnc="10"/>
+  <operator carrier="Base  " mcc="206" mnc="20"/>
+  <operator carrier="HT Eronet" mcc="218" mnc="03"/>
+  <operator carrier="m:tel" mcc="218" mnc="05"/>
+  <operator carrier="BH Mobile" mcc="218" mnc="90"/>
+  <operator carrier="MTel" mcc="284" mnc="01"/>
+  <operator carrier="Vivacom" mcc="284" mnc="03"/>
+  <operator carrier="Telenor" mcc="284" mnc="05"/>
+  <operator carrier="Max" mcc="284" mnc="13"/>
+  <operator carrier="Hrvatski Telekom" mcc="219" mnc="01"/>
+  <operator carrier="Tele2 " mcc="219" mnc="02"/>
+  <operator carrier="VIP" mcc="219" mnc="10"/>
+  <operator carrier="CYTA" mcc="280" mnc="01"/>
+  <operator carrier="MTN " mcc="280" mnc="10"/>
+  <operator carrier="PrimeTel" mcc="280" mnc="20"/>
+  <operator carrier="T-Mobile " mcc="230" mnc="01"/>
+  <operator carrier="O2 " mcc="230" mnc="02"/>
+  <operator carrier="Vodafone" mcc="230" mnc="03,99"/>
+  <operator carrier="U：fon" mcc="230" mnc="04"/>
+  <operator carrier="TDC" mcc="238" mnc="01,10"/>
+  <operator carrier="Telenor" mcc="238" mnc="02,77"/>
+  <operator carrier="Hi3G" mcc="238" mnc="06"/>
+  <operator carrier="Telia" mcc="238" mnc="20,66"/>
+  <operator carrier="EMT" mcc="248" mnc="01"/>
+  <operator carrier="Elisa" mcc="248" mnc="02"/>
+  <operator carrier="Tele2" mcc="248" mnc="03"/>
+  <operator carrier="Faroese Telecom" mcc="288" mnc="01"/>
+  <operator carrier="Vodafone" mcc="288" mnc="02"/>
+  <operator carrier="DNA " mcc="244" mnc="03,04,10,11,12,13"/>
+  <operator carrier="Elisa " mcc="244" mnc="05,21"/>
+  <operator carrier="Alcom" mcc="244" mnc="14"/>
+  <operator carrier="Ukko Mobile" mcc="244" mnc="31,35"/>
+  <operator carrier="Sonera" mcc="244" mnc="91"/>
+  <operator carrier="Orange" mcc="208" mnc="01,02,91"/>
+  <operator carrier="SFR" mcc="208" mnc="09,10,11,13"/>
+  <operator carrier="Free" mcc="208" mnc="15,16"/>
+  <operator carrier="Bouygues" mcc="208" mnc="20,21,88"/>
+  <operator carrier="Com4innov" mcc="208" mnc="92"/>
+  <operator carrier="Telekom" mcc="262" mnc="01,06,78"/>
+  <operator carrier="Vodafone" mcc="262" mnc="02,04,09"/>
+  <operator carrier="E-Plus" mcc="262" mnc="03,05,17,20,77"/>
+  <operator carrier="O2" mcc="262" mnc="07,08,11"/>
+  <operator carrier="simquadrat" mcc="262" mnc="33"/>
+  <operator carrier="Gibtel" mcc="266" mnc="01"/>
+  <operator carrier="CTS" mcc="266" mnc="06"/>
+  <operator carrier="Shine" mcc="266" mnc="09"/>
+  <operator carrier="Cosmote" mcc="202" mnc="01,02"/>
+  <operator carrier="Vodafone" mcc="202" mnc="05"/>
+  <operator carrier="Wind" mcc="202" mnc="09,10"/>
+  <operator carrier="Telenor " mcc="216" mnc="01"/>
+  <operator carrier="T-Mobile" mcc="216" mnc="30"/>
+  <operator carrier="Vodafone" mcc="216" mnc="70"/>
+  <operator carrier="Siminn" mcc="274" mnc="01"/>
+  <operator carrier="Vodafone " mcc="274" mnc="02,03"/>
+  <operator carrier="Viking" mcc="274" mnc="04"/>
+  <operator carrier="IceCell" mcc="274" mnc="07"/>
+  <operator carrier="Nova" mcc="274" mnc="11"/>
+  <operator carrier="Vala" mcc="212" mnc="01"/>
+  <operator carrier="Zmobile" mcc="212" mnc="01"/>
+  <operator carrier="IPKO\D3 Mobile" mcc="293" mnc="41"/>
+  <operator carrier="Vodafone" mcc="272" mnc="01"/>
+  <operator carrier="Hutchison 3" mcc="272" mnc="02,05"/>
+  <operator carrier="Meteor" mcc="272" mnc="03"/>
+  <operator carrier="eMobile" mcc="272" mnc="07"/>
+  <operator carrier="TIM" mcc="222" mnc="01"/>
+  <operator carrier="Vodafone" mcc="222" mnc="10"/>
+  <operator carrier="Wind" mcc="222" mnc="88"/>
+  <operator carrier="Hutchison 3" mcc="222" mnc="99"/>
+  <operator carrier="LMT" mcc="247" mnc="01"/>
+  <operator carrier="Tele2" mcc="247" mnc="02"/>
+  <operator carrier="Triatel" mcc="247" mnc="03"/>
+  <operator carrier="Bite Latvija " mcc="247" mnc="05"/>
+  <operator carrier="Swisscom" mcc="295" mnc="01"/>
+  <operator carrier="Orange" mcc="295" mnc="02"/>
+  <operator carrier="FL1" mcc="295" mnc="05"/>
+  <operator carrier="Cubic Telecom" mcc="295" mnc="06"/>
+  <operator carrier="Omnitel " mcc="246" mnc="01"/>
+  <operator carrier="Bité" mcc="246" mnc="02"/>
+  <operator carrier="Tele2" mcc="246" mnc="03"/>
+  <operator carrier="Mediafon" mcc="246" mnc="06"/>
+  <operator carrier="POST" mcc="270" mnc="01"/>
+  <operator carrier="Tango" mcc="270" mnc="77"/>
+  <operator carrier="Orange " mcc="270" mnc="99"/>
+  <operator carrier="T-Mobile" mcc="294" mnc="01"/>
+  <operator carrier="ONE" mcc="294" mnc="02"/>
+  <operator carrier="VIP" mcc="294" mnc="03"/>
+  <operator carrier="Vodafone MT" mcc="278" mnc="01"/>
+  <operator carrier="GO" mcc="278" mnc="21,30"/>
+  <operator carrier="Melita" mcc="278" mnc="77"/>
+  <operator carrier="Orange" mcc="259" mnc="01"/>
+  <operator carrier="Moldcell" mcc="259" mnc="02"/>
+  <operator carrier="Unité" mcc="259" mnc="03,05,99"/>
+  <operator carrier="IDC" mcc="259" mnc="03"/>
+  <operator carrier="Eventis" mcc="259" mnc="04"/>
+  <operator carrier="Monaco telecom" mcc="212" mnc="01"/>
+  <operator carrier="Telenor" mcc="297" mnc="01"/>
+  <operator carrier="T-Mobile" mcc="297" mnc="02,04"/>
+  <operator carrier="m:tel" mcc="297" mnc="03"/>
+  <operator carrier="Tele2" mcc="204" mnc="02"/>
+  <operator carrier="Vodafone" mcc="204" mnc="04"/>
+  <operator carrier="KPN" mcc="204" mnc="08,10,12,69"/>
+  <operator carrier="Ziggo" mcc="204" mnc="15"/>
+  <operator carrier="T-Mobile" mcc="204" mnc="16,20"/>
+  <operator carrier="Telenor" mcc="242" mnc="01,12"/>
+  <operator carrier="NetCom" mcc="242" mnc="02"/>
+  <operator carrier="Tele2" mcc="242" mnc="04,05"/>
+  <operator carrier="Ice" mcc="242" mnc="06"/>
+  <operator carrier="Plus" mcc="260" mnc="01"/>
+  <operator carrier="T-Mobile " mcc="260" mnc="02,34"/>
+  <operator carrier="Orange " mcc="260" mnc="03,05"/>
+  <operator carrier="Play" mcc="260" mnc="06,98"/>
+  <operator carrier="Aero2" mcc="260" mnc="15,17"/>
+  <operator carrier="Vodafone" mcc="268" mnc="01"/>
+  <operator carrier="NOS" mcc="268" mnc="03"/>
+  <operator carrier="MEO" mcc="268" mnc="06"/>
+  <operator carrier="Vodafone" mcc="226" mnc="01"/>
+  <operator carrier="Cliknet" mcc="226" mnc="02"/>
+  <operator carrier="Telekom" mcc="226" mnc="03,04,06"/>
+  <operator carrier="Digi.Mobil" mcc="226" mnc="05"/>
+  <operator carrier="Orange" mcc="226" mnc="10"/>
+  <operator carrier="MTS" mcc="250" mnc="01,50"/>
+  <operator carrier="Megafon" mcc="250" mnc="02,14"/>
+  <operator carrier="NCC" mcc="250" mnc="03"/>
+  <operator carrier="SMARTS" mcc="250" mnc="07,15"/>
+  <operator carrier="Tele2" mcc="250" mnc="20"/>
+  <operator carrier="Beeline" mcc="250" mnc="28,99"/>
+  <operator carrier="Prima" mcc="292" mnc="01"/>
+  <operator carrier="Telenor" mcc="220" mnc="01,02"/>
+  <operator carrier="mt：s" mcc="220" mnc="03"/>
+  <operator carrier="Vip " mcc="220" mnc="05"/>
+  <operator carrier="Orion" mcc="220" mnc="07"/>
+  <operator carrier="Orange" mcc="231" mnc="01,05"/>
+  <operator carrier="Telekom" mcc="231" mnc="02,04"/>
+  <operator carrier="Swan" mcc="231" mnc="03"/>
+  <operator carrier="O2" mcc="231" mnc="06"/>
+  <operator carrier="Si.mobil" mcc="293" mnc="40"/>
+  <operator carrier="Telekom Slovenije" mcc="293" mnc="41"/>
+  <operator carrier="T-2" mcc="293" mnc="64"/>
+  <operator carrier="Tusmobil" mcc="293" mnc="70"/>
+  <operator carrier="Vodafone" mcc="214" mnc="01,06"/>
+  <operator carrier="Orange" mcc="214" mnc="03,09,11"/>
+  <operator carrier="Yoigo" mcc="214" mnc="04"/>
+  <operator carrier="TME" mcc="214" mnc="05"/>
+  <operator carrier="Movistar" mcc="214" mnc="07"/>
+  <operator carrier="Telia" mcc="240" mnc="01"/>
+  <operator carrier="Hi3G" mcc="240" mnc="02"/>
+  <operator carrier="Net 1" mcc="240" mnc="03"/>
+  <operator carrier="SWENDEN" mcc="240" mnc="04"/>
+  <operator carrier="Swenden 3G" mcc="240" mnc="05"/>
+  <operator carrier="Telenor" mcc="240" mnc="06,08,09"/>
+  <operator carrier="Tele2" mcc="240" mnc="07"/>
+  <operator carrier="Swenden 2G" mcc="240" mnc="24"/>
+  <operator carrier="Swisscom " mcc="228" mnc="01,99"/>
+  <operator carrier="Sunrise " mcc="228" mnc="02,12"/>
+  <operator carrier="Orange " mcc="228" mnc="03"/>
+  <operator carrier="Turkcell" mcc="286" mnc="01"/>
+  <operator carrier="Vodafone" mcc="286" mnc="02"/>
+  <operator carrier="Avea " mcc="286" mnc="03"/>
+  <operator carrier="MTS" mcc="255" mnc="01"/>
+  <operator carrier="Kyivstar" mcc="255" mnc="02,03,05"/>
+  <operator carrier="InterTelecom" mcc="255" mnc="04"/>
+  <operator carrier="life:)" mcc="255" mnc="06"/>
+  <operator carrier="3Mob" mcc="255" mnc="07"/>
+  <operator carrier="PEOPLEnet" mcc="255" mnc="21"/>
+  <operator carrier="Intertelecom" mcc="255" mnc="23"/>
+  <operator carrier="CST" mcc="255" mnc="25"/>
+  <operator carrier="BT" mcc="234" mnc="00,76"/>
+  <operator carrier="Vectone" mcc="234" mnc="01"/>
+  <operator carrier="O2" mcc="234" mnc="02,10,11"/>
+  <operator carrier="Airtel-Vodafone" mcc="234" mnc="03"/>
+  <operator carrier="Vodafone" mcc="234" mnc="15"/>
+  <operator carrier="Hutchison 3" mcc="234" mnc="20"/>
+  <operator carrier="Orange" mcc="234" mnc="33,34"/>
+  <operator carrier="JT" mcc="234" mnc="50"/>
+  <operator carrier="Sure Mobile" mcc="234" mnc="55"/>
+  <operator carrier="Pronto" mcc="234" mnc="58"/>
+  <operator carrier="Bluesky" mcc="544" mnc="11"/>
+  <operator carrier="Telstra" mcc="505" mnc="01,11,71,72"/>
+  <operator carrier="Optus" mcc="505" mnc="02,90"/>
+  <operator carrier="Vodafone" mcc="505" mnc="03,06,07,12,38"/>
+  <operator carrier="Telecom Cook " mcc="548" mnc="01"/>
+  <operator carrier="Vodafone" mcc="542" mnc="01"/>
+  <operator carrier="Digicel" mcc="542" mnc="02"/>
+  <operator carrier="Guyane Téléphone Mobile" mcc="340" mnc="11"/>
+  <operator carrier="Mara Telecom" mcc="547" mnc="10"/>
+  <operator carrier="Pacific Mobile Telecom " mcc="547" mnc="15"/>
+  <operator carrier="VINI" mcc="547" mnc="20"/>
+  <operator carrier="TSKL" mcc="545" mnc="01,09"/>
+  <operator carrier="NTA" mcc="551" mnc="01"/>
+  <operator carrier="FSM Telecom " mcc="550" mnc="01"/>
+  <operator carrier="Digicel" mcc="536" mnc="02"/>
+  <operator carrier="OPT  New Caledonia " mcc="546" mnc="01"/>
+  <operator carrier="Telecom" mcc="530" mnc="00,02"/>
+  <operator carrier="Vodafone" mcc="530" mnc="01"/>
+  <operator carrier="Telstraclear" mcc="530" mnc="04"/>
+  <operator carrier="Spark" mcc="530" mnc="05,06"/>
+  <operator carrier="2degrees " mcc="530" mnc="24"/>
+  <operator carrier="Telecom Niue" mcc="555" mnc="01"/>
+  <operator carrier="PNCC" mcc="552" mnc="01"/>
+  <operator carrier="BMobile " mcc="537" mnc="01"/>
+  <operator carrier="Telikom PNG" mcc="537" mnc="02"/>
+  <operator carrier="Digicel" mcc="537" mnc="03"/>
+  <operator carrier="Digicel " mcc="549" mnc="01"/>
+  <operator carrier="Bluesky " mcc="549" mnc="27"/>
+  <operator carrier="Breeze" mcc="540" mnc="01"/>
+  <operator carrier="BeMobile" mcc="540" mnc="02"/>
+  <operator carrier="TCC" mcc="539" mnc="01"/>
+  <operator carrier="Digicel (Tonga) Limited" mcc="539" mnc="88"/>
+  <operator carrier="TTC" mcc="553" mnc="01"/>
+  <operator carrier="AIL" mcc="541" mnc="00"/>
+  <operator carrier="Telecom Vanuatu" mcc="541" mnc="01"/>
+  <operator carrier="Digicel" mcc="541" mnc="05"/>
+  <operator carrier="WanTok" mcc="541" mnc="07"/>
+  <operator carrier="Mobilis" mcc="603" mnc="01"/>
+  <operator carrier="Djiezzy" mcc="603" mnc="02"/>
+  <operator carrier="Ooredoo" mcc="603" mnc="03"/>
+  <operator carrier="Unitel " mcc="631" mnc="02"/>
+  <operator carrier="MOVICEL" mcc="631" mnc="04"/>
+  <operator carrier="Batelco" mcc="426" mnc="01,05"/>
+  <operator carrier="Zain BH" mcc="426" mnc="02"/>
+  <operator carrier="Viva " mcc="426" mnc="04"/>
+  <operator carrier="Libercom" mcc="616" mnc="01"/>
+  <operator carrier="Moov" mcc="616" mnc="02"/>
+  <operator carrier="MTN" mcc="616" mnc="03"/>
+  <operator carrier="BBCOM" mcc="616" mnc="04"/>
+  <operator carrier="Glo" mcc="616" mnc="05"/>
+  <operator carrier="Mascom" mcc="652" mnc="01"/>
+  <operator carrier="Orange" mcc="652" mnc="02"/>
+  <operator carrier="Be Mobile" mcc="652" mnc="04"/>
+  <operator carrier="Telmob(Onatel) " mcc="613" mnc="01"/>
+  <operator carrier="AirteL" mcc="613" mnc="02"/>
+  <operator carrier="Telecel Faso" mcc="613" mnc="03"/>
+  <operator carrier="Econet" mcc="642" mnc="01"/>
+  <operator carrier="Tempo" mcc="642" mnc="02"/>
+  <operator carrier="ONAMOB" mcc="642" mnc="03"/>
+  <operator carrier="Smart Mobile" mcc="642" mnc="07"/>
+  <operator carrier="Leo" mcc="642" mnc="82"/>
+  <operator carrier="MTN" mcc="624" mnc="01"/>
+  <operator carrier="Orange" mcc="624" mnc="02"/>
+  <operator carrier="CV Movel" mcc="625" mnc="01"/>
+  <operator carrier="T-MAIS" mcc="625" mnc="02"/>
+  <operator carrier="CTP" mcc="623" mnc="01"/>
+  <operator carrier="TC" mcc="623" mnc="02"/>
+  <operator carrier="Orange " mcc="623" mnc="03"/>
+  <operator carrier="Nationlink" mcc="623" mnc="04"/>
+  <operator carrier="Airtel" mcc="622" mnc="01"/>
+  <operator carrier="SotelTchad" mcc="622" mnc="02,07"/>
+  <operator carrier="Tigo" mcc="622" mnc="03"/>
+  <operator carrier="Comores Telecom" mcc="654" mnc="01"/>
+  <operator carrier="Airtel" mcc="629" mnc="01"/>
+  <operator carrier="Warid  " mcc="629" mnc="07"/>
+  <operator carrier="MTN" mcc="629" mnc="10"/>
+  <operator carrier="Evatis" mcc="638" mnc="01"/>
+  <operator carrier="Vodacom" mcc="630" mnc="01"/>
+  <operator carrier="Airtel" mcc="630" mnc="02"/>
+  <operator carrier="Supercell" mcc="630" mnc="05"/>
+  <operator carrier="Orange" mcc="630" mnc="86"/>
+  <operator carrier="YTT" mcc="630" mnc="88"/>
+  <operator carrier="Tigo" mcc="630" mnc="89"/>
+  <operator carrier="Africell" mcc="630" mnc="90"/>
+  <operator carrier="Mobinil " mcc="602" mnc="01"/>
+  <operator carrier="Vodafone" mcc="602" mnc="02"/>
+  <operator carrier="Etisalat" mcc="602" mnc="03"/>
+  <operator carrier="Orange GQ" mcc="627" mnc="01"/>
+  <operator carrier="Hits GQ" mcc="627" mnc="03"/>
+  <operator carrier="Eritel" mcc="657" mnc="01"/>
+  <operator carrier="Ethiotelecom" mcc="636" mnc="01"/>
+  <operator carrier="Libertis" mcc="628" mnc="01"/>
+  <operator carrier="Moov" mcc="628" mnc="02"/>
+  <operator carrier="Airtel" mcc="628" mnc="03"/>
+  <operator carrier="Azur" mcc="628" mnc="04"/>
+  <operator carrier="Gamcell" mcc="607" mnc="01"/>
+  <operator carrier="Africell" mcc="607" mnc="02"/>
+  <operator carrier="Comium " mcc="607" mnc="03"/>
+  <operator carrier="Qcell" mcc="607" mnc="04"/>
+  <operator carrier="MTN " mcc="620" mnc="01"/>
+  <operator carrier="Vodafone" mcc="620" mnc="02"/>
+  <operator carrier="Tigo" mcc="620" mnc="03"/>
+  <operator carrier="Expresso Telecom" mcc="620" mnc="04"/>
+  <operator carrier="Airtel" mcc="620" mnc="06"/>
+  <operator carrier="Glo" mcc="620" mnc="07"/>
+  <operator carrier="Surfine" mcc="620" mnc="08"/>
+  <operator carrier="Blu" mcc="620" mnc="10"/>
+  <operator carrier="Orange " mcc="611" mnc="01"/>
+  <operator carrier="Sotelgui Lagui " mcc="611" mnc="02"/>
+  <operator carrier="Intercell" mcc="611" mnc="03"/>
+  <operator carrier="MTN" mcc="611" mnc="04"/>
+  <operator carrier="Cellcom" mcc="611" mnc="05"/>
+  <operator carrier="Guinétel S.A. " mcc="632" mnc="01,07"/>
+  <operator carrier="MTN" mcc="632" mnc="02"/>
+  <operator carrier="Orange" mcc="632" mnc="03"/>
+  <operator carrier="Moov" mcc="612" mnc="02"/>
+  <operator carrier="Orange" mcc="612" mnc="03"/>
+  <operator carrier="KoZ" mcc="612" mnc="04"/>
+  <operator carrier="MTN" mcc="612" mnc="05"/>
+  <operator carrier="GreenN" mcc="612" mnc="06"/>
+  <operator carrier="Aircomm" mcc="612" mnc="07"/>
+  <operator carrier="YooMee" mcc="612" mnc="18"/>
+  <operator carrier="Zain" mcc="416" mnc="01"/>
+  <operator carrier="Xpress" mcc="416" mnc="02"/>
+  <operator carrier="Umniah" mcc="416" mnc="03"/>
+  <operator carrier="Orange" mcc="416" mnc="77"/>
+  <operator carrier="Safaricom" mcc="639" mnc="02"/>
+  <operator carrier="Airtel " mcc="639" mnc="03"/>
+  <operator carrier="Yu" mcc="639" mnc="05"/>
+  <operator carrier="Orange" mcc="639" mnc="07"/>
+  <operator carrier="Zain" mcc="419" mnc="02"/>
+  <operator carrier="Ooredoo" mcc="419" mnc="03"/>
+  <operator carrier="Viva " mcc="419" mnc="04"/>
+  <operator carrier="Alfa" mcc="415" mnc="01"/>
+  <operator carrier="touch" mcc="415" mnc="03"/>
+  <operator carrier="Ogero Mobile" mcc="415" mnc="05"/>
+  <operator carrier="Vodacom " mcc="651" mnc="01"/>
+  <operator carrier="Econet Ezin-cel " mcc="651" mnc="02"/>
+  <operator carrier="Lonestar Cell" mcc="618" mnc="01"/>
+  <operator carrier="Libercell" mcc="618" mnc="02"/>
+  <operator carrier="Novafone" mcc="618" mnc="04"/>
+  <operator carrier="Cellcom" mcc="618" mnc="07"/>
+  <operator carrier="Free Libyana" mcc="606" mnc="00"/>
+  <operator carrier="Al-Madar" mcc="606" mnc="01"/>
+  <operator carrier="Airtel" mcc="646" mnc="01"/>
+  <operator carrier="Orange" mcc="646" mnc="02"/>
+  <operator carrier="Sasel" mcc="646" mnc="03"/>
+  <operator carrier="Telma " mcc="646" mnc="04"/>
+  <operator carrier="TNM" mcc="650" mnc="01"/>
+  <operator carrier="Airtel" mcc="650" mnc="10"/>
+  <operator carrier="Sotelma-Malitel" mcc="610" mnc="01"/>
+  <operator carrier="Orange" mcc="610" mnc="02"/>
+  <operator carrier="Mattel " mcc="609" mnc="01"/>
+  <operator carrier="Chinguitel " mcc="609" mnc="02"/>
+  <operator carrier="Mauritel" mcc="609" mnc="10"/>
+  <operator carrier="Orange" mcc="617" mnc="01"/>
+  <operator carrier="MTML" mcc="617" mnc="02,03"/>
+  <operator carrier="Emtel" mcc="617" mnc="10"/>
+  <operator carrier="Meditel" mcc="604" mnc="00"/>
+  <operator carrier="IAM" mcc="604" mnc="01"/>
+  <operator carrier="Wana" mcc="604" mnc="02"/>
+  <operator carrier="Inwi" mcc="604" mnc="05"/>
+  <operator carrier="mcel" mcc="643" mnc="01"/>
+  <operator carrier="Movitel" mcc="643" mnc="03"/>
+  <operator carrier="Vodacom" mcc="643" mnc="04"/>
+  <operator carrier="MTC" mcc="649" mnc="01"/>
+  <operator carrier="Telecom Mobile" mcc="649" mnc="02,03"/>
+  <operator carrier="Sonitel" mcc="614" mnc="01"/>
+  <operator carrier="Airtel" mcc="614" mnc="02"/>
+  <operator carrier="Moov" mcc="614" mnc="03"/>
+  <operator carrier="Orange" mcc="614" mnc="04"/>
+  <operator carrier="Airtel" mcc="621" mnc="20"/>
+  <operator carrier="Spectranet" mcc="621" mnc="24"/>
+  <operator carrier="Visafone" mcc="621" mnc="25"/>
+  <operator carrier="Swift" mcc="621" mnc="26"/>
+  <operator carrier="Smile" mcc="621" mnc="27"/>
+  <operator carrier="MTN" mcc="621" mnc="30"/>
+  <operator carrier="Multilinks Telkom" mcc="621" mnc="40"/>
+  <operator carrier="Glo Mobile" mcc="621" mnc="50"/>
+  <operator carrier="Etisalat" mcc="621" mnc="60"/>
+  <operator carrier="MTN " mcc="635" mnc="10"/>
+  <operator carrier="Rwandatel" mcc="635" mnc="11,12"/>
+  <operator carrier="Tigo" mcc="635" mnc="13"/>
+  <operator carrier="Airtel " mcc="635" mnc="14"/>
+  <operator carrier="Olleh" mcc="635" mnc="17"/>
+  <operator carrier="Orange" mcc="647" mnc="00"/>
+  <operator carrier="Outremer" mcc="647" mnc="02"/>
+  <operator carrier="SRR" mcc="647" mnc="10"/>
+  <operator carrier="CST" mcc="626" mnc="01"/>
+  <operator carrier="Orange" mcc="608" mnc="01"/>
+  <operator carrier="Tigo" mcc="608" mnc="02"/>
+  <operator carrier="Expresso" mcc="608" mnc="03"/>
+  <operator carrier="Cable &amp; Wireless" mcc="633" mnc="01"/>
+  <operator carrier="Mediatech" mcc="633" mnc="02"/>
+  <operator carrier="Airtel" mcc="633" mnc="03"/>
+  <operator carrier="Airtel" mcc="619" mnc="01"/>
+  <operator carrier="Africell" mcc="619" mnc="02,03,05"/>
+  <operator carrier="Comium " mcc="619" mnc="04"/>
+  <operator carrier="Sierratel" mcc="619" mnc="06"/>
+  <operator carrier="Smart Mobile" mcc="619" mnc="09"/>
+  <operator carrier="Telcom " mcc="637" mnc="01"/>
+  <operator carrier="SomaCyber" mcc="637" mnc="04"/>
+  <operator carrier="Somafone" mcc="637" mnc="04"/>
+  <operator carrier="NationLink" mcc="637" mnc="10,60"/>
+  <operator carrier="Golis Telecom Somalia" mcc="637" mnc="30"/>
+  <operator carrier="Hormuud " mcc="637" mnc="50"/>
+  <operator carrier="Horntel" mcc="637" mnc="67"/>
+  <operator carrier="Somtel " mcc="637" mnc="71"/>
+  <operator carrier="Telcom" mcc="637" mnc="82"/>
+  <operator carrier="Vodacom" mcc="655" mnc="01"/>
+  <operator carrier="Telkom" mcc="655" mnc="02"/>
+  <operator carrier="Cell C" mcc="655" mnc="07"/>
+  <operator carrier="MTN" mcc="655" mnc="10,12"/>
+  <operator carrier="MTN" mcc="659" mnc="02"/>
+  <operator carrier="Gemtel" mcc="659" mnc="03"/>
+  <operator carrier="Vivacell" mcc="659" mnc="04"/>
+  <operator carrier="Zain" mcc="659" mnc="06"/>
+  <operator carrier="Sudani" mcc="659" mnc="07"/>
+  <operator carrier="Zain" mcc="634" mnc="01"/>
+  <operator carrier="MTN" mcc="634" mnc="02,03"/>
+  <operator carrier="Canar Telecom" mcc="634" mnc="05"/>
+  <operator carrier="Sudani one" mcc="634" mnc="07"/>
+  <operator carrier="MTN " mcc="653" mnc="10"/>
+  <operator carrier="Syriatel" mcc="417" mnc="01"/>
+  <operator carrier="MTN" mcc="417" mnc="02"/>
+  <operator carrier="Tigo" mcc="640" mnc="02"/>
+  <operator carrier="Zantel" mcc="640" mnc="03"/>
+  <operator carrier="Vodacom  " mcc="640" mnc="04"/>
+  <operator carrier="Airtel" mcc="640" mnc="05"/>
+  <operator carrier="Sasatel" mcc="640" mnc="06"/>
+  <operator carrier="TTCL Mobile" mcc="640" mnc="07"/>
+  <operator carrier="Benson online" mcc="640" mnc="08"/>
+  <operator carrier="Hits" mcc="640" mnc="09"/>
+  <operator carrier="SmileCom" mcc="640" mnc="11"/>
+  <operator carrier="Togocel" mcc="615" mnc="01"/>
+  <operator carrier="Moov" mcc="615" mnc="03"/>
+  <operator carrier="Orange" mcc="605" mnc="01"/>
+  <operator carrier="Tunisie Telecom" mcc="605" mnc="02"/>
+  <operator carrier="Ooredoo" mcc="605" mnc="03"/>
+  <operator carrier="Airtel " mcc="641" mnc="01,22"/>
+  <operator carrier="Vodafone" mcc="641" mnc="06"/>
+  <operator carrier="MTN" mcc="641" mnc="10"/>
+  <operator carrier="UTL" mcc="641" mnc="11"/>
+  <operator carrier="Africell" mcc="641" mnc="14"/>
+  <operator carrier="Smile" mcc="641" mnc="33"/>
+  <operator carrier="MTN" mcc="645" mnc="01"/>
+  <operator carrier="Airtel" mcc="645" mnc="02"/>
+  <operator carrier="Zamtel" mcc="645" mnc="03"/>
+  <operator carrier="Net*One" mcc="648" mnc="01"/>
+  <operator carrier="Telecel" mcc="648" mnc="03"/>
+  <operator carrier="Econet" mcc="648" mnc="04"/>
+</operators>

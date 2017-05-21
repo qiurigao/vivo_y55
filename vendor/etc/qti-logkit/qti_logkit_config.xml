@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+	LogKit 3 Configuration file
+-->
+
+<!-- Version must be less than or equal to current LogKit client -->
+
+<LogKitConfiguration Name="Qualcomm Technologies Phase 1" Version="0.1">
+
+   <!--                       Commands Table
+
+      Commands are uniquely identified by Name and referenced by UIElements
+
+      There are 3 types of commands:
+
+         HLOSCommand: any command issued by Android HLOS
+            Name: unique name used to identify command
+            Command: actual command to be called
+            Type: "streaming" or "oneshot"
+            Extension: log file extension (e.g. ".txt")
+
+         DiagDMCCommand: diag configuration
+            Name: unique name used to identify command
+            Path: path to DMC file
+   -->
+	<Commands>
+      <HLOSCommand
+         Name="logcat"
+         Command="logcat -v time"
+         Type="streaming"
+         Extension=".txt"/>
+      <HLOSCommand
+         Name="kmesg"
+         Command="logcat -v time -b kernel"
+         Type="streaming"
+         Extension=".txt"/>
+      <DiagDMCCommand
+         Name="golden_dmc"
+         Path="Primary"/>
+      <DiagDMCCommand
+         Name="audio_dmc"
+         Path="Audio"/>
+   </Commands>
+
+   <!--                       DMCLocation
+
+         OEM defined DMC files referenced from DiagDMCCommand
+   -->
+   <DMCLocation>
+      <DMC
+         Name="Primary"
+         Path="/system/vendor/etc/qti-logkit/goldenlogmask.dmc"/>
+      <DMC
+         Name="Audio"
+         Path="/system/vendor/etc/qti-logkit/audiobasic.dmc"/>
+      <DMC
+         Name="GPS"
+         Path="/system/vendor/etc/qti-logkit/gnsslocationlogging.dmc"/>
+   </DMCLocation>
+
+
+   <!--                       ConfigureLogs
+
+      These configurations are all session based logging
+
+      Submenu:
+         Name: Name used to label and group all UIElements
+         Enable: "true" to enable all UIElements in this submenu that are enabled
+                 "false" will disable all logging of all UIElements
+
+      UIElement:
+         Name: Name to display
+         CommandName: Command name which is defined in Commands table
+         Visible: "true" to display in UI
+         Enable: default enable state
+   -->
+   <ConfigureLogs>
+      <Submenu Name="Modem" Enable="true">
+         <UIElement
+            Name="Golden"
+            CommandName="golden_dmc"
+            Visible="true"
+            Enable="true"/>
+         <UIElement
+            Name="Audio"
+            CommandName="audio_dmc"
+            Visible="true"
+            Enable="false"/>
+      </Submenu>
+   </ConfigureLogs>
+
+   <!--                       Settings
+
+      These configurations are all continuous logging
+
+      Submenu:
+         Name: Name used to label and group all UIElements
+         Enable: "true" to enable all UIElements in this submenu that are enabled
+                 "false" will disable all logging of all UIElements
+
+      UIElement:
+         Name: Name to display
+         CommandName: Command name which is defined in Commands table
+         Visible: "true" to display in UI
+         Enable: default enable state
+   -->
+   <Settings>
+      <Submenu Name="Android" Enable="true">
+
+         <UIElement
+            Name="Main Logcat"
+            CommandName="logcat"
+            Visible="false"
+            Enable="true"/>
+         <UIElement
+            Name="Kernel mesg"
+            CommandName="kmesg"
+            Visible="false"
+            Enable="true"/>
+      </Submenu>
+
+   <!--                       StorageLocation
+
+         User configurable storage locations
+         Only one should be Selected, if none are selected, the first entry will be
+         If multiple entries are Selected, the last entry will be
+   -->
+      <StorageLocation>
+         <Storage
+            Name="internal"
+            Path="/data/misc/qti-logkit/logdata/"
+            Selected="true"/>
+         <Storage
+            Name="sdcard1"
+            Path="/storage/sdcard1/Android/data/com.qualcomm.qti.logkit/files/"/>
+         <Storage
+            Name="sdcard0"
+            Path="/storage/sdcard0/Android/data/com.qualcomm.qti.logkit/files/"/>
+      </StorageLocation>
+
+   <!--                       LogSize
+   `
+         User configurable log sizes/chunks
+         Size is in MB
+         Only one should be Selected, if none are selected, the first entry will be
+         If multiple entries are Selected, the last entry will be
+   -->
+      <LogSize>
+         <Option Size="5" Count="10"/>
+         <Option Size="50" Count="10" Selected="true"/>
+         <Option Size="500" Count="10"/>
+      </LogSize>
+   </Settings>
+
+</LogKitConfiguration>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--
+Copyright (C) 2015-2016 Qualcomm Technologies, Inc.
+All rights reserved.
+Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<permissions>
+   <!--  Access Logkit secure APIs -->
+   <permission name="com.qualcomm.qti.permission.ACCESS_QCOM_LOGKIT">
+      <group gid="qcom_diag"/>
+   </permission>
+</permissions>

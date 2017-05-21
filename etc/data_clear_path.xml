@@ -1,0 +1,891 @@
+<root>
+<model>PD1421,PD1421D,PD1421L,PD1401CL,PD1304CL,PD1304CF,PD1304CV,PD1304DL,RD1501,PD1401BL,PD1410L,PD1410F,PD1410V,PD1401F,PD1401V,PD1401L,PD1403L,PD1403V,PD1403F,PD1420L,PD1420F,PD1302L,PD1302F,PD1410BL,PD1410BF,PD1410BV,PD1408BL,PD1408L,PD1408F,PD1408V,PD1419L,PD1419F,PD1419V,PD1302,PD1424L,PD1303,PD1303A,PD1303F,PD1303L,PD1510,PD1501,PD1505,PD1505L,PD1505A,PD1415A,PD1415D,PD1501D,PD1515A,PD1503,PD1503L,PD1503A,PD1503V,PD1502L,PD1502A,PD1422L</model>
+<packageName kill="yes" killType="kill9">com.tencent.mobileqq</packageName>
+<packageName kill="yes" killType="kill9">com.tencent.mm</packageName>
+<packageName kill="yes" killType="forceStop">com.baidu.searchbox</packageName>
+<packageName kill="yes" killType="forceStop">com.baidu.video</packageName>
+<packageName kill="yes" killType="forceStop">com.taobao.taobao</packageName>
+<packageName kill="yes" killType="forceStop">com.qiyi.video</packageName>
+<packageName kill="yes" killType="forceStop">com.baidu.browser.apps</packageName>
+<packageName kill="yes" killType="forceStop">com.tmall.wireless</packageName>
+<packageName kill="yes" killType="forceStop">com.baidu.tieba</packageName>
+<packageName kill="yes" killType="forceStop">ctrip.android.view</packageName>
+<packageName kill="yes" killType="forceStop">com.nuomi</packageName>
+<packageName kill="yes" killType="forceStop">tv.pps.mobile</packageName>
+<packageName kill="yes" killType="forceStop">com.eg.android.AlipayGphone</packageName>
+<packageName kill="yes" killType="forceStop">com.Qunar</packageName>
+<packageName kill="yes" killType="kill9">com.qzone</packageName>
+<packageName kill="yes" killType="forceStop">com.UCMobile</packageName>
+<packageName kill="yes" killType="forceStop">com.baidu.BaiduMap</packageName>
+<packageName kill="no" killType="forceStop">com.sohu.inputmethod.sogou</packageName>
+<packageName kill="yes" killType="forceStop">com.jingdong.app.mall</packageName>
+<packageName kill="yes" killType="forceStop">com.qihoo360.mobilesafe</packageName>
+<packageName kill="yes" killType="kill9">com.tencent.android.qqdownloader</packageName>
+<packageName kill="yes" killType="kill9">com.kugou.android</packageName>
+<packageName kill="yes" killType="forceStop">com.letv.android.client</packageName>
+<packageName kill="yes" killType="kill9">com.tencent.mtt</packageName>
+<packageName kill="yes" killType="kill9">com.tencent.qqmusic</packageName>
+<packageName kill="yes" killType="kill9">com.tencent.news</packageName>
+<packageName kill="yes" killType="forceStop">com.tencent.qqpimsecure</packageName>
+<packageName kill="yes" killType="forceStop">com.tencent.qqlive</packageName>
+<packageName kill="yes" killType="forceStop">com.snda.wifilocating</packageName>
+<packageName kill="yes" killType="forceStop">com.meilishuo</packageName>
+<packageName kill="yes" killType="forceStop">com.pplive.androidphone</packageName>
+<packageName kill="yes" killType="forceStop">com.ss.android.article.news</packageName>
+<packageName kill="yes" killType="kill9">com.sohu.newsclient</packageName>
+<packageName kill="yes" killType="forceStop">com.chaozh.iReaderFree</packageName>
+<packageName kill="yes" killType="forceStop">com.storm.smart</packageName>
+<packageName kill="yes" killType="kill9">com.netease.cloudmusic</packageName>
+<packageName kill="yes" killType="forceStop">com.qihoo.video</packageName>
+<packageName kill="yes" killType="forceStop">com.douban.frodo</packageName>
+<packageName kill="yes" killType="forceStop">com.sohu.sohuvideo</packageName>
+<packageName kill="yes" killType="forceStop">com.dianping.v1</packageName>
+<packageName kill="yes" killType="forceStop">com.sankuai.meituan</packageName>
+<packageName kill="yes" killType="forceStop">com.tudou.android</packageName>
+<packageName kill="yes" killType="forceStop">com.jm.android.jumei</packageName>
+<packageName kill="yes" killType="kill9">com.ifeng.news2</packageName>
+<packageName kill="yes" killType="kill9">com.sina.weibo</packageName>
+<packageName kill="yes" killType="kill9">com.duomi.android</packageName>
+<packageName kill="yes" killType="kill9">com.changba</packageName>
+<packageName kill="yes" killType="kill9">cn.kuwo.player</packageName>
+<packageName kill="yes" killType="forceStop">com.netease.newsreader.activity</packageName>
+<packageName kill="yes" killType="forceStop">com.youku.phone</packageName>
+<packageName kill="yes" killType="forceStop">com.supercell.clashofclans.vivo</packageName>
+<packageName kill="yes" killType="forceStop">com.hiapk.marketpho</packageName>
+<packageName kill="yes" killType="forceStop">com.qihoo360.mobilesafe</packageName>
+<packageName kill="yes" killType="forceStop">com.jiuyan.infashion</packageName>
+<packageName kill="yes" killType="forceStop">com.handsgo.jiakao.android</packageName>
+<packageName kill="yes" killType="forceStop">cn.cmvideo.isj</packageName>
+<packageName kill="yes" killType="forceStop">cn.jj</packageName>
+<packageName kill="yes" killType="forceStop">com.qihoo.browser</packageName>
+<packageName kill="yes" killType="forceStop">com.qihoo.freewifi</packageName>
+<packageName kill="yes" killType="forceStop">cn.cj.pe</packageName>
+<packageName kill="yes" killType="forceStop">com.chinamworld.main</packageName>
+<packageName kill="yes" killType="forceStop">com.duowan.groundhog.mctools</packageName>
+<packageName kill="yes" killType="forceStop">cn.opda.a.phonoalbumshoushou</packageName>
+<packageName kill="yes" killType="forceStop">com.yy.yymeet</packageName>
+<packageName kill="yes" killType="forceStop">com.duowan.lolbox</packageName>
+<packageName kill="yes" killType="forceStop">com.moxiu.launcher</packageName>
+<packageName kill="yes" killType="forceStop">com.jxedt</packageName>
+<packageName kill="yes" killType="forceStop">com.duowan.kiwi</packageName>
+<packageName kill="yes" killType="forceStop">air.com.sincetime.redWar.turkeyAnd</packageName>
+<packageName kill="yes" killType="forceStop">com.tencent.qt.sns</packageName>
+<packageName kill="yes" killType="forceStop">com.baidu.netdisk</packageName>
+<packageName kill="yes" killType="forceStop">com.chinamobile.contacts.im</packageName>
+<packageName kill="yes" killType="forceStop">com.greenpoint.android.mc10086.activity</packageName>
+<packageName kill="yes" killType="forceStop">com.fenbi.android.solar</packageName>
+<packageName kill="yes" killType="forceStop">com.iflytek.inputmethod</packageName>
+<packageName kill="yes" killType="forceStop">com.duowan.mobile</packageName>
+<packageName kill="yes" killType="forceStop">com.cleanmaster.mguard_cn</packageName>
+<packageName kill="yes" killType="forceStop">com.iflytek.inputmethod.oem</packageName>
+<packageName kill="yes" killType="forceStop">com.baidu.input</packageName>
+<packageName kill="yes" killType="forceStop">com.xunlei.downloadprovider</packageName>
+<packageName kill="yes" killType="forceStop">cn.com.fetion</packageName>
+<packageName kill="yes" killType="forceStop">com.android.bankabc</packageName>
+<packageName kill="yes" killType="forceStop">com.iflytek.cmcc</packageName>
+<packageName kill="yes" killType="forceStop">com.aspire.mm</packageName>
+<packageName kill="yes" killType="forceStop">com.baidu.homework</packageName>
+<packageName kill="yes" killType="forceStop">com.jsmcc</packageName>
+<packageName kill="yes" killType="forceStop">com.shoujiduoduo.ringtone</packageName>
+<packageName kill="yes" killType="forceStop">com.anguanjia.security</packageName>
+<packageName kill="yes" killType="forceStop">com.tencent.peng</packageName>
+<packageName kill="yes" killType="forceStop">com.cootek.smartdialer</packageName>
+<packageName kill="yes" killType="forceStop">com.yx</packageName>
+<packageName kill="yes" killType="forceStop">com.fujin.app10664</packageName>
+<packageName kill="yes" killType="forceStop">com.moji.mjweather</packageName>
+<packageName kill="yes" killType="forceStop">com.zengame.waddz.p365you</packageName>
+<packageName kill="yes" killType="forceStop">com.ushaqi.zhuishushenqi</packageName>
+<packageName kill="yes" killType="forceStop">com.le123.ysdq</packageName>
+<packageName kill="yes" killType="forceStop">com.gameley.runningman3.vivo</packageName>
+<packageName kill="yes" killType="forceStop">com.tencent.androidqqmail</packageName>
+<packageName kill="yes" killType="forceStop">com.autonavi.cmccmap</packageName>
+<packageName kill="yes" killType="forceStop">com.tencent.tmgp.cf</packageName>
+<packageName kill="yes" killType="forceStop">com.tencent.tmgp.sgame</packageName>
+<packageName kill="yes" killType="forceStop">com.qihoo.cleandroid_cn</packageName>
+<packageName kill="yes" killType="forceStop">com.meitu.wheecam</packageName>
+<packageName kill="yes" killType="forceStop">com.ophone.reader.ui</packageName>
+<packageName kill="yes" killType="forceStop">com.wenba.bangbang</packageName>
+<packageName kill="yes" killType="forceStop">com.vlocker.locker</packageName>
+<packageName kill="yes" killType="forceStop">com.tencent.qqpim</packageName>
+<packageName kill="yes" killType="forceStop">com.tencent.token</packageName>
+<packageName kill="yes" killType="forceStop">com.ztgame.bob</packageName>
+<packageName kill="yes" killType="forceStop">com.tencent.qt.qtl</packageName>
+<packageName kill="yes" killType="forceStop">com.chinamobile.cmccwifi</packageName>
+<packageName kill="yes" killType="forceStop">com.sinovatech.gxmobile.ui</packageName>
+<packageName kill="yes" killType="forceStop">com.tencent.ttpic</packageName>
+<packageName kill="yes" killType="forceStop">wb.gc.xmxx.zxb</packageName>
+<packageName kill="yes" killType="forceStop">com.dewmobile.kuaiya</packageName>
+<packageName kill="yes" killType="forceStop">com.huluxia.mctool</packageName>
+<packageName kill="yes" killType="forceStop">com.hunantv.imgo.activity</packageName>
+<packageName kill="yes" killType="forceStop">com.tencent.reading</packageName>
+<packageName kill="yes" killType="forceStop">com.example.businesshall</packageName>
+<packageName kill="yes" killType="forceStop">com.mt.mtxx.mtxx</packageName>
+<packageName kill="yes" killType="forceStop">com.tencent.karaoke</packageName>
+<packageName kill="yes" killType="forceStop">cn.wps.moffice_eng</packageName>
+<packageName kill="yes" killType="forceStop">com.achievo.vipshop</packageName>
+<packageName kill="yes" killType="forceStop">com.meitu.meiyancamera</packageName>
+<packageName kill="yes" killType="forceStop">com.ime.xmpp</packageName>
+<packageName kill="yes" killType="forceStop">com.mojang.minecraftpe</packageName>
+<packageName kill="yes" killType="forceStop">com.tencent.powermanager</packageName>
+<packageName kill="yes" killType="forceStop">com.rytong.bankps</packageName>
+<packageName kill="yes" killType="forceStop">com.blizzard.wtcg.hearthstone</packageName>
+<packageName kill="yes" killType="forceStop">com.taobao.trip</packageName>
+<packageName kill="yes" killType="forceStop">com.qzone</packageName>
+<packageName kill="yes" killType="forceStop">com.mogujie</packageName>
+<packageName kill="yes" killType="forceStop">com.vivo.browser</packageName>
+<packageName kill="yes" killType="forceStop">sh.lilith.dgame.wdj</packageName>
+<packageName kill="yes" killType="forceStop">com.tencent.Qfarm</packageName>
+<packageName kill="yes" killType="forceStop">fm.xiami.main</packageName>
+<packageName kill="yes" killType="forceStop">com.gameabc.zhanqiAndroid</packageName>
+<packageName kill="yes" killType="forceStop">com.happyelements.AndroidAnimal.wdj</packageName>
+<packageName kill="yes" killType="forceStop">com.lphtsccft</packageName>
+<packageName kill="yes" killType="forceStop">com.tencent.game.VXDGame</packageName>
+<packageName kill="yes" killType="forceStop">com.suning.mobile.ebuy</packageName>
+<packageName kill="yes" killType="forceStop">com.tencent.modoomarble</packageName>
+<packageName kill="yes" killType="forceStop">com.tencent.pao</packageName>
+<packageName kill="yes" killType="forceStop">com.shuqi.controller</packageName>
+<packageName kill="yes" killType="forceStop">com.ss.android.essay.joke</packageName>
+<packageName kill="yes" killType="forceStop">com.xunlei.kankan</packageName>
+<packageName kill="yes" killType="forceStop">com.MobileTicket</packageName>
+<packageName kill="yes" killType="forceStop">com.tencent.Alice</packageName>
+<packageName kill="yes" killType="forceStop">com.xiaodao.jiemeng</packageName>
+<packageName kill="no" killType="kill9">com.immomo.momo</packageName>
+<packageName kill="yes" killType="forceStop">com.yinhan.hunter.bbg</packageName>
+<packageName kill="yes" killType="forceStop">com.tencent.clover</packageName>
+<packageName kill="yes" killType="forceStop">com.douban.frodo</packageName>
+<packageName kill="yes" killType="forceStop">com.autonavi.minimap</packageName>
+<packageName kill="yes" killType="forceStop">com.cmbchina.ccd.pluto.cmbActivity</packageName>
+<packageName kill="yes" killType="forceStop">com.fanli.android.apps</packageName>
+<packageName kill="yes" killType="forceStop">com.alibaba.mobileim</packageName>
+<packageName kill="yes" killType="forceStop">com.yinyuetai.ui</packageName>
+<packageName kill="yes" killType="forceStop">com.netease.ldxy.wdj</packageName>
+<packageName kill="yes" killType="forceStop">com.halfbrick.fruitninja</packageName>
+<packageName kill="yes" killType="forceStop">com.joym.xiongdakuaipao</packageName>
+<packageName kill="yes" killType="forceStop">tv.danmaku.bili</packageName>
+<packageName kill="yes" killType="forceStop">com.sdu.didi.psnger</packageName>
+<packageName kill="yes" killType="forceStop">com.audiocn.kalaok</packageName>
+<packageName kill="yes" killType="forceStop">com.mahjong.majiang</packageName>
+<packageName kill="yes" killType="forceStop">com.imangi.templerun2</packageName>
+<packageName kill="yes" killType="forceStop">com.qqgame.hlddz</packageName>
+<packageName kill="yes" killType="forceStop">com.tencent.ttx5</packageName>
+<packageName kill="yes" killType="forceStop">com.kiloo.subwaysurf</packageName>
+<packageName kill="yes" killType="forceStop">com.dianping.t</packageName>
+<packageName kill="yes" killType="forceStop">com.popcap.pvz2cthdwdj</packageName>
+<packageName kill="yes" killType="forceStop">com.sankuai.movie</packageName>
+<packageName kill="yes" killType="forceStop">com.sds.android.ttpod</packageName>
+<packageName kill="yes" killType="forceStop">com.king.candycrushsaga</packageName>
+<packageName kill="yes" killType="forceStop">com.tencent.game.SSGame</packageName>
+<packageName kill="yes" killType="forceStop">com.tencent.feiji</packageName>
+<packageName kill="yes" killType="forceStop">com.gameloft.android.ANMP.GloftDMCN</packageName>
+<packageName kill="yes" killType="forceStop">bubei.tingshu</packageName>
+<packageName kill="yes" killType="forceStop">com.tencent.game.rhythmmaster</packageName>
+<packageName kill="yes" killType="forceStop">com.carrot.iceworld</packageName>
+<packageName kill="yes" killType="forceStop">com.iqoo.secure</packageName>
+<packageName kill="yes" killType="forceStop">com.ting.mp3.qianqian.android</packageName>
+<packageName kill="yes" killType="forceStop">com.zhihu.android</packageName>
+<packageName kill="yes" killType="forceStop">com.autonavi.xmgd.navigator</packageName>
+<packageName kill="yes" killType="forceStop">com.android.bbkmusic</packageName>
+<packageName kill="yes" killType="forceStop">com.wandoujia.phoenix2</packageName>
+<packageName kill="yes" killType="forceStop">com.vivo.game</packageName>
+<packageName kill="yes" killType="forceStop">com.zol.android</packageName>
+<packageName kill="yes" killType="forceStop">com.muzhiwan.market</packageName>
+<packageName kill="yes" killType="forceStop">com.android.email/</packageName>
+<packageName kill="yes" killType="forceStop">com.javgame.nn.wdj</packageName>
+<packageName kill="yes" killType="forceStop">com.bbk.theme</packageName>
+<packageName kill="yes" killType="forceStop">com.vivo.gallery</packageName>
+<packageName kill="yes" killType="forceStop">com.android.mms</packageName>
+<packageName kill="yes" killType="forceStop">com.android.camera</packageName>
+<packageName kill="yes" killType="forceStop">com.vivo.weather</packageName>
+<packageName kill="yes" killType="forceStop">com.android.contacts</packageName>
+<packageName kill="yes" killType="forceStop">com.netease.my.vivo</packageName>
+<packageName kill="yes" killType="forceStop">com.wuba</packageName>
+<packageName kill="yes" killType="forceStop">com.ganji.android</packageName>
+<threshold nomtp="250" mtp_4g="300" mtp_8g="500" mtp_16g="800" ></threshold>
+<upload minsize="100" upload="yes"></upload>
+<folder delete="yes">/data/data/com.supercell.clashofclans.vivo/cache/</folder>
+<folder delete="yes">/data/data/com.supercell.clashofclans.vivo/app_webview/</folder>
+<folder delete="yes">/data/data/com.supercell.clashofclans.vivo/files/</folder>
+<folder delete="yes">/data/data/com.hiapk.marketpho/files/</folder>
+<folder delete="yes">/data/data/com.hiapk.marketpho/app_greedyporter/</folder>
+<folder delete="yes">/data/data/com.hiapk.marketpho/cache/</folder>
+<folder delete="yes">/data/data/com.qihoo360.mobilesafe/files/</folder>
+<folder delete="yes">/data/data/com.qihoo360.mobilesafe/app_webview/</folder>
+<folder delete="yes">/data/data/com.qihoo360.mobilesafe/cache/</folder>
+<folder delete="yes">/data/data/com.jiuyan.infashion/.jiagu/</folder>
+<folder delete="yes">/data/data/com.jiuyan.infashion/app_webview/</folder>
+<folder delete="yes">/data/data/com.jiuyan.infashion/cache/</folder>
+<folder delete="yes">/data/data/com.jiuyan.infashion/files/</folder>
+<folder delete="yes">/data/data/com.handsgo.jiakao.android/app_webview/</folder>
+<folder delete="yes">/data/data/com.handsgo.jiakao.android/files/</folder>
+<folder delete="yes">/data/data/com.handsgo.jiakao.android/cache/</folder>
+<folder delete="yes">/data/data/cn.cmvideo.isj/cache2/</folder>
+<folder delete="yes">/data/data/cn.cmvideo.isj/files/</folder>
+<folder delete="yes">/data/data/cn.cmvideo.isj/temp/</folder>
+<folder delete="yes">/data/data/cn.cmvideo.isj/cache/</folder>
+<folder delete="yes">/data/data/cn.jj/app_cache/</folder>
+<folder delete="yes">/data/data/cn.jj/app_webview/</folder>
+<folder delete="yes">/data/data/cn.jj/cache/</folder>
+<folder delete="yes">/data/data/com.qihoo.browser/app_webview/</folder>
+<folder delete="yes">/data/data/com.qihoo.browser/app_tmp/</folder>
+<folder delete="yes">/data/data/com.qihoo.browser/files/</folder>
+<folder delete="yes">/data/data/com.qihoo.browser/cache/</folder>
+<folder delete="yes">/data/data/com.qihoo.freewifi/app_webview/</folder>
+<folder delete="yes">/data/data/com.qihoo.freewifi/files/</folder>
+<folder delete="yes">/data/data/com.qihoo.freewifi/cache/</folder>
+<folder delete="yes">/data/data/com.qihoo.freewifi/app_cache/</folder>
+<folder delete="yes">/data/data/cn.cj.pe/app_webview/</folder>
+<folder delete="yes">/data/data/cn.cj.pe/files/</folder>
+<folder delete="yes">/data/data/cn.cj.pe/cache/</folder>
+<folder delete="yes">/data/data/com.chinamworld.main/local/</folder>
+<folder delete="yes">/data/data/com.chinamworld.main/.cache/</folder>
+<folder delete="yes">/data/data/com.chinamworld.main/app_webview/</folder>
+<folder delete="yes">/data/data/com.chinamworld.main/files/</folder>
+<folder delete="yes">/data/data/com.chinamworld.main/cache/</folder>
+<folder delete="yes">/data/data/com.duowan.groundhog.mctools/app_webview/</folder>
+<folder delete="yes">/data/data/com.duowan.groundhog.mctools/app_files/</folder>
+<folder delete="yes">/data/data/com.duowan.groundhog.mctools/cache/</folder>
+<folder delete="yes">/data/data/com.duowan.groundhog.mctools/files/</folder>
+<folder delete="yes">/data/data/cn.opda.a.phonoalbumshoushou/files/</folder>
+<folder delete="yes">/data/data/cn.opda.a.phonoalbumshoushou/app_webview/</folder>
+<folder delete="yes">/data/data/cn.opda.a.phonoalbumshoushou/app_plug/</folder>
+<folder delete="yes">/data/data/cn.opda.a.phonoalbumshoushou/cache/</folder>
+<folder delete="yes">/data/data/com.yy.yymeet/app_webview/</folder>
+<folder delete="yes">/data/data/com.yy.yymeet/files/</folder>
+<folder delete="yes">/data/data/com.yy.yymeet/cache/</folder>
+<folder delete="yes">/data/data/com.yy.yymeet/cocosplay_sdk/</folder>
+<folder delete="yes">/data/data/com.duowan.lolbox/app_webview/</folder>
+<folder delete="yes">/data/data/com.duowan.lolbox/files/</folder>
+<folder delete="yes">/data/data/com.duowan.lolbox/cache/</folder>
+<folder delete="yes">/data/data/com.moxiu.launcher/app_webview/</folder>
+<folder delete="yes">/data/data/com.moxiu.launcher/files/</folder>
+<folder delete="yes">/data/data/com.moxiu.launcher/app_e_qq_com_dex/</folder>
+<folder delete="yes">/data/data/com.moxiu.launcher/cache/</folder>
+<folder delete="yes">/data/data/com.jxedt/app_webview/</folder>
+<folder delete="yes">/data/data/com.jxedt/files/</folder>
+<folder delete="yes">/data/data/com.jxedt/cache/</folder>
+<folder delete="yes">/data/data/com.jxedt/markingdir/</folder>
+<folder delete="yes">/data/data/com.jxedt/openclientdir/</folder>
+<folder delete="yes">/data/data/com.duowan.kiwi/cache/</folder>
+<folder delete="yes">/data/data/com.duowan.kiwi/app_webview/</folder>
+<folder delete="yes">/data/data/air.com.sincetime.redWar.turkeyAnd/com.sincetime.redWar.turkeyAnd/</folder>
+<folder delete="yes">/data/data/air.com.sincetime.redWar.turkeyAnd/app_webview/</folder>
+<folder delete="yes">/data/data/air.com.sincetime.redWar.turkeyAnd/files/</folder>
+<folder delete="yes">/data/data/air.com.sincetime.redWar.turkeyAnd/cache/</folder>
+<folder delete="yes">/data/data/com.tencent.qt.sns/app_webview/</folder>
+<folder delete="yes">/data/data/com.tencent.qt.sns/files/</folder>
+<folder delete="yes">/data/data/com.tencent.qt.sns/cache/</folder>
+<folder delete="yes">/data/data/com.baidu.netdisk/app_webview/</folder>
+<folder delete="yes">/data/data/com.baidu.netdisk/files/</folder>
+<folder delete="yes">/data/data/com.baidu.netdisk/cache/</folder>
+<folder delete="yes">/data/data/com.chinamobile.contacts.im/app_webview/</folder>
+<folder delete="yes">/data/data/com.chinamobile.contacts.im/files/</folder>
+<folder delete="yes">/data/data/com.chinamobile.contacts.im/cache/</folder>
+<folder delete="yes">/data/data/com.greenpoint.android.mc10086.activity/app_webview/</folder>
+<folder delete="yes">/data/data/com.greenpoint.android.mc10086.activity/files/</folder>
+<folder delete="yes">/data/data/com.greenpoint.android.mc10086.activity/cache/</folder>
+<folder delete="yes">/data/data/com.fenbi.android.solar/files/</folder>
+<folder delete="yes">/data/data/com.fenbi.android.solar/app_webview/</folder>
+<folder delete="yes">/data/data/com.fenbi.android.solar/.cache/</folder>
+<folder delete="yes">/data/data/com.fenbi.android.solar/cache/</folder>
+<folder delete="yes">/data/data/com.iflytek.inputmethod/app_webview/</folder>
+<folder delete="yes">/data/data/com.iflytek.inputmethod/files/</folder>
+<folder delete="yes">/data/data/com.iflytek.inputmethod/cache/</folder>
+<folder delete="yes">/data/data/com.iflytek.inputmethod/app_cache/</folder>
+<folder delete="yes">/data/data/com.duowan.mobile/app_webview/</folder>
+<folder delete="yes">/data/data/com.duowan.mobile/files/</folder>
+<folder delete="yes">/data/data/com.duowan.mobile/cache/</folder>
+<folder delete="yes">/data/data/com.cleanmaster.mguard_cn/files/</folder>
+<folder delete="yes">/data/data/com.cleanmaster.mguard_cn/code_cache/</folder>
+<folder delete="yes">/data/data/com.cleanmaster.mguard_cn/app_webview/</folder>
+<folder delete="yes">/data/data/com.cleanmaster.mguard_cn/app_files/</folder>
+<folder delete="yes">/data/data/com.cleanmaster.mguard_cn/app_rcmd/</folder>
+<folder delete="yes">/data/data/com.iflytek.inputmethod.oem/app_webview/</folder>
+<folder delete="yes">/data/data/com.iflytek.inputmethod.oem/files/</folder>
+<folder delete="yes">/data/data/com.iflytek.inputmethod.oem/cache/</folder>
+<folder delete="yes">/data/data/com.iflytek.inputmethod.oem/app_cache/</folder>
+<folder delete="yes">/data/data/com.baidu.input/files/</folder>
+<folder delete="yes">/data/data/com.baidu.input/app_webview/</folder>
+<folder delete="yes">/data/data/com.baidu.input/app_megapp/</folder>
+<folder delete="yes">/data/data/com.baidu.input/cache/</folder>
+<folder delete="yes">/data/data/com.xunlei.downloadprovider/app_webview/</folder>
+<folder delete="yes">/data/data/com.xunlei.downloadprovider/cache/</folder>
+<folder delete="yes">/data/data/com.xunlei.downloadprovider/files/</folder>
+<folder delete="yes">/data/data/cn.com.fetion/app_webview/</folder>
+<folder delete="yes">/data/data/cn.com.fetion/hrslog/</folder>
+<folder delete="yes">/data/data/cn.com.fetion/cache/</folder>
+<folder delete="yes">/data/data/com.android.bankabc/files/</folder>
+<folder delete="yes">/data/data/com.android.bankabc/app_webview/</folder>
+<folder delete="yes">/data/data/com.android.bankabc/cache/</folder>
+<folder delete="yes">/data/data/com.iflytek.cmcc/app_webview/</folder>
+<folder delete="yes">/data/data/com.iflytek.cmcc/files/</folder>
+<folder delete="yes">/data/data/com.iflytek.cmcc/blcdata/</folder>
+<folder delete="yes">/data/data/com.iflytek.cmcc/adblock/</folder>
+<folder delete="yes">/data/data/com.aspire.mm/app_webview/</folder>
+<folder delete="yes">/data/data/com.aspire.mm/files/</folder>
+<folder delete="yes">/data/data/com.aspire.mm/netstats/</folder>
+<folder delete="yes">/data/data/com.aspire.mm/cache/</folder>
+<folder delete="yes">/data/data/com.baidu.homework/.1/</folder>
+<folder delete="yes">/data/data/com.baidu.homework/app_webview/</folder>
+<folder delete="yes">/data/data/com.baidu.homework/files/</folder>
+<folder delete="yes">/data/data/com.baidu.homework/cache/</folder>
+<folder delete="yes">/data/data/com.jsmcc/app_webview/</folder>
+<folder delete="yes">/data/data/com.jsmcc/cache/</folder>
+<folder delete="yes">/data/data/com.shoujiduoduo.ringtone/files/</folder>
+<folder delete="yes">/data/data/com.shoujiduoduo.ringtone/app_webview/</folder>
+<folder delete="yes">/data/data/com.shoujiduoduo.ringtone/code_cache/</folder>
+<folder delete="yes">/data/data/com.shoujiduoduo.ringtone/cache/</folder>
+<folder delete="yes">/data/data/com.anguanjia.security/app_p_raw/</folder>
+<folder delete="yes">/data/data/com.anguanjia.security/files/</folder>
+<folder delete="yes">/data/data/com.anguanjia.security/app_p_icon/</folder>
+<folder delete="yes">/data/data/com.anguanjia.security/cache/</folder>
+<folder delete="yes">/data/data/com.tencent.peng/files/</folder>
+<folder delete="yes">/data/data/com.tencent.peng/app_webview/</folder>
+<folder delete="yes">/data/data/com.tencent.peng/cache/</folder>
+<folder delete="yes">/data/data/com.cootek.smartdialer/files/</folder>
+<folder delete="yes">/data/data/com.cootek.smartdialer/app_webview/</folder>
+<folder delete="yes">/data/data/com.cootek.smartdialer/cache/</folder>
+<folder delete="yes">/data/data/com.cootek.smartdialer/app_tbs/</folder>
+<folder delete="yes">/data/data/com.yx/files/</folder>
+<folder delete="yes">/data/data/com.yx/app_webview/</folder>
+<folder delete="yes">/data/data/com.yx/cache/</folder>
+<folder delete="yes">/data/data/com.fujin.app10664/.1/</folder>
+<folder delete="yes">/data/data/com.fujin.app10664/app_webview/</folder>
+<folder delete="yes">/data/data/com.fujin.app10664/files/</folder>
+<folder delete="yes">/data/data/com.fujin.app10664/cache/</folder>
+<folder delete="yes">/data/data/com.fujin.app10664/.2/</folder>
+<folder delete="yes">/data/data/com.moji.mjweather/files/</folder>
+<folder delete="yes">/data/data/com.moji.mjweather/app_webview/</folder>
+<folder delete="yes">/data/data/com.moji.mjweather/app_tbs/</folder>
+<folder delete="yes">/data/data/com.moji.mjweather/cache/</folder>
+<folder delete="yes">/data/data/com.zengame.waddz.p365you/files/</folder>
+<folder delete="yes">/data/data/com.zengame.waddz.p365you/.cache/</folder>
+<folder delete="yes">/data/data/com.zengame.waddz.p365you/app_webview/</folder>
+<folder delete="yes">/data/data/com.zengame.waddz.p365you/cache/</folder>
+<folder delete="yes">/data/data/com.ushaqi.zhuishushenqi/app_webview/</folder>
+<folder delete="yes">/data/data/com.ushaqi.zhuishushenqi/cache/</folder>
+<folder delete="yes">/data/data/com.ushaqi.zhuishushenqi/files/</folder>
+<folder delete="yes">/data/data/com.le123.ysdq/app_datas/</folder>
+<folder delete="yes">/data/data/com.le123.ysdq/files/</folder>
+<folder delete="yes">/data/data/com.le123.ysdq/app_webview/</folder>
+<folder delete="yes">/data/data/com.le123.ysdq/cache/</folder>
+<folder delete="yes">/data/data/com.gameley.runningman3.vivo/files/</folder>
+<folder delete="yes">/data/data/com.gameley.runningman3.vivo/.cnunicom/</folder>
+<folder delete="yes">/data/data/com.gameley.runningman3.vivo/cache/</folder>
+<folder delete="yes">/data/data/com.gameley.runningman3.vivo/.ucache/</folder>
+<folder delete="yes">/data/data/com.tencent.androidqqmail/exec/</folder>
+<folder delete="yes">/data/data/com.tencent.androidqqmail/cache/</folder>
+<folder delete="yes">/data/data/com.tencent.androidqqmail/files/</folder>
+<folder delete="yes">/data/data/com.tencent.androidqqmail/app_webview/</folder>
+<folder delete="yes">/data/data/com.autonavi.cmccmap/app_webview/</folder>
+<folder delete="yes">/data/data/com.autonavi.cmccmap/files/</folder>
+<folder delete="yes">/data/data/com.autonavi.cmccmap/cache/</folder>
+<folder delete="yes">/data/data/com.autonavi.cmccmap/app_webview_cache/</folder>
+<folder delete="yes">/data/data/com.tencent.tmgp.cf/cache/</folder>
+<folder delete="yes">/data/data/com.tencent.tmgp.cf/files/</folder>
+<folder delete="yes">/data/data/com.tencent.tmgp.sgame/code_cache/</folder>
+<folder delete="yes">/data/data/com.tencent.tmgp.sgame/files/</folder>
+<folder delete="yes">/data/data/com.tencent.tmgp.sgame/cache/</folder>
+<folder delete="yes">/data/data/com.qihoo.cleandroid_cn/files/</folder>
+<folder delete="yes">/data/data/com.qihoo.cleandroid_cn/app_webview/</folder>
+<folder delete="yes">/data/data/com.qihoo.cleandroid_cn/cache/</folder>
+<folder delete="yes">/data/data/com.meitu.wheecam/files/</folder>
+<folder delete="yes">/data/data/com.meitu.wheecam/cache/</folder>
+<folder delete="yes">/data/data/com.ophone.reader.ui/adimages/</folder>
+<folder delete="yes">/data/data/com.ophone.reader.ui/Reader/</folder>
+<folder delete="yes">/data/data/com.ophone.reader.ui/app_webview/</folder>
+<folder delete="yes">/data/data/com.ophone.reader.ui/files/</folder>
+<folder delete="yes">/data/data/com.ophone.reader.ui/pinyin/</folder>
+<folder delete="yes">/data/data/com.ophone.reader.ui/jquery/</folder>
+<folder delete="yes">/data/data/com.wenba.bangbang/files/</folder>
+<folder delete="yes">/data/data/com.wenba.bangbang/app_webview/</folder>
+<folder delete="yes">/data/data/com.wenba.bangbang/cache/</folder>
+<folder delete="yes">/data/data/com.vlocker.locker/files/</folder>
+<folder delete="yes">/data/data/com.vlocker.locker/cache/</folder>
+<folder delete="yes">/data/data/com.tencent.qqpim/app_webview/</folder>
+<folder delete="yes">/data/data/com.tencent.qqpim/files/</folder>
+<folder delete="yes">/data/data/com.tencent.qqpim/cache/</folder>
+<folder delete="yes">/data/data/com.tencent.token/app_webview/</folder>
+<folder delete="yes">/data/data/com.tencent.token/cache/</folder>
+<folder delete="yes">/data/data/com.tencent.token/files/</folder>
+<folder delete="yes">/data/data/com.ztgame.bob/files/</folder>
+<folder delete="yes">/data/data/com.ztgame.bob/app_td-cache/</folder>
+<folder delete="yes">/data/data/com.ztgame.bob/code_cache/</folder>
+<folder delete="yes">/data/data/com.ztgame.bob/cache/</folder>
+<folder delete="yes">/data/data/com.tencent.qt.qtl/app_webview/</folder>
+<folder delete="yes">/data/data/com.tencent.qt.qtl/files/</folder>
+<folder delete="yes">/data/data/com.tencent.qt.qtl/cache/</folder>
+<folder delete="yes">/data/data/com.tencent.qt.qtl/app_tbs/</folder>
+<folder delete="yes">/data/data/com.chinamobile.cmccwifi/files/</folder>
+<folder delete="yes">/data/data/com.chinamobile.cmccwifi/app_webview/</folder>
+<folder delete="yes">/data/data/com.chinamobile.cmccwifi/code_cache/</folder>
+<folder delete="yes">/data/data/com.chinamobile.cmccwifi/cache/</folder>
+<folder delete="yes">/data/data/com.sinovatech.gxmobile.ui/cache/</folder>
+<folder delete="yes">/data/data/com.sinovatech.gxmobile.ui/files/</folder>
+<folder delete="yes">/data/data/com.sinovatech.gxmobile.ui/app_webview/</folder>
+<folder delete="yes">/data/data/com.tencent.ttpic/code_cache/</folder>
+<folder delete="yes">/data/data/com.tencent.ttpic/files/</folder>
+<folder delete="yes">/data/data/com.tencent.ttpic/app_webview/</folder>
+<folder delete="yes">/data/data/com.tencent.ttpic/app_tbs/</folder>
+<folder delete="yes">/data/data/com.tencent.ttpic/cache/</folder>
+<folder delete="yes">/data/data/wb.gc.xmxx.zxb/files/</folder>
+<folder delete="yes">/data/data/wb.gc.xmxx.zxb/cache/</folder>
+<folder delete="yes">/data/data/wb.gc.xmxx.zxb/egame/</folder>
+<folder delete="yes">/data/data/com.dewmobile.kuaiya/app_webview/</folder>
+<folder delete="yes">/data/data/com.dewmobile.kuaiya/code_cache/</folder>
+<folder delete="yes">/data/data/com.dewmobile.kuaiya/files/</folder>
+<folder delete="yes">/data/data/com.dewmobile.kuaiya/cache/</folder>
+<folder delete="yes">/data/data/com.huluxia.mctool/files/</folder>
+<folder delete="yes">/data/data/com.huluxia.mctool/cache/</folder>
+<folder delete="yes">/data/data/com.hunantv.imgo.activity/code_cache/</folder>
+<folder delete="yes">/data/data/com.hunantv.imgo.activity/app_webview/</folder>
+<folder delete="yes">/data/data/com.hunantv.imgo.activity/cache/</folder>
+<folder delete="yes">/data/data/com.tencent.reading/app_webview/</folder>
+<folder delete="yes">/data/data/com.tencent.reading/code_cache/</folder>
+<folder delete="yes">/data/data/com.tencent.reading/files/</folder>
+<folder delete="yes">/data/data/com.tencent.reading/app_txsdklog/</folder>
+<folder delete="yes">/data/data/com.tencent.reading/cache/</folder>
+<folder delete="yes">/data/data/com.example.businesshall/app_webview/</folder>
+<folder delete="yes">/data/data/com.example.businesshall/files/</folder>
+<folder delete="yes">/data/data/com.example.businesshall/cache/</folder>
+<folder delete="yes">/data/data/com.mt.mtxx.mtxx/files/</folder>
+<folder delete="yes">/data/data/com.mt.mtxx.mtxx/code_cache/</folder>
+<folder delete="yes">/data/data/com.mt.mtxx.mtxx/app_webview/</folder>
+<folder delete="yes">/data/data/com.mt.mtxx.mtxx/app_tbs/</folder>
+<folder delete="yes">/data/data/com.tencent.karaoke/app_webview/</folder>
+<folder delete="yes">/data/data/com.tencent.karaoke/code_cache/</folder>
+<folder delete="yes">/data/data/com.tencent.karaoke/files/</folder>
+<folder delete="yes">/data/data/com.tencent.karaoke/cache/</folder>
+<folder delete="yes">/data/data/cn.wps.moffice_eng/app_webview/</folder>
+<folder delete="yes">/data/data/cn.wps.moffice_eng/files/</folder>
+<folder delete="yes">/data/data/cn.wps.moffice_eng/cache/</folder>
+<folder delete="yes">/data/data/com.achievo.vipshop/files/</folder>
+<folder delete="yes">/data/data/com.achievo.vipshop/app_webview/</folder>
+<folder delete="yes">/data/data/com.achievo.vipshop/cache/</folder>
+<folder delete="yes">/data/data/com.meitu.meiyancamera/app_webview/</folder>
+<folder delete="yes">/data/data/com.meitu.meiyancamera/files/</folder>
+<folder delete="yes">/data/data/com.meitu.meiyancamera/cache/</folder>
+<folder delete="yes">/data/data/com.ime.xmpp/app_webview/</folder>
+<folder delete="yes">/data/data/com.ime.xmpp/cache/</folder>
+<folder delete="yes">/data/data/com.ime.xmpp/files/</folder>
+<folder delete="yes">/data/data/com.mojang.minecraftpe/cache/</folder>
+<folder delete="yes">/data/data/com.mojang.minecraftpe/app_webview/</folder>
+<folder delete="yes">/data/data/com.mojang.minecraftpe/files/</folder>
+<folder delete="yes">/data/data/com.tencent.powermanager/cache/</folder>
+<folder delete="yes">/data/data/com.tencent.powermanager/app_charge_jar/</folder>
+<folder delete="yes">/data/data/com.rytong.bankps/files/</folder>
+<folder delete="yes">/data/data/com.rytong.bankps/cache/</folder>
+<folder delete="yes">/data/data/com.tencent.mobileqq/app_webview/</folder>
+<folder delete="yes">/data/data/com.tencent.mobileqq/app_cache/</folder>
+<folder delete="yes">/data/data/com.tencent.mobileqq/cache/</folder>
+<folder delete="yes">/data/data/com.tencent.mm/app_tbs/</folder>
+<folder delete="yes">/data/data/com.tencent.mm/app_webviewcache/</folder>
+<folder delete="yes">/data/data/com.tencent.mm/MicroMsg/*/enFavorite.db</folder>
+<folder delete="yes">/data/data/com.tencent.mm/MicroMsg/*/IndexMicroMsg.db</folder>
+<folder delete="yes">/data/data/com.tencent.mm/MicroMsg/*/sns/</folder>
+<folder delete="yes">/data/data/com.tencent.mm/app_webview/</folder>
+<folder delete="yes">/data/data/com.tencent.mm/cache/</folder>
+<folder delete="yes">/data/data/com.baidu.searchbox/app_megapp/</folder>
+<folder delete="yes">/data/data/com.baidu.searchbox/cache/</folder>
+<folder delete="yes">/data/data/com.baidu.searchbox/app_webview/</folder>
+<folder delete="yes">/data/data/com.baidu.searchbox/app_geolocation/</folder>
+<folder delete="yes">/data/data/com.baidu.searchbox/app_video_core/</folder>
+<folder delete="yes">/data/data/com.baidu.searchbox/shared_prefs/megapp.xml</folder>
+<folder delete="yes">/data/data/com.baidu.searchbox/app_appcache/</folder>
+<folder delete="yes">/data/data/com.baidu.video/app_e_qq_com_dex/</folder>
+<folder delete="yes">/data/data/com.baidu.video/app_webview/</folder>
+<folder delete="yes">/data/data/com.baidu.video/cache/</folder>
+<folder delete="yes">/data/data/com.baidu.video/app_e_qq_com_setting/</folder>
+<folder delete="yes">/data/data/com.baidu.video/app_data/</folder>
+<folder delete="yes">/data/data/com.taobao.taobao/files/</folder>
+<folder delete="yes">/data/data/com.taobao.taobao/app_ucmsdk/</folder>
+<folder delete="yes">/data/data/com.taobao.taobao/UCMobile/</folder>
+<folder delete="yes">/data/data/com.taobao.taobao/app_webview/</folder>
+<folder delete="yes">/data/data/com.taobao.taobao/cache/</folder>
+<folder delete="yes">/data/data/com.taobao.taobao/app_motu/</folder>
+<folder delete="yes">/data/data/com.taobao.taobao/coredata/</folder>
+<folder delete="yes">/data/data/com.taobao.taobao/app_tombstone/</folder>
+<folder delete="yes">/data/data/com.taobao.taobao/ucwa/</folder>
+<folder delete="yes">/data/data/com.taobao.taobao/app_cache/</folder>
+<folder delete="yes">/data/data/com.taobao.taobao/shared_prefs/atlas_configs.xml</folder>
+<folder delete="yes">/data/data/com.qiyi.video/files/</folder>
+<folder delete="yes">/data/data/com.qiyi.video/app_webview/</folder>
+<folder delete="yes">/data/data/com.qiyi.video/cache/</folder>
+<folder delete="yes">/data/data/com.baidu.browser.apps/app_megapp/</folder>
+<folder delete="yes">/data/data/com.baidu.browser.apps/files/</folder>
+<folder delete="yes">/data/data/com.baidu.browser.apps/app_dex/</folder>
+<folder delete="yes">/data/data/com.baidu.browser.apps/app_appcache_zeus/</folder>
+<folder delete="yes">/data/data/com.baidu.browser.apps/cache/</folder>
+<folder delete="yes">/data/data/com.baidu.browser.apps/app_geolocation/</folder>
+<folder delete="yes">/data/data/com.baidu.browser.apps/filesexplorer/</folder>
+<folder delete="yes">/data/data/com.baidu.browser.apps/app_zeuslogs/</folder>
+<folder delete="yes">/data/data/com.baidu.browser.apps/app_push_update/</folder>
+<folder delete="yes">/data/data/com.baidu.browser.apps/app_push_dex/</folder>
+<folder delete="yes">/data/data/com.tmall.wireless/files/</folder>
+<folder delete="yes">/data/data/com.tmall.wireless/app_ucmsdk/</folder>
+<folder delete="yes">/data/data/com.tmall.wireless/app_webview/</folder>
+<folder delete="yes">/data/data/com.tmall.wireless/app_cakeOut/</folder>
+<folder delete="yes">/data/data/com.tmall.wireless/UCMobile/</folder>
+<folder delete="yes">/data/data/com.tmall.wireless/cache/</folder>
+<folder delete="yes">/data/data/com.tmall.wireless/app_cake/</folder>
+<folder delete="yes">/data/data/com.tmall.wireless/app_splash_res/</folder>
+<folder delete="yes">/data/data/com.tmall.wireless/app_common/</folder>
+<folder delete="yes">/data/data/com.tmall.wireless/ucwa/</folder>
+<folder delete="yes">/data/data/com.tmall.wireless/app_accs/</folder>
+<folder delete="yes">/data/data/com.tmall.wireless/app_wswitch3_23181017_0/</folder>
+<folder delete="yes">/data/data/com.tmall.wireless/app_temp/</folder>
+<folder delete="yes">/data/data/com.tmall.wireless/app_configcenter/</folder>
+<folder delete="yes">/data/data/com.tmall.wireless/app_cache/</folder>
+<folder delete="yes">/data/data/com.baidu.tieba/app_webview/</folder>
+<folder delete="yes">/data/data/com.baidu.tieba/cache/</folder>
+<folder delete="yes">/data/data/ctrip.android.view/app_ctripwebapp/</folder>
+<folder delete="yes">/data/data/ctrip.android.view/app_webview/</folder>
+<folder delete="yes">/data/data/ctrip.android.view/app_wbDownload_610.000/</folder>
+<folder delete="yes">/data/data/ctrip.android.view/cache/</folder>
+<folder delete="yes">/data/data/com.nuomi/files/</folder>
+<folder delete="yes">/data/data/com.nuomi/app_webview/</folder>
+<folder delete="yes">/data/data/tv.pps.mobile/files/</folder>
+<folder delete="yes">/data/data/tv.pps.mobile/app_webview/</folder>
+<folder delete="yes">/data/data/tv.pps.mobile/cache/</folder>
+<folder delete="yes">/data/data/com.eg.android.AlipayGphone/files/</folder>
+<folder delete="yes">/data/data/com.eg.android.AlipayGphone/app_ucmsdk/</folder>
+<folder delete="yes">/data/data/com.eg.android.AlipayGphone/app_odex_ucsdk/</folder>
+<folder delete="yes">/data/data/com.eg.android.AlipayGphone/UCMobile/</folder>
+<folder delete="yes">/data/data/com.eg.android.AlipayGphone/app_webview/</folder>
+<folder delete="yes">/data/data/com.eg.android.AlipayGphone/cache/</folder>
+<folder delete="yes">/data/data/com.eg.android.AlipayGphone/app_so_ucsdk/</folder>
+<folder delete="yes">/data/data/com.eg.android.AlipayGphone/app_h5container/</folder>
+<folder delete="yes">/data/data/com.eg.android.AlipayGphone/ucwa/</folder>
+<folder delete="yes">/data/data/com.eg.android.AlipayGphone/app_sslcache/</folder>
+<folder delete="yes">/data/data/com.eg.android.AlipayGphone/app_nativecrash/</folder>
+<folder delete="yes">/data/data/com.Qunar/app_webview/</folder>
+<folder delete="yes">/data/data/com.Qunar/files/</folder>
+<folder delete="yes">/data/data/com.Qunar/cache/</folder>
+<folder delete="yes">/data/data/com.qzone/cache/</folder>
+<folder delete="yes">/data/data/com.UCMobile/com/</folder>
+<folder delete="yes">/data/data/com.UCMobile/files/</folder>
+<folder delete="yes">/data/data/com.UCMobile/splash/</folder>
+<folder delete="yes">/data/data/com.UCMobile/recommendResource/</folder>
+<folder delete="yes">/data/data/com.UCMobile/wa/</folder>
+<folder delete="yes">/data/data/com.UCMobile/bannerimages/</folder>
+<folder delete="yes">/data/data/com.UCMobile/cache/</folder>
+<folder delete="yes">/data/data/com.UCMobile/searchimages/</folder>
+<folder delete="yes">/data/data/com.UCMobile/stats_offline/</folder>
+<folder delete="yes">/data/data/com.UCMobile/version/</folder>
+<folder delete="yes">/data/data/com.UCMobile/temp/</folder>
+<folder delete="yes">/data/data/com.UCMobile/httplog/</folder>
+<folder delete="yes">/data/data/com.UCMobile/downTheme/</folder>
+<folder delete="yes">/data/data/com.UCMobile/sharedflags/</folder>
+<folder delete="yes">/data/data/com.UCMobile/downWallpaper/</folder>
+<folder delete="yes">/data/data/com.UCMobile/crash/</folder>
+<folder delete="yes">/data/data/com.UCMobile/app_external/</folder>
+<folder delete="yes">/data/data/com.baidu.BaiduMap/cache/</folder>
+<folder delete="yes">/data/data/com.baidu.BaiduMap/app_webview/</folder>
+<folder delete="yes">/data/data/com.sohu.inputmethod.sogou/app_webview/</folder>
+<folder delete="yes">/data/data/com.sohu.inputmethod.sogou/app_dex/</folder>
+<folder delete="yes">/data/data/com.sohu.inputmethod.sogou/cache/</folder>
+<folder delete="yes">/data/data/com.sohu.inputmethod.sogou/app_app_cache/</folder>
+<folder delete="yes">/data/data/com.jingdong.app.mall/app_webview/</folder>
+<folder delete="yes">/data/data/com.jingdong.app.mall/files/</folder>
+<folder delete="yes">/data/data/com.jingdong.app.mall/cache/</folder>
+<folder delete="yes">/data/data/com.jingdong.app.mall/app_hybrid/</folder>
+<folder delete="yes">/data/data/com.qihoo360.mobilesafe/app_webview/</folder>
+<folder delete="yes">/data/data/com.qihoo360.mobilesafe/cache/</folder>
+<folder delete="yes">/data/data/com.tencent.android.qqdownloader/app_webview/</folder>
+<folder delete="yes">/data/data/com.tencent.android.qqdownloader/app_x5core/</folder>
+<folder delete="yes">/data/data/com.tencent.android.qqdownloader/files/</folder>
+<folder delete="yes">/data/data/com.tencent.android.qqdownloader/cache/</folder>
+<folder delete="yes">/data/data/com.kugou.android/app_webview/</folder>
+<folder delete="yes">/data/data/com.kugou.android/cache/</folder>
+<folder delete="yes">/data/data/com.letv.android.client/app_datas/</folder>
+<folder delete="yes">/data/data/com.letv.android.client/app_outdex/</folder>
+<folder delete="yes">/data/data/com.letv.android.client/files/</folder>
+<folder delete="yes">/data/data/com.letv.android.client/app_sdkupd5800/</folder>
+<folder delete="yes">/data/data/com.letv.android.client/cache/</folder>
+<folder delete="yes">/data/data/com.letv.android.client/app_ark_storage/</folder>
+<folder delete="yes">/data/data/com.letv.android.client/app_LetvLog/</folder>
+<folder delete="yes">/data/data/com.tencent.mtt/app_dynamic_jar_output/</folder>
+<folder delete="yes">/data/data/com.tencent.mtt/cache/</folder>
+<folder delete="yes">/data/data/com.tencent.mtt/app_x5_share/</folder>
+<folder delete="yes">/data/data/com.tencent.mtt/app_appcache/</folder>
+<folder delete="yes">/data/data/com.tencent.qqmusic/cache/</folder>
+<folder delete="yes">/data/data/com.tencent.qqmusic/app_tbs/</folder>
+<folder delete="yes">/data/data/com.tencent.qqmusic/dts/</folder>
+<folder delete="yes">/data/data/com.tencent.qqmusic/dexout/</folder>
+<folder delete="yes">/data/data/com.tencent.qqmusic/files/</folder>
+<folder delete="yes">/data/data/com.tencent.qqmusic/app_webview/</folder>
+<folder delete="yes">/data/data/com.tencent.qqmusic/simple-skin/</folder>
+<folder delete="yes">/data/data/com.tencent.news/app_webview/</folder>
+<folder delete="yes">/data/data/com.tencent.news/app_dex/</folder>
+<folder delete="yes">/data/data/com.tencent.news/files/</folder>
+<folder delete="yes">/data/data/com.tencent.news/app_apks/</folder>
+<folder delete="yes">/data/data/com.tencent.news/cache/</folder>
+<folder delete="yes">/data/data/com.tencent.news/app_storage/</folder>
+<folder delete="yes">/data/data/com.tencent.news/app_cache/</folder>
+<folder delete="yes">/data/data/com.tencent.qqpimsecure/app_p_dex/</folder>
+<folder delete="yes">/data/data/com.tencent.qqpimsecure/app_webview/</folder>
+<folder delete="yes">/data/data/com.tencent.qqpimsecure/app_slog/</folder>
+<folder delete="yes">/data/data/com.tencent.qqpimsecure/cache/</folder>
+<folder delete="yes">/data/data/com.tencent.qqlive/app_webview/</folder>
+<folder delete="yes">/data/data/com.tencent.qqlive/cache/</folder>
+<folder delete="yes">/data/data/com.snda.wifilocating/app_webview/</folder>
+<folder delete="yes">/data/data/com.meilishuo/app_webview/</folder>
+<folder delete="yes">/data/data/com.meilishuo/cache/</folder>
+<folder delete="yes">/data/data/com.pplive.androidphone/app_webview/</folder>
+<folder delete="yes">/data/data/com.pplive.androidphone/arm/</folder>
+<folder delete="yes">/data/data/com.pplive.androidphone/cache/</folder>
+<folder delete="yes">/data/data/com.pplive.androidphone/files/</folder>
+<folder delete="yes">/data/data/com.ss.android.article.news/cocosplay_sdk/</folder>
+<folder delete="yes">/data/data/com.ss.android.article.news/cache/</folder>
+<folder delete="yes">/data/data/com.ss.android.article.news/files/</folder>
+<folder delete="yes">/data/data/com.sohu.newsclient/cacheCache/</folder>
+<folder delete="yes">/data/data/com.sohu.newsclient/cacheNewsCache/</folder>
+<folder delete="yes">/data/data/com.sohu.newsclient/app_webview/</folder>
+<folder delete="yes">/data/data/com.sohu.newsclient/cache/</folder>
+<folder delete="yes">/data/data/com.sohu.newsclient/files/</folder>
+<folder delete="yes">/data/data/com.chaozh.iReaderFree/app_webview/</folder>
+<folder delete="yes">/data/data/com.chaozh.iReaderFree/.cache/</folder>
+<folder delete="yes">/data/data/com.chaozh.iReaderFree/cache/</folder>
+<folder delete="yes">/data/data/com.storm.smart/files/</folder>
+<folder delete="yes">/data/data/com.storm.smart/app_webview/</folder>
+<folder delete="yes">/data/data/com.storm.smart/cache/</folder>
+<folder delete="yes">/data/data/com.netease.cloudmusic/app_webview/</folder>
+<folder delete="yes">/data/data/com.netease.cloudmusic/cache/</folder>
+<folder delete="yes">/data/data/com.qihoo.video/app_webview/</folder>
+<folder delete="yes">/data/data/com.qihoo.video/files/</folder>
+<folder delete="yes">/data/data/com.qihoo.video/cache/</folder>
+<folder delete="yes">/data/data/com.douban.frodo/cache/</folder>
+<folder delete="yes">/data/data/com.douban.frodo/app_webview/</folder>
+<folder delete="yes">/data/data/com.sohu.sohuvideo/app_webview/</folder>
+<folder delete="yes">/data/data/com.sohu.sohuvideo/app_steamer/</folder>
+<folder delete="yes">/data/data/com.sohu.sohuvideo/cache/</folder>
+<folder delete="yes">/data/data/com.sohu.sohuvideo/app_cache/</folder>
+<folder delete="yes">/data/data/com.dianping.v1/app_webview/</folder>
+<folder delete="yes">/data/data/com.dianping.v1/cache/</folder>
+<folder delete="yes">/data/data/com.sankuai.meituan/app_webview/</folder>
+<folder delete="yes">/data/data/com.sankuai.meituan/files/</folder>
+<folder delete="yes">/data/data/com.sankuai.meituan/cache/</folder>
+<folder delete="yes">/data/data/com.sankuai.meituan/app_sslcache/</folder>
+<folder delete="yes">/data/data/com.tudou.android/app_webview/</folder>
+<folder delete="yes">/data/data/com.tudou.android/cache/</folder>
+<folder delete="yes">/data/data/com.tudou.android/files/</folder>
+<folder delete="yes">/data/data/com.jm.android.jumei/app_webview/</folder>
+<folder delete="yes">/data/data/com.jm.android.jumei/jumei/</folder>
+<folder delete="yes">/data/data/com.jm.android.jumei/files/</folder>
+<folder delete="yes">/data/data/com.jm.android.jumei/cache/</folder>
+<folder delete="yes">/data/data/com.ifeng.news2/app_webview/</folder>
+<folder delete="yes">/data/data/com.ifeng.news2/cache/</folder>
+<folder delete="yes">/data/data/com.sina.weibo/app_dex/</folder>
+<folder delete="yes">/data/data/com.sina.weibo/app_webview/</folder>
+<folder delete="yes">/data/data/com.sina.weibo/code_cache/</folder>
+<folder delete="yes">/data/data/com.sina.weibo/cache/</folder>
+<folder delete="yes">/data/data/com.duomi.android/app_webview/</folder>
+<folder delete="yes">/data/data/com.duomi.android/cache/</folder>
+<folder delete="yes">/data/data/com.duomi.android/files/</folder>
+<folder delete="yes">/data/data/com.duomi.android/app_geolocation/</folder>
+<folder delete="yes">/data/data/com.duomi.android/app_appcache/</folder>
+<folder delete="yes">/data/data/com.changba/cache/</folder>
+<folder delete="yes">/data/data/com.changba/files/</folder>
+<folder delete="yes">/data/data/com.changba/app_webview/</folder>
+<folder delete="yes">/data/data/cn.kuwo.player/app_webview/</folder>
+<folder delete="yes">/data/data/cn.kuwo.player/files/</folder>
+<folder delete="yes">/data/data/com.netease.newsreader.activity/cache/</folder>
+<folder delete="yes">/data/data/com.netease.newsreader.activity/app_webview/</folder>
+<folder delete="yes">/data/data/com.netease.newsreader.activity/.cache/</folder>
+<folder delete="yes">/data/data/com.youku.phone/app_webview/</folder>
+<folder delete="yes">/data/data/com.youku.phone/cache/</folder><folder delete="yes">/data/data/com.blizzard.wtcg.hearthstone/cache/</folder>
+<folder delete="yes">/data/data/com.blizzard.wtcg.hearthstone/app_webview/</folder>
+<folder delete="yes">/data/data/com.taobao.trip/app_h5app/</folder>
+<folder delete="yes">/data/data/com.taobao.trip/app_ucmsdk/</folder>
+<folder delete="yes">/data/data/com.taobao.trip/files/</folder>
+<folder delete="yes">/data/data/com.taobao.trip/cache/</folder>
+<folder delete="yes">/data/data/com.taobao.trip/app_webview/</folder>
+<folder delete="yes">/data/data/com.taobao.trip/UCMobile/</folder>
+<folder delete="yes">/data/data/com.taobao.trip/app_nativecrash/</folder>
+<folder delete="yes">/data/data/com.taobao.trip/app_wswitch3_12663307_0/</folder>
+<folder delete="yes">/data/data/com.taobao.trip/app_sslcache/</folder>
+<folder delete="yes">/data/data/com.qzone/cache/</folder>
+<folder delete="yes">/data/data/com.mogujie/app_download_temp/</folder>
+<folder delete="yes">/data/data/com.mogujie/app_WebCache/</folder>
+<folder delete="yes">/data/data/com.mogujie/files/</folder>
+<folder delete="yes">/data/data/com.mogujie/app_WebCacheTmp/</folder>
+<folder delete="yes">/data/data/com.mogujie/app_dataCache/</folder>
+<folder delete="yes">/data/data/com.mogujie/cache/</folder>
+<folder delete="yes">/data/data/com.vivo.browser/app_swe_webview/</folder>
+<folder delete="yes">/data/data/com.vivo.browser/app_dex/</folder>
+<folder delete="yes">/data/data/com.vivo.browser/app_webview/</folder>
+<folder delete="yes">/data/data/com.vivo.browser/cache/</folder>
+<folder delete="yes">/data/data/com.vivo.browser/app_sslcache/</folder>
+<folder delete="yes">/data/data/com.vivo.browser/app_geolocation/</folder>
+<folder delete="yes">/data/data/com.vivo.browser/app_cache/</folder>
+<folder delete="yes">/data/data/com.vivo.browser/app_appcache/</folder>
+<folder delete="yes">/data/data/sh.lilith.dgame.wdj/cache/</folder>
+<folder delete="yes">/data/data/com.tencent.Qfarm/app_midasodex/</folder>
+<folder delete="yes">/data/data/com.tencent.Qfarm/cache/</folder>
+<folder delete="yes">/data/data/com.tencent.Qfarm/app_txsdklog/</folder>
+<folder delete="yes">/data/data/fm.xiami.main/app_webview/</folder>
+<folder delete="yes">/data/data/fm.xiami.main/files/</folder>
+<folder delete="yes">/data/data/fm.xiami.main/cache/</folder>
+<folder delete="yes">/data/data/com.gameabc.zhanqiAndroid/app_webview/</folder>
+<folder delete="yes">/data/data/com.happyelements.AndroidAnimal.wdj/Caches/</folder>
+<folder delete="yes">/data/data/com.lphtsccft/app_webview/</folder>
+<folder delete="yes">/data/data/com.lphtsccft/cache/</folder>
+<folder delete="yes">/data/data/com.tencent.game.VXDGame/app_webview/</folder>
+<folder delete="yes">/data/data/com.tencent.game.VXDGame/app_midasodex/</folder>
+<folder delete="yes">/data/data/com.tencent.game.VXDGame/app_x5core/</folder>
+<folder delete="yes">/data/data/com.suning.mobile.ebuy/app_webview/</folder>
+<folder delete="yes">/data/data/com.suning.mobile.ebuy/app_dex/</folder>
+<folder delete="yes">/data/data/com.suning.mobile.ebuy/files/</folder>
+<folder delete="yes">/data/data/com.suning.mobile.ebuy/app_webcache_res/</folder>
+<folder delete="yes">/data/data/com.tencent.modoomarble/app_midasodex/</folder>
+<folder delete="yes">/data/data/com.tencent.modoomarble/cache/</folder>
+<folder delete="yes">/data/data/com.tencent.pao/app_webview/</folder>
+<folder delete="yes">/data/data/com.tencent.pao/cache/</folder>
+<folder delete="yes">/data/data/com.shuqi.controller/app_webview/</folder>
+<folder delete="yes">/data/data/com.shuqi.controller/files/</folder>
+<folder delete="yes">/data/data/com.shuqi.controller/cache/</folder>
+<folder delete="yes">/data/data/com.ss.android.essay.joke/cache/</folder>
+<folder delete="yes">/data/data/com.ss.android.essay.joke/app_bgm/</folder>
+<folder delete="yes">/data/data/com.ss.android.essay.joke/files/</folder>
+<folder delete="yes">/data/data/com.MobileTicket/cache/</folder>
+<folder delete="yes">/data/data/com.tencent.Alice/app_midasodex/</folder>
+<folder delete="yes">/data/data/com.xiaodao.jiemeng/app_webview/</folder>
+<folder delete="yes">/data/data/com.xiaodao.jiemeng/cache/</folder>
+<folder delete="yes">/data/data/com.xiaodao.jiemeng/app_e_qq_com_dex/</folder>
+<folder delete="yes">/data/data/com.immomo.momo/app_webview/</folder>
+<folder delete="yes">/data/data/com.immomo.momo/.cnunicom/</folder>
+<folder delete="yes">/data/data/com.immomo.momo/files/</folder>
+<folder delete="yes">/data/data/com.immomo.momo/cache/</folder>
+<folder delete="yes">/data/data/com.immomo.momo/.ucache/</folder>
+<folder delete="yes">/data/data/com.tencent.clover/app_midasodex/</folder>
+<folder delete="yes">/data/data/com.tencent.clover/cache/</folder>
+<folder delete="yes">/data/data/com.tencent.clover/app_bugly/</folder>
+<folder delete="yes">/data/data/com.douban.frodo/cache/</folder>
+<folder delete="yes">/data/data/com.douban.frodo/app_webview/</folder>
+<folder delete="yes">/data/data/com.autonavi.minimap/app_module/</folder>
+<folder delete="yes">/data/data/com.autonavi.minimap/cache/</folder>
+<folder delete="yes">/data/data/com.autonavi.minimap/app_webtemplate/</folder>
+<folder delete="yes">/data/data/com.autonavi.minimap/app_webview/</folder>
+<folder delete="yes">/data/data/com.autonavi.minimap/files/</folder>
+<folder delete="yes">/data/data/com.cmbchina.ccd.pluto.cmbActivity/.cache/</folder>
+<folder delete="yes">/data/data/com.cmbchina.ccd.pluto.cmbActivity/files/</folder>
+<folder delete="yes">/data/data/com.cmbchina.ccd.pluto.cmbActivity/app_webview/</folder>
+<folder delete="yes">/data/data/com.cmbchina.ccd.pluto.cmbActivity/cache/</folder>
+<folder delete="yes">/data/data/com.cmbchina.ccd.pluto.cmbActivity/app_cmb_20150330/</folder>
+<folder delete="yes">/data/data/com.cmbchina.ccd.pluto.cmbActivity/app_cmb_03-02-1.0.YD00100/</folder>
+<folder delete="yes">/data/data/com.cmbchina.ccd.pluto.cmbActivity/app_cache/</folder>
+<folder delete="yes">/data/data/com.fanli.android.apps/app_webview/</folder>
+<folder delete="yes">/data/data/com.fanli.android.apps/files/</folder>
+<folder delete="yes">/data/data/com.fanli.android.apps/cache/</folder>
+<folder delete="yes">/data/data/com.alibaba.mobileim/app_webview/</folder>
+<folder delete="yes">/data/data/com.alibaba.mobileim/files/</folder>
+<folder delete="yes">/data/data/com.yinyuetai.ui/app_webview/</folder>
+<folder delete="yes">/data/data/com.yinyuetai.ui/cache/</folder>
+<folder delete="yes">/data/data/com.yinyuetai.ui/files/</folder>
+<folder delete="yes">/data/data/com.netease.ldxy.wdj/cache/</folder>
+<folder delete="yes">/data/data/com.halfbrick.fruitninja/cache/</folder>
+<folder delete="yes">/data/data/com.joym.xiongdakuaipao/cache/</folder>
+<folder delete="yes">/data/data/tv.danmaku.bili/cache/</folder>
+<folder delete="yes">/data/data/com.sdu.didi.psnger/cache/</folder>
+<folder delete="yes">/data/data/com.sdu.didi.psnger/app_webview/</folder>
+<folder delete="yes">/data/data/com.audiocn.kalaok/app_webview/</folder>
+<folder delete="yes">/data/data/com.audiocn.kalaok/cache/</folder>
+<folder delete="yes">/data/data/com.audiocn.kalaok/files/</folder>
+<folder delete="yes">/data/data/com.audiocn.kalaok/app_td-cache/</folder>
+<folder delete="yes">/data/data/com.mahjong.majiang/cache/</folder>
+<folder delete="yes">/data/data/com.imangi.templerun2/.cnunicom/</folder>
+<folder delete="yes">/data/data/com.imangi.templerun2/cache/</folder>
+<folder delete="yes">/data/data/com.imangi.templerun2/.ucache/</folder>
+<folder delete="yes">/data/data/com.qqgame.hlddz/app_midasodex/</folder>
+<folder delete="yes">/data/data/com.qqgame.hlddz/cache/</folder>
+<folder delete="yes">/data/data/com.qqgame.hlddz/app_bugly/</folder>
+<folder delete="yes">/data/data/com.tencent.ttx5/cache/</folder>
+<folder delete="yes">/data/data/com.kiloo.subwaysurf/.cnunicom/</folder>
+<folder delete="yes">/data/data/com.kiloo.subwaysurf/cache/</folder>
+<folder delete="yes">/data/data/com.kiloo.subwaysurf/.ucache/</folder>
+<folder delete="yes">/data/data/com.kiloo.subwaysurf/com.kiloo.subwaysurf/</folder>
+<folder delete="yes">/data/data/com.kiloo.subwaysurf/app_outdex/</folder>
+<folder delete="yes">/data/data/com.kiloo.subwaysurf/app_dexcache/</folder>
+<folder delete="yes">/data/data/com.dianping.t/cache/</folder>
+<folder delete="yes">/data/data/com.dianping.t/files/</folder>
+<folder delete="yes">/data/data/com.dianping.t/app_webview/</folder>
+<folder delete="yes">/data/data/com.dianping.t/app_dexout/</folder>
+<folder delete="yes">/data/data/com.dianping.t/app_dex/</folder>
+<folder delete="yes">/data/data/com.popcap.pvz2cthdwdj/.cnunicom/</folder>
+<folder delete="yes">/data/data/com.popcap.pvz2cthdwdj/.ucache/</folder>
+<folder delete="yes">/data/data/com.sankuai.movie/app_webview/</folder>
+<folder delete="yes">/data/data/com.sankuai.movie/cache/</folder>
+<folder delete="yes">/data/data/com.sds.android.ttpod/app_webview/</folder>
+<folder delete="yes">/data/data/com.sds.android.ttpod/files/</folder>
+<folder delete="yes">/data/data/com.sds.android.ttpod/cache/</folder>
+<folder delete="yes">/data/data/com.sds.android.ttpod/app_motu/</folder>
+<folder delete="yes">/data/data/com.sds.android.ttpod/app_accs/</folder>
+<folder delete="yes">/data/data/com.sds.android.ttpod/app_wswitch3_23053559/</folder>
+<folder delete="yes">/data/data/com.king.candycrushsaga/cache/</folder>
+<folder delete="yes">/data/data/com.king.candycrushsaga/app_webview/</folder>
+<folder delete="yes">/data/data/com.tencent.game.SSGame/app_midasodex/</folder>
+<folder delete="yes">/data/data/com.tencent.feiji/app_midasodex/</folder>
+<folder delete="yes">/data/data/com.tencent.feiji/app_webview/</folder>
+<folder delete="yes">/data/data/com.tencent.feiji/cache/</folder>
+<folder delete="yes">/data/data/com.gameloft.android.ANMP.GloftDMCN/cache/</folder>
+<folder delete="yes">/data/data/com.gameloft.android.ANMP.GloftDMCN/app_webview/</folder>
+<folder delete="yes">/data/data/bubei.tingshu/app_webview/</folder>
+<folder delete="yes">/data/data/bubei.tingshu/files/</folder>
+<folder delete="yes">/data/data/bubei.tingshu/cache/</folder>
+<folder delete="yes">/data/data/bubei.tingshu/cocosplay_sdk/</folder>
+<folder delete="yes">/data/data/com.tencent.game.rhythmmaster/files/</folder>
+<folder delete="yes">/data/data/com.tencent.game.rhythmmaster/cache/</folder>
+<folder delete="yes">/data/data/com.carrot.iceworld/cache/</folder>
+<folder delete="yes">/data/data/com.iqoo.secure/cache/</folder>
+<folder delete="yes">/data/data/com.ting.mp3.qianqian.android/app_webview/</folder>
+<folder delete="yes">/data/data/com.ting.mp3.qianqian.android/files/</folder>
+<folder delete="yes">/data/data/com.ting.mp3.qianqian.android/cache/</folder>
+<folder delete="yes">/data/data/com.zhihu.android/files/</folder>
+<folder delete="yes">/data/data/com.zhihu.android/app_webview/</folder>
+<folder delete="yes">/data/data/com.zhihu.android/app_Paas/</folder>
+<folder delete="yes">/data/data/com.autonavi.xmgd.navigator/files/</folder>
+<folder delete="yes">/data/data/com.autonavi.xmgd.navigator/cache/</folder>
+<folder delete="yes">/data/data/com.android.bbkmusic/cache/</folder>
+<folder delete="yes">/data/data/com.wandoujia.phoenix2/app_webview/</folder>
+<folder delete="yes">/data/data/com.wandoujia.phoenix2/files/</folder>
+<folder delete="yes">/data/data/com.wandoujia.phoenix2/cache/</folder>
+<folder delete="yes">/data/data/com.vivo.game/cache/</folder>
+<folder delete="yes">/data/data/com.vivo.game/app_sslcache/</folder>
+<folder delete="yes">/data/data/com.zol.android/app_webview/</folder>
+<folder delete="yes">/data/data/com.zol.android/files/</folder>
+<folder delete="yes">/data/data/com.zol.android/cache/</folder>
+<folder delete="yes">/data/data/com.muzhiwan.market/app_webview/</folder>
+<folder delete="yes">/data/data/com.muzhiwan.market/cocosplay_sdk/</folder>
+<folder delete="yes">/data/data/com.android.email/app_webview/</folder>
+<folder delete="yes">/data/data/com.android.email/cache/</folder>
+<folder delete="yes">/data/data/com.android.email/files/</folder>
+<folder delete="yes">/data/data/com.javgame.nn.wdj/cache/</folder>
+<folder delete="yes">/data/data/com.javgame.nn.wdj/files/</folder>
+<folder delete="yes">/data/data/com.bbk.theme/cache/</folder>
+<folder delete="yes">/data/data/com.bbk.theme/app_sslcache/</folder>
+<folder delete="yes">/data/data/com.vivo.gallery/cache/</folder>
+<folder delete="yes">/data/data/com.android.mms/app_webview/</folder>
+<folder delete="yes">/data/data/com.android.mms/cache/</folder>
+<folder delete="yes">/data/data/com.android.camera/cache/</folder>
+<folder delete="yes">/data/data/com.android.camera/files/</folder>
+<folder delete="yes">/data/data/com.vivo.weather/cache/</folder>
+<folder delete="yes">/data/data/com.vivo.weather/app_sslcache/</folder>
+<folder delete="yes">/data/data/com.android.contacts/cache/</folder>
+<folder delete="yes">/data/data/com.wuba/app_dex/</folder>
+<folder delete="yes">/data/data/com.wuba/files/</folder>
+<folder delete="yes">/data/data/com.wuba/wbcache/</folder>
+<folder delete="yes">/data/data/com.wuba/app_webview/</folder>
+<folder delete="yes">/data/data/com.wuba/newhome/</folder>
+<folder delete="yes">/data/data/com.wuba/app_tbs/</folder>
+<folder delete="yes">/data/data/com.wuba/cache/</folder>
+<folder delete="yes">/data/data/com.ganji.android/files/</folder>
+<folder delete="yes">/data/data/com.ganji.android/app_webview/</folder>
+<folder delete="yes">/data/data/com.ganji.android/app_localprovider/</folder>
+<folder delete="yes">/data/data/com.ganji.android/app_acategories_new/</folder>
+<folder delete="yes">/data/data/com.ganji.android/app_jobs_category/</folder>
+<folder delete="yes">/data/data/com.yinhan.hunter.wandoujia/cache/</folder>
+<folder delete="yes" >/data/anr/</folder>
+<folder delete="yes">/data/tombstones/</folder>
+<folder delete="yes">/data/aee_exp/</folder>
+<folder delete="yes">/data/dontpanic/</folder>
+<folder delete="yes">/data/system/dropbox/</folder>
+</root>
