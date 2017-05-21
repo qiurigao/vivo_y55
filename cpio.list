@@ -1,0 +1,87 @@
+slink charger /sbin/healthd 0644 0 0
+dir data 0771 0 0
+file default.prop ramdisk/default.prop 0644 0 0
+dir dev 0755 0 0
+file donuts_key ramdisk/donuts_key 0644 0 0
+file donuts_pub.der ramdisk/donuts_pub.der 0644 0 0
+file file_contexts ramdisk/file_contexts 0644 0 0
+file fstab.qcom ramdisk/fstab.qcom 0640 0 0
+file init ramdisk/init 0750 0 0
+file init.PD1613.rc ramdisk/init.PD1613.rc 0750 0 0
+file init.PD1613F_EX.rc ramdisk/init.PD1613F_EX.rc 0750 0 0
+file init.PD1613LG4.rc ramdisk/init.PD1613LG4.rc 0750 0 0
+file init.TD1602.rc ramdisk/init.TD1602.rc 0750 0 0
+file init.TD1602_EX.rc ramdisk/init.TD1602_EX.rc 0750 0 0
+file init.TD1605.rc ramdisk/init.TD1605.rc 0750 0 0
+file init.at.rc ramdisk/init.at.rc 0750 0 0
+file init.class_main.sh ramdisk/init.class_main.sh 0750 0 0
+file init.environ.rc ramdisk/init.environ.rc 0750 0 0
+file init.factory.rc ramdisk/init.factory.rc 0750 0 0
+file init.mdm.sh ramdisk/init.mdm.sh 0750 0 0
+file init.msm.usb.configfs.rc ramdisk/init.msm.usb.configfs.rc 0750 0 0
+file init.qcom.class_core.sh ramdisk/init.qcom.class_core.sh 0750 0 0
+file init.qcom.early_boot.sh ramdisk/init.qcom.early_boot.sh 0750 0 0
+file init.qcom.factory.rc ramdisk/init.qcom.factory.rc 0750 0 0
+file init.qcom.rc ramdisk/init.qcom.rc 0750 0 0
+file init.qcom.sensors.sh ramdisk/init.qcom.sensors.sh 0750 0 0
+file init.qcom.sh ramdisk/init.qcom.sh 0750 0 0
+file init.qcom.syspart_fixup.sh ramdisk/init.qcom.syspart_fixup.sh 0750 0 0
+file init.qcom.usb.rc ramdisk/init.qcom.usb.rc 0750 0 0
+file init.qcom.usb.sh ramdisk/init.qcom.usb.sh 0750 0 0
+file init.rc ramdisk/init.rc 0750 0 0
+file init.target.rc ramdisk/init.target.rc 0750 0 0
+file init.trace.rc ramdisk/init.trace.rc 0750 0 0
+file init.usb.configfs.rc ramdisk/init.usb.configfs.rc 0750 0 0
+file init.usb.rc ramdisk/init.usb.rc 0750 0 0
+file init.vivo.rc ramdisk/init.vivo.rc 0750 0 0
+file init.zygote32.rc ramdisk/init.zygote32.rc 0750 0 0
+dir oem 0755 0 0
+dir proc 0755 0 0
+file property_contexts ramdisk/property_contexts 0644 0 0
+dir res 0755 0 0
+dir res/images 0755 0 0
+dir res/images/charger 0755 0 0
+file res/images/charger/battery_0.png ramdisk/res/images/charger/battery_0.png 0644 0 0
+file res/images/charger/battery_1.png ramdisk/res/images/charger/battery_1.png 0644 0 0
+file res/images/charger/battery_10.png ramdisk/res/images/charger/battery_10.png 0644 0 0
+file res/images/charger/battery_2.png ramdisk/res/images/charger/battery_2.png 0644 0 0
+file res/images/charger/battery_3.png ramdisk/res/images/charger/battery_3.png 0644 0 0
+file res/images/charger/battery_4.png ramdisk/res/images/charger/battery_4.png 0644 0 0
+file res/images/charger/battery_5.png ramdisk/res/images/charger/battery_5.png 0644 0 0
+file res/images/charger/battery_6.png ramdisk/res/images/charger/battery_6.png 0644 0 0
+file res/images/charger/battery_7.png ramdisk/res/images/charger/battery_7.png 0644 0 0
+file res/images/charger/battery_8.png ramdisk/res/images/charger/battery_8.png 0644 0 0
+file res/images/charger/battery_9.png ramdisk/res/images/charger/battery_9.png 0644 0 0
+file res/images/charger/battery_BadContect.png ramdisk/res/images/charger/battery_BadContect.png 0644 0 0
+file res/images/charger/battery_BadContect1.png ramdisk/res/images/charger/battery_BadContect1.png 0644 0 0
+file res/images/charger/battery_ChargeDone.png ramdisk/res/images/charger/battery_ChargeDone.png 0644 0 0
+file res/images/charger/battery_ChargingAbnormal.png ramdisk/res/images/charger/battery_ChargingAbnormal.png 0644 0 0
+file res/images/charger/battery_ChgTimeOut.png ramdisk/res/images/charger/battery_ChgTimeOut.png 0644 0 0
+file res/images/charger/battery_HTCCC.png ramdisk/res/images/charger/battery_HTCCC.png 0644 0 0
+file res/images/charger/battery_LowBattery.png ramdisk/res/images/charger/battery_LowBattery.png 0644 0 0
+file res/images/charger/battery_NotOriginalBat.png ramdisk/res/images/charger/battery_NotOriginalBat.png 0644 0 0
+file res/images/charger/battery_TempHight.png ramdisk/res/images/charger/battery_TempHight.png 0644 0 0
+file res/images/charger/battery_TempLow.png ramdisk/res/images/charger/battery_TempLow.png 0644 0 0
+file res/images/charger/battery_VbatHight.png ramdisk/res/images/charger/battery_VbatHight.png 0644 0 0
+file res/images/charger/battery_VbatHightRemove.png ramdisk/res/images/charger/battery_VbatHightRemove.png 0644 0 0
+file res/images/charger/battery_VchgHight.png ramdisk/res/images/charger/battery_VchgHight.png 0644 0 0
+file res/images/charger/battery_WeakCharger.png ramdisk/res/images/charger/battery_WeakCharger.png 0644 0 0
+file res/images/charger/battery_fail.png ramdisk/res/images/charger/battery_fail.png 0644 0 0
+file res/images/charger/battery_voltageLow.png ramdisk/res/images/charger/battery_voltageLow.png 0644 0 0
+dir sbin 0750 0 0
+file sbin/adbd ramdisk/sbin/adbd 0750 0 0
+file sbin/e2image_blocks ramdisk/sbin/e2image_blocks 0750 0 0
+file sbin/filefrag_blocks ramdisk/sbin/filefrag_blocks 0750 0 0
+file sbin/healthd ramdisk/sbin/healthd 0750 0 0
+file sbin/mdtp_fota ramdisk/sbin/mdtp_fota 0750 0 0
+slink sbin/ueventd ../init 0750 0 0
+slink sbin/watchdogd ../init 0750 0 0
+file seapp_contexts ramdisk/seapp_contexts 0644 0 0
+file selinux_version ramdisk/selinux_version 0644 0 0
+file sepolicy ramdisk/sepolicy 0644 0 0
+file service_contexts ramdisk/service_contexts 0644 0 0
+dir sys 0755 0 0
+dir system 0755 0 0
+file ueventd.qcom.rc ramdisk/ueventd.qcom.rc 0644 0 0
+file ueventd.rc ramdisk/ueventd.rc 0644 0 0
+file verity_key ramdisk/verity_key 0644 0 0

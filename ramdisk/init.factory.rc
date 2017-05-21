@@ -1,0 +1,41 @@
+#driver team : add by dengweicheng
+service vivo_drv_set /system/bin/vivo_drv_set
+	class main
+	user  root
+	group system
+	oneshot
+#end by dengweicheng
+
+service atcid-daemon /system/bin/atcid 
+	class late_start
+	user root 
+	group radio system
+	disabled
+
+on property:persist.sys.bbkem=1
+	start atcid-daemon
+
+on property:persist.sys.bbkem=2
+	restart atcid-daemon
+
+on property:persist.sys.bbkem=0
+	stop ftm_ffbm
+	stop atcid-daemon
+
+on property:sys.emsvr.opt=1
+	setprop sys.emsvr.opt.bak 0
+	restart vivo_em_svr
+
+on property:sys.emsvr.opt=2
+	restart vivo_em_svr
+
+on property:sys.emsvr.opt=0
+	setprop sys.emsvr.opt.bak 0
+	stop vivo_em_svr
+
+service vivo_em_svr /system/bin/vivo_em_svr 
+	socket vivoEmSvr-service stream 660 radio system 
+	class late_start
+	user root
+	group system
+	oneshot

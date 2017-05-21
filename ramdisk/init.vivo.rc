@@ -1,0 +1,98 @@
+#init.rc for vivo
+
+#vivo_daemon added by zhangmingkai
+service vivo_daemon /system/bin/vivo_daemon
+    class main
+
+#settings_team added start
+service firewall /data/data/com.iqoo.secure.datausage/app_bin/droidwall.sh
+    disabled
+    user root
+    oneshot
+
+on property:sys.firewall=0
+    start firewall
+	
+service reset_phone /system/bin/sh /system/etc/reset_phone.sh
+    disabled
+    oneshot
+
+#settings_team added end
+
+#settings_team add by liuzhaohui
+service backuprestore /system/bin/br_app_data_service
+        class main
+        socket backuprestore stream 0660 root sdcard_rw
+        user root
+#end settings_team by liuzhaohui
+
+
+on property:sys.qmitest.opt=1
+	restart qmitest
+
+on property:sys.qmitest.opt=0
+	stop qmitest
+service qmitest /system/bin/qmitest 
+	socket qmitest stream 660 radio system 
+	class late_start
+	user root
+	group system
+	oneshot
+	
+
+
+#settings_team end
+#add by qiuguifu for MTK FLASHLIGHT
+	chmod 0777 /dev/iqoo_flashlight_platform 
+
+#@hankecai add for bbk_log begin {
+service bbk_log /system/bin/bbk_log
+	class core
+	disabled
+
+on property:persist.sys.is_bbk_log=1
+    setprop persist.sys.log.ctrl yes
+	stop bbk_log
+	start bbk_log
+
+on property:persist.sys.is_bbk_log=2
+    setprop persist.sys.log.ctrl yes
+	stop bbk_log
+	start bbk_log
+
+on property:persist.sys.is_bbk_log=3
+	stop bbk_log
+	start bbk_log
+	
+on property:persist.sys.is_bbk_log=0
+    setprop persist.sys.log.ctrl no
+	stop bbk_log
+
+service net_log /system/bin/net_log
+	class core
+	disabled
+	
+on property:persist.sys.net_log=1
+    stop net_log
+    start net_log
+on property:persist.sys.net_log=0
+    stop net_log	
+
+on property:persist.sys.ssr_ramdump=1
+	write /sys/module/subsystem_restart/parameters/enable_ramdumps 1
+	  
+
+on property:persist.sys.ssr_ramdump=0	 
+	write /sys/module/subsystem_restart/parameters/enable_ramdumps 0
+#add bbk_log end
+
+#add theme/font start by liuquancai
+    mkdir /data/bbkcore 0777
+	chmod 0777 /data/bbkcore
+    chmod 0777 /data/fonts
+#add theme/font end by liuquancai
+
+#vivo zhaoxiaowen add for log_tag begin
+#on property:ro.build.type=user
+#    copy /data/log/tagfilter /dev/log_tag
+#vivo zhaoxiaowen add for log_tag end
